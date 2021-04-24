@@ -10,6 +10,14 @@ app.locals.characters = require('./allCharacters');
 app.use(cors());
 app.locals.title = 'Bard Buddy API';
 
+app.get('/allTitles', (request, response) => {
+  const allTitles = app.locals.titles
+  if(!allTitles) {
+    return response.sendStatus(404)
+  }
+  response.status(200).json(allTitles)
+})
+
 app.get('/allTitles/:genre', (request, response) => {
   const { genre } = request.params
   const allTitles = app.locals.titles.filter(play => play.genre === genre);
