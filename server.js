@@ -28,6 +28,17 @@ app.get('/allTitles/:genre', (request, response) => {
   response.status(200).json(allTitles);
 })
 
+app.get('/play/:title/:actNum/:sceneNum', (request, response) => {
+  const { title } = request.params;
+  const { actNum } = request.params;
+  const { sceneNum } = request.params;
+  const scene = app.locals.plays.filter(play => play.title === title && play.section === parseInt(actNum) && play.chapter === parseInt(sceneNum)).sort((a, b) => a.paragraphID - b.paragraphID)
+  if (!scene) {
+    return response.sendStatus(404)
+  }
+  response.status(200).json(scene)
+})
+
 app.get('/play/:title', (request, response) => {
   const { title } = request.params;
   const play = app.locals.plays.filter(play => play.title === title).sort((a, b) => a.paragraphID - b.paragraphID);
@@ -54,12 +65,6 @@ app.get('/characters/:title', (request, response) => {
   }
   response.status(200).json(characters);
 })
-
-// app.set('port', process.env.PORT || 8000);
-
-// app.listen(app.get('port'), () => {
-//   console.log(`${app.locals.title} is running on http://localhost:${app.get('port')}.`);
-// });
 
 var server = app.listen(process.env.PORT || 5000, function () {
   var port = server.address().port;
