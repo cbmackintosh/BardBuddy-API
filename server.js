@@ -8,7 +8,6 @@ app.locals.titles = require('./allTitles');
 app.locals.characters = require('./allCharacters');
 
 app.use(cors());
-app.set('port', process.env.PORT || 8000);
 app.locals.title = 'Bard Buddy API';
 
 app.get('/allTitles', (request, response) => {
@@ -46,6 +45,13 @@ app.get('/characters/:title', (request, response) => {
   response.status(200).json(characters);
 })
 
-app.listen(app.get('port'), () => {
-  console.log(`${app.locals.title} is running on http://localhost:${app.get('port')}.`);
+// app.set('port', process.env.PORT || 8000);
+
+// app.listen(app.get('port'), () => {
+//   console.log(`${app.locals.title} is running on http://localhost:${app.get('port')}.`);
+// });
+
+var server = app.listen(process.env.PORT || 5000, function () {
+  var port = server.address().port;
+  console.log("Express is working on port " + port);
 });
