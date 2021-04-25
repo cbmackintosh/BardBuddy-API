@@ -59,7 +59,7 @@ app.get('/chapters/:title', (request, response) => {
 
 app.get('/characters/:title', (request, response) => {
   const { title } = request.params;
-  const characters = app.locals.characters.filter(character => character.works === title);
+  const characters = app.locals.characters.filter(character => character.works.includes(title));
   if (!characters) {
     return response.sendStatus(404);
   }
