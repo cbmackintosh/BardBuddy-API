@@ -3,7 +3,7 @@ const allCharacters = [
       charid: "1apparition-mac",
       charname: "First Apparition",
       abbrev: "First Apparition",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "",
       speechcount: 1
   },
@@ -11,7 +11,7 @@ const allCharacters = [
       charid: "1citizen",
       charname: "First Citizen",
       abbrev: "First Citizen",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "",
       speechcount: 3
   },
@@ -19,7 +19,7 @@ const allCharacters = [
       charid: "1conspirator",
       charname: "First Conspirator",
       abbrev: "First Conspirator",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 3
   },
@@ -27,7 +27,7 @@ const allCharacters = [
       charid: "1gentleman-oth",
       charname: "First Gentleman",
       abbrev: "First Gentleman",
-      works: "othello",
+      works: ["othello"],
       descrip: "",
       speechcount: 1
   },
@@ -35,7 +35,7 @@ const allCharacters = [
       charid: "1goth",
       charname: "First Goth",
       abbrev: "First Goth",
-      works: "titus",
+      works: ["titus"],
       descrip: "",
       speechcount: 4
   },
@@ -43,7 +43,7 @@ const allCharacters = [
       charid: "1murderer",
       charname: "First Murderer",
       abbrev: "First Murderer",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "",
       speechcount: 21
   },
@@ -51,7 +51,7 @@ const allCharacters = [
       charid: "1musician-oth",
       charname: "First Musician",
       abbrev: "First Musician",
-      works: "othello",
+      works: ["othello"],
       descrip: "",
       speechcount: 5
   },
@@ -59,7 +59,7 @@ const allCharacters = [
       charid: "1musician-rj",
       charname: "First Musician",
       abbrev: "First Musician",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "",
       speechcount: 10
   },
@@ -67,7 +67,7 @@ const allCharacters = [
       charid: "1officer-oth",
       charname: "First Officer",
       abbrev: "First Officer",
-      works: "othello",
+      works: ["othello"],
       descrip: "",
       speechcount: 3
   },
@@ -75,7 +75,7 @@ const allCharacters = [
       charid: "1player-ham",
       charname: "First Player",
       abbrev: "1Play",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "",
       speechcount: 8
   },
@@ -83,7 +83,7 @@ const allCharacters = [
       charid: "1senator-cor",
       charname: "First Senator",
       abbrev: "First Senator",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 33
   },
@@ -91,7 +91,7 @@ const allCharacters = [
       charid: "1senator-oth",
       charname: "First Senator",
       abbrev: "First Senator",
-      works: "othello",
+      works: ["othello"],
       descrip: "A senator of Venice",
       speechcount: 8
   },
@@ -99,7 +99,7 @@ const allCharacters = [
       charid: "1servant-rj",
       charname: "First Servant",
       abbrev: "First Servant",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "",
       speechcount: 4
   },
@@ -107,7 +107,7 @@ const allCharacters = [
       charid: "1servingman",
       charname: "First Serving-Man",
       abbrev: "First Serving-Man",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 5
   },
@@ -115,7 +115,7 @@ const allCharacters = [
       charid: "1soldier",
       charname: "First Soldier",
       abbrev: "First Soldier",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 8
   },
@@ -123,7 +123,7 @@ const allCharacters = [
       charid: "1watchman-ma",
       charname: "First Watchman",
       abbrev: "First Watchman",
-      works: "muchado",
+      works: ["muchado"],
       descrip: "",
       speechcount: 6
   },
@@ -131,7 +131,7 @@ const allCharacters = [
       charid: "1watchman-rj",
       charname: "First Watchman",
       abbrev: "First Watchman",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "",
       speechcount: 6
   },
@@ -139,7 +139,7 @@ const allCharacters = [
       charid: "1witch-mac",
       charname: "First Witch",
       abbrev: "First Witch",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "",
       speechcount: 23
   },
@@ -147,7 +147,7 @@ const allCharacters = [
       charid: "2apparition-mac",
       charname: "Second Apparition",
       abbrev: "Second Apparition",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "",
       speechcount: 2
   },
@@ -155,7 +155,7 @@ const allCharacters = [
       charid: "2conspirator",
       charname: "Second Conspirator",
       abbrev: "Second Conspirator",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 2
   },
@@ -163,7 +163,7 @@ const allCharacters = [
       charid: "2gentleman-oth",
       charname: "Second Gentleman",
       abbrev: "Second Gentleman",
-      works: "othello",
+      works: ["othello"],
       descrip: "",
       speechcount: 5
   },
@@ -171,7 +171,7 @@ const allCharacters = [
       charid: "2goth",
       charname: "Second Goth",
       abbrev: "Second Goth",
-      works: "titus",
+      works: ["titus"],
       descrip: "",
       speechcount: 1
   },
@@ -179,7 +179,7 @@ const allCharacters = [
       charid: "2murderer",
       charname: "Second Murderer",
       abbrev: "Second Murderer",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "",
       speechcount: 6
   },
@@ -187,7 +187,7 @@ const allCharacters = [
       charid: "2musician-rj",
       charname: "Second Musician",
       abbrev: "Second Musician",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "",
       speechcount: 3
   },
@@ -195,7 +195,7 @@ const allCharacters = [
       charid: "2patrician",
       charname: "Second Patrician",
       abbrev: "Second Patrician",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 1
   },
@@ -203,7 +203,7 @@ const allCharacters = [
       charid: "2senator-cor",
       charname: "Second Senator",
       abbrev: "Second Senator",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 10
   },
@@ -211,7 +211,7 @@ const allCharacters = [
       charid: "2senator-oth",
       charname: "Second Senator",
       abbrev: "Second Senator",
-      works: "othello",
+      works: ["othello"],
       descrip: "A senator of Venice",
       speechcount: 1
   },
@@ -219,7 +219,7 @@ const allCharacters = [
       charid: "2servant-rj",
       charname: "Second Servant",
       abbrev: "Second Servant",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "",
       speechcount: 6
   },
@@ -227,7 +227,7 @@ const allCharacters = [
       charid: "2servingman",
       charname: "Second Serving-Man",
       abbrev: "Second Serving-Man",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 2
   },
@@ -235,7 +235,7 @@ const allCharacters = [
       charid: "2soldier",
       charname: "Second Soldier",
       abbrev: "Second Soldier",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 1
   },
@@ -243,7 +243,7 @@ const allCharacters = [
       charid: "2watchman-ma",
       charname: "Second Watchman",
       abbrev: "Second Watchman",
-      works: "muchado",
+      works: ["muchado"],
       descrip: "",
       speechcount: 5
   },
@@ -251,7 +251,7 @@ const allCharacters = [
       charid: "2watchman-rj",
       charname: "Second Watchman",
       abbrev: "Second Watchman",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "",
       speechcount: 1
   },
@@ -259,7 +259,7 @@ const allCharacters = [
       charid: "2witch-mac",
       charname: "Second Witch",
       abbrev: "Second Witch",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "",
       speechcount: 15
   },
@@ -267,7 +267,7 @@ const allCharacters = [
       charid: "3apparition-mac",
       charname: "Third Apparition",
       abbrev: "Third Apparition",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "",
       speechcount: 1
   },
@@ -275,7 +275,7 @@ const allCharacters = [
       charid: "3conspirator",
       charname: "Third Conspirator",
       abbrev: "Third Conspirator",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 3
   },
@@ -283,7 +283,7 @@ const allCharacters = [
       charid: "3gentleman-oth",
       charname: "Third Gentleman",
       abbrev: "Third Gentleman",
-      works: "othello",
+      works: ["othello"],
       descrip: "",
       speechcount: 4
   },
@@ -291,7 +291,7 @@ const allCharacters = [
       charid: "3goth",
       charname: "Third Goth",
       abbrev: "Third Goth",
-      works: "titus",
+      works: ["titus"],
       descrip: "",
       speechcount: 1
   },
@@ -299,7 +299,7 @@ const allCharacters = [
       charid: "3murderer",
       charname: "Third Murderer",
       abbrev: "Third Murderer",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "",
       speechcount: 6
   },
@@ -307,7 +307,7 @@ const allCharacters = [
       charid: "3musician-rj",
       charname: "Third Musician",
       abbrev: "Third Musician",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "",
       speechcount: 1
   },
@@ -315,7 +315,7 @@ const allCharacters = [
       charid: "3servingman",
       charname: "Third Serving-Man",
       abbrev: "Third Serving-Man",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 2
   },
@@ -323,7 +323,7 @@ const allCharacters = [
       charid: "3watchman-rj",
       charname: "Third Watchman",
       abbrev: "Third Watchman",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "",
       speechcount: 1
   },
@@ -331,7 +331,7 @@ const allCharacters = [
       charid: "3witch-mac",
       charname: "Third Witch",
       abbrev: "Third Witch",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "",
       speechcount: 13
   },
@@ -339,7 +339,7 @@ const allCharacters = [
       charid: "4gentleman-oth",
       charname: "Fourth Gentleman",
       abbrev: "Fourth Gentleman",
-      works: "othello",
+      works: ["othello"],
       descrip: "",
       speechcount: 1
   },
@@ -347,7 +347,7 @@ const allCharacters = [
       charid: "Aaron",
       charname: "Aaron",
       abbrev: "AARON",
-      works: "titus",
+      works: ["titus"],
       descrip: "a Moor, beloved by Tamora",
       speechcount: 57
   },
@@ -355,7 +355,7 @@ const allCharacters = [
       charid: "Abbot",
       charname: "Abbot",
       abbrev: "Abbot",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "",
       speechcount: 2
   },
@@ -363,7 +363,7 @@ const allCharacters = [
       charid: "Abergavenny",
       charname: "Lord Abergavenny",
       abbrev: "ABERGAVENNY",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 5
   },
@@ -371,7 +371,7 @@ const allCharacters = [
       charid: "Abhorson",
       charname: "Abhorson",
       abbrev: "ABHORSON",
-      works: "measure",
+      works: ["measure"],
       descrip: "an executioner",
       speechcount: 13
   },
@@ -379,7 +379,7 @@ const allCharacters = [
       charid: "abraham-rj",
       charname: "Abraham",
       abbrev: "ABRAHAM",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "Servant to Montague",
       speechcount: 5
   },
@@ -387,7 +387,7 @@ const allCharacters = [
       charid: "Achilles",
       charname: "Achilles",
       abbrev: "ACHILLES",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "a Greek prince",
       speechcount: 74
   },
@@ -395,7 +395,7 @@ const allCharacters = [
       charid: "adam-ayli",
       charname: "Adam",
       abbrev: "ADAM",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "servant to Oliver",
       speechcount: 10
   },
@@ -403,7 +403,7 @@ const allCharacters = [
       charid: "ADRIANA",
       charname: "Adriana",
       abbrev: "ADRIANA",
-      works: "comedyerrors",
+      works: ["comedyerrors"],
       descrip: "wife to Antipholus of Ephesus",
       speechcount: 79
   },
@@ -411,7 +411,7 @@ const allCharacters = [
       charid: "Adrian-tem",
       charname: "Adrian",
       abbrev: "ADRIAN",
-      works: "tempest",
+      works: ["tempest"],
       descrip: "a lord",
       speechcount: 9
   },
@@ -419,7 +419,7 @@ const allCharacters = [
       charid: "aedile",
       charname: "Aedile",
       abbrev: "Aedile",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 10
   },
@@ -427,7 +427,7 @@ const allCharacters = [
       charid: "AEGEON",
       charname: "Aegeon",
       abbrev: "AEGEON",
-      works: "comedyerrors",
+      works: ["comedyerrors"],
       descrip: "a merchant of Syracuse",
       speechcount: 17
   },
@@ -435,7 +435,7 @@ const allCharacters = [
       charid: "AEMILIA",
       charname: "Aemilia",
       abbrev: "AEMILIA",
-      works: "comedyerrors",
+      works: ["comedyerrors"],
       descrip: "wife to Aegeon, an abbess at Ephesus",
       speechcount: 16
   },
@@ -443,7 +443,7 @@ const allCharacters = [
       charid: "Aemilius",
       charname: "Aemilius",
       abbrev: "AEMILIUS",
-      works: "titus",
+      works: ["titus"],
       descrip: "a noble Roman",
       speechcount: 5
   },
@@ -451,7 +451,7 @@ const allCharacters = [
       charid: "Aeneas",
       charname: "Aeneas",
       abbrev: "AENEAS",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "one of the Trojan commanders",
       speechcount: 44
   },
@@ -459,7 +459,7 @@ const allCharacters = [
       charid: "Agamemnon",
       charname: "Agamemnon",
       abbrev: "AGAMEMNON",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "the Greek general",
       speechcount: 52
   },
@@ -467,7 +467,7 @@ const allCharacters = [
       charid: "Agrippa",
       charname: "Agrippa",
       abbrev: "AGRIPPA",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "friend to Caesar",
       speechcount: 28
   },
@@ -475,7 +475,7 @@ const allCharacters = [
       charid: "aguecheek",
       charname: "Sir Andrew Aguecheek",
       abbrev: "SIR ANDREW",
-      works: "12night",
+      works: ["12night"],
       descrip: "",
       speechcount: 88
   },
@@ -483,7 +483,7 @@ const allCharacters = [
       charid: "Ajax",
       charname: "Ajax",
       abbrev: "AJAX",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "a Greek prince",
       speechcount: 55
   },
@@ -491,7 +491,7 @@ const allCharacters = [
       charid: "Alarbus",
       charname: "Alarbus",
       abbrev: "ALARBUS",
-      works: "titus",
+      works: ["titus"],
       descrip: "son to Tamora",
       speechcount: 0
   },
@@ -499,7 +499,7 @@ const allCharacters = [
       charid: "Alcibiades",
       charname: "Alcibiades",
       abbrev: "ALCIBIADES",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "an Athenian captain",
       speechcount: 39
   },
@@ -507,7 +507,7 @@ const allCharacters = [
       charid: "Alexander",
       charname: "Alexander",
       abbrev: "ALEXANDER",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "servant to Cressida",
       speechcount: 8
   },
@@ -515,7 +515,7 @@ const allCharacters = [
       charid: "AlexanderIden",
       charname: "Alexander Iden",
       abbrev: "IDEN",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "a Kentish gentleman",
       speechcount: 9
   },
@@ -523,7 +523,7 @@ const allCharacters = [
       charid: "Alexas",
       charname: "Alexas",
       abbrev: "ALEXAS",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "attendant on Cleopatra",
       speechcount: 15
   },
@@ -531,7 +531,7 @@ const allCharacters = [
       charid: "Alice",
       charname: "Alice",
       abbrev: "ALICE",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "a lady attending on Princess Katherine",
       speechcount: 22
   },
@@ -539,7 +539,7 @@ const allCharacters = [
       charid: "All-ac",
       charname: "All",
       abbrev: "All",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 9
   },
@@ -547,7 +547,7 @@ const allCharacters = [
       charid: "all-aw",
       charname: "All",
       abbrev: "All",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "",
       speechcount: 2
   },
@@ -555,7 +555,7 @@ const allCharacters = [
       charid: "allcitizens",
       charname: "All Citizens",
       abbrev: "All Citizens",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 1
   },
@@ -563,7 +563,7 @@ const allCharacters = [
       charid: "AllConspirators",
       charname: "All Conspirators",
       abbrev: "All Conspirators",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 2
   },
@@ -571,7 +571,7 @@ const allCharacters = [
       charid: "all-cor",
       charname: "All",
       abbrev: "All",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 16
   },
@@ -579,7 +579,7 @@ const allCharacters = [
       charid: "All-cym",
       charname: "All",
       abbrev: "All",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "",
       speechcount: 1
   },
@@ -587,7 +587,7 @@ const allCharacters = [
       charid: "AllGoths",
       charname: "All the Goths",
       abbrev: "All the Goths",
-      works: "titus",
+      works: ["titus"],
       descrip: "",
       speechcount: 1
   },
@@ -595,7 +595,7 @@ const allCharacters = [
       charid: "All-h5",
       charname: "All",
       abbrev: "All",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "",
       speechcount: 2
   },
@@ -603,7 +603,7 @@ const allCharacters = [
       charid: "All-h61",
       charname: "All",
       abbrev: "All",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 1
   },
@@ -611,7 +611,7 @@ const allCharacters = [
       charid: "All-h62",
       charname: "All",
       abbrev: "All",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 12
   },
@@ -619,7 +619,7 @@ const allCharacters = [
       charid: "All-h63",
       charname: "All",
       abbrev: "All",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "",
       speechcount: 1
   },
@@ -627,7 +627,7 @@ const allCharacters = [
       charid: "All-h8",
       charname: "All",
       abbrev: "All",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 1
   },
@@ -635,7 +635,7 @@ const allCharacters = [
       charid: "all-ham",
       charname: "All",
       abbrev: "All",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "",
       speechcount: 6
   },
@@ -643,7 +643,7 @@ const allCharacters = [
       charid: "All-jc",
       charname: "All",
       abbrev: "All",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "",
       speechcount: 9
   },
@@ -651,7 +651,7 @@ const allCharacters = [
       charid: "all-kr2",
       charname: "All",
       abbrev: "All",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "",
       speechcount: 1
   },
@@ -659,7 +659,7 @@ const allCharacters = [
       charid: "AllLadies",
       charname: "All Ladies",
       abbrev: "All Ladies",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 1
   },
@@ -667,7 +667,7 @@ const allCharacters = [
       charid: "AllLords",
       charname: "All Lords",
       abbrev: "All Lords",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 3
   },
@@ -675,7 +675,7 @@ const allCharacters = [
       charid: "AllLords-tim",
       charname: "All Lords",
       abbrev: "All Lords",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 1
   },
@@ -683,7 +683,7 @@ const allCharacters = [
       charid: "all-mac",
       charname: "All",
       abbrev: "ALL",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "",
       speechcount: 13
   },
@@ -691,7 +691,7 @@ const allCharacters = [
       charid: "All-mnd",
       charname: "All",
       abbrev: "All",
-      works: "midsummer",
+      works: ["midsummer"],
       descrip: "",
       speechcount: 2
   },
@@ -699,7 +699,7 @@ const allCharacters = [
       charid: "all-mv",
       charname: "All",
       abbrev: "All",
-      works: "merchantvenice",
+      works: ["merchantvenice"],
       descrip: "",
       speechcount: 1
   },
@@ -707,7 +707,7 @@ const allCharacters = [
       charid: "all-mww",
       charname: "All",
       abbrev: "All",
-      works: "merrywives",
+      works: ["merrywives"],
       descrip: "",
       speechcount: 1
   },
@@ -715,7 +715,7 @@ const allCharacters = [
       charid: "all-oth",
       charname: "All",
       abbrev: "All",
-      works: "othello",
+      works: ["othello"],
       descrip: "",
       speechcount: 2
   },
@@ -723,7 +723,7 @@ const allCharacters = [
       charid: "AllPeople",
       charname: "All The People",
       abbrev: "All The People",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 1
   },
@@ -731,7 +731,7 @@ const allCharacters = [
       charid: "All-per",
       charname: "All",
       abbrev: "All",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 2
   },
@@ -739,7 +739,7 @@ const allCharacters = [
       charid: "All-r3",
       charname: "All",
       abbrev: "All",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 1
   },
@@ -747,7 +747,7 @@ const allCharacters = [
       charid: "AllServants-tim",
       charname: "All Servants",
       abbrev: "All Servants",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 7
   },
@@ -755,7 +755,7 @@ const allCharacters = [
       charid: "All-ta",
       charname: "All",
       abbrev: "All",
-      works: "titus",
+      works: ["titus"],
       descrip: "",
       speechcount: 3
   },
@@ -763,7 +763,7 @@ const allCharacters = [
       charid: "All-tc",
       charname: "All",
       abbrev: "All",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "",
       speechcount: 2
   },
@@ -771,7 +771,7 @@ const allCharacters = [
       charid: "All-tim",
       charname: "All",
       abbrev: "All",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 1
   },
@@ -779,7 +779,7 @@ const allCharacters = [
       charid: "all-ts",
       charname: "All",
       abbrev: "ALL",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "",
       speechcount: 1
   },
@@ -787,7 +787,7 @@ const allCharacters = [
       charid: "Alonso",
       charname: "Alonso",
       abbrev: "ALONSO",
-      works: "tempest",
+      works: ["tempest"],
       descrip: "king of Naples",
       speechcount: 40
   },
@@ -795,7 +795,7 @@ const allCharacters = [
       charid: "ambassador",
       charname: "Ambassador",
       abbrev: "Ambassador",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "",
       speechcount: 1
   },
@@ -803,7 +803,7 @@ const allCharacters = [
       charid: "amiens",
       charname: "Amiens",
       abbrev: "AMIENS",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "lord attending on the banished Duke",
       speechcount: 10
   },
@@ -811,7 +811,7 @@ const allCharacters = [
       charid: "Andromache",
       charname: "Andromache",
       abbrev: "ANDROMACHE",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "wife to Hector",
       speechcount: 6
   },
@@ -819,7 +819,7 @@ const allCharacters = [
       charid: "ANGELO",
       charname: "Angelo",
       abbrev: "ANGELO",
-      works: "comedyerrors",
+      works: ["comedyerrors"],
       descrip: "a goldsmith",
       speechcount: 31
   },
@@ -827,7 +827,7 @@ const allCharacters = [
       charid: "Angelo-m4m",
       charname: "Angelo",
       abbrev: "ANGELO",
-      works: "measure",
+      works: ["measure"],
       descrip: "deputy",
       speechcount: 83
   },
@@ -835,7 +835,7 @@ const allCharacters = [
       charid: "angus",
       charname: "Angus",
       abbrev: "ANGUS",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "Nobleman of Scotland",
       speechcount: 4
   },
@@ -843,7 +843,7 @@ const allCharacters = [
       charid: "AnneBullen",
       charname: "Anne Bullen",
       abbrev: "QUEEN ANNE",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "Katharine's maid of honor, afterwards Queen",
       speechcount: 18
   },
@@ -851,7 +851,7 @@ const allCharacters = [
       charid: "annepage",
       charname: "Anne Page",
       abbrev: "ANNE PAGE",
-      works: "merrywives",
+      works: ["merrywives"],
       descrip: "Mistress Page's daughter",
       speechcount: 19
   },
@@ -859,7 +859,7 @@ const allCharacters = [
       charid: "Another",
       charname: "Another",
       abbrev: "ANOTHER",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "Another",
       speechcount: 1
   },
@@ -867,7 +867,7 @@ const allCharacters = [
       charid: "Antenor",
       charname: "Antenor",
       abbrev: "ANTENOR",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "one of the Trojan commanders",
       speechcount: 0
   },
@@ -875,7 +875,7 @@ const allCharacters = [
       charid: "Antigonus",
       charname: "Antigonus",
       abbrev: "ANTIGONUS",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "a lord of Sicilia",
       speechcount: 19
   },
@@ -883,7 +883,7 @@ const allCharacters = [
       charid: "Antiochus",
       charname: "Antiochus",
       abbrev: "ANTIOCHUS",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "king of Antioch",
       speechcount: 12
   },
@@ -891,7 +891,7 @@ const allCharacters = [
       charid: "AntiochusDaughter",
       charname: "Daughter of Antiochus",
       abbrev: "Daughter",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 1
   },
@@ -899,7 +899,7 @@ const allCharacters = [
       charid: "ANTIPHOLUSEPHESUS",
       charname: "Antipholus of Ephesus",
       abbrev: "ANTIPHOLUS OF EPHESUS",
-      works: "comedyerrors",
+      works: ["comedyerrors"],
       descrip: "twin brother of Antipholus of Syracuse, son to Aegeon and Aemilia",
       speechcount: 76
   },
@@ -907,7 +907,7 @@ const allCharacters = [
       charid: "ANTIPHOLUSSYRACUSE",
       charname: "Antipholus of Syracuse",
       abbrev: "ANTIPHOLUS OF SYRACUSE",
-      works: "comedyerrors",
+      works: ["comedyerrors"],
       descrip: "twin brother of Antipholus of Ephesus, son to Aegeon and Aemelia",
       speechcount: 103
   },
@@ -915,7 +915,7 @@ const allCharacters = [
       charid: "antonio",
       charname: "Antonio",
       abbrev: "ANTONIO",
-      works: "muchado",
+      works: ["muchado"],
       descrip: "Leonato's brother",
       speechcount: 23
   },
@@ -923,7 +923,7 @@ const allCharacters = [
       charid: "ANTONIO-12",
       charname: "Antonio",
       abbrev: "ANTONIO",
-      works: "12night",
+      works: ["12night"],
       descrip: "a sea captain, friend to Sebastain",
       speechcount: 26
   },
@@ -931,7 +931,7 @@ const allCharacters = [
       charid: "Antonio-mv",
       charname: "Antonio",
       abbrev: "ANTONIO",
-      works: "merchantvenice",
+      works: ["merchantvenice"],
       descrip: "a merchant of Venice",
       speechcount: 47
   },
@@ -939,7 +939,7 @@ const allCharacters = [
       charid: "Antonio-tem",
       charname: "Antonio",
       abbrev: "ANTONIO",
-      works: "tempest",
+      works: ["tempest"],
       descrip: "the King's brother, the usurping Duke of Milan",
       speechcount: 57
   },
@@ -947,7 +947,7 @@ const allCharacters = [
       charid: "Antonio-tg",
       charname: "Antonio",
       abbrev: "ANTONIO",
-      works: "twogents",
+      works: ["twogents"],
       descrip: "father to Proteus",
       speechcount: 11
   },
@@ -955,7 +955,7 @@ const allCharacters = [
       charid: "antony",
       charname: "Antony",
       abbrev: "ANTONY",
-      works: "juliuscaesar,antonycleo",
+      works: ["juliuscaesar", "antonycleo"],
       descrip: "(Marcus Antonius)",
       speechcount: 253
   },
@@ -963,7 +963,7 @@ const allCharacters = [
       charid: "Apemantus",
       charname: "Apemantus",
       abbrev: "APEMANTUS",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "a churlish philosopher",
       speechcount: 100
   },
@@ -971,7 +971,7 @@ const allCharacters = [
       charid: "apothecary",
       charname: "Apothecary",
       abbrev: "Apothecary",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "",
       speechcount: 4
   },
@@ -979,7 +979,7 @@ const allCharacters = [
       charid: "Archidamus",
       charname: "Archidamus",
       abbrev: "ARCHIDAMUS",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "a lord of Bohemia",
       speechcount: 7
   },
@@ -987,7 +987,7 @@ const allCharacters = [
       charid: "Ariel",
       charname: "Ariel",
       abbrev: "ARIEL",
-      works: "tempest",
+      works: ["tempest"],
       descrip: "an airy spirit",
       speechcount: 45
   },
@@ -995,7 +995,7 @@ const allCharacters = [
       charid: "Artemidorus",
       charname: "Artemidorus",
       abbrev: "ARTEMIDORUS",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "of Cnidos, a teacher of rhetoric.",
       speechcount: 4
   },
@@ -1003,7 +1003,7 @@ const allCharacters = [
       charid: "Arthur",
       charname: "Arthur",
       abbrev: "ARTHUR",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "Duke of Bretagne, nephew to the king",
       speechcount: 23
   },
@@ -1011,7 +1011,7 @@ const allCharacters = [
       charid: "Arviragus",
       charname: "Arviragus",
       abbrev: "ARVIRAGUS",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "son to Cymbeline, disguised under the name of Cadwal, supposed son to Morgan",
       speechcount: 46
   },
@@ -1019,7 +1019,7 @@ const allCharacters = [
       charid: "Attandants-ac",
       charname: "Attendants",
       abbrev: "Attendants",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 1
   },
@@ -1027,7 +1027,7 @@ const allCharacters = [
       charid: "Attendant-ac",
       charname: "Attendant",
       abbrev: "Attendant",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 2
   },
@@ -1035,7 +1035,7 @@ const allCharacters = [
       charid: "Attendant-cym",
       charname: "Attendant",
       abbrev: "Attendant",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "",
       speechcount: 1
   },
@@ -1043,7 +1043,7 @@ const allCharacters = [
       charid: "attendant-mac",
       charname: "Attendant",
       abbrev: "ATTENDANT",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "",
       speechcount: 1
   },
@@ -1051,7 +1051,7 @@ const allCharacters = [
       charid: "audrey",
       charname: "Audrey",
       abbrev: "AUDREY",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "a country wench",
       speechcount: 12
   },
@@ -1059,7 +1059,7 @@ const allCharacters = [
       charid: "Aumerle",
       charname: "Duke of Aumerle",
       abbrev: "DUKE OF AUMERLE",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "son of the Duke of York",
       speechcount: 38
   },
@@ -1067,7 +1067,7 @@ const allCharacters = [
       charid: "Autolycus",
       charname: "Autolycus",
       abbrev: "AUTOLYCUS",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "a rogue",
       speechcount: 67
   },
@@ -1075,7 +1075,7 @@ const allCharacters = [
       charid: "Bagot",
       charname: "Bagot",
       abbrev: "BAGOT",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "servant to King Richard II",
       speechcount: 6
   },
@@ -1083,7 +1083,7 @@ const allCharacters = [
       charid: "balthasar",
       charname: "Balthasar",
       abbrev: "BALTHASAR",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "Servant to Romeo",
       speechcount: 12
   },
@@ -1091,7 +1091,7 @@ const allCharacters = [
       charid: "balthasar-ma",
       charname: "Balthasar",
       abbrev: "BALTHASAR",
-      works: "muchado",
+      works: ["muchado"],
       descrip: "Attendant on Don Pedro",
       speechcount: 11
   },
@@ -1099,7 +1099,7 @@ const allCharacters = [
       charid: "Balthasar-mv",
       charname: "Balthasar",
       abbrev: "BALTHASAR",
-      works: "merchantvenice",
+      works: ["merchantvenice"],
       descrip: "servant to Portia",
       speechcount: 1
   },
@@ -1107,7 +1107,7 @@ const allCharacters = [
       charid: "BALTHAZAR",
       charname: "Balthazar",
       abbrev: "BALTHAZAR",
-      works: "comedyerrors",
+      works: ["comedyerrors"],
       descrip: "a merchant",
       speechcount: 5
   },
@@ -1115,7 +1115,7 @@ const allCharacters = [
       charid: "Banditti",
       charname: "Banditti",
       abbrev: "Banditti",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 4
   },
@@ -1123,7 +1123,7 @@ const allCharacters = [
       charid: "banquo",
       charname: "Banquo",
       abbrev: "BANQUO",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "General of the King's army",
       speechcount: 33
   },
@@ -1131,7 +1131,7 @@ const allCharacters = [
       charid: "baptista",
       charname: "Baptista Minola",
       abbrev: "BAPTISTA",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "a gentleman of Padua",
       speechcount: 68
   },
@@ -1139,7 +1139,7 @@ const allCharacters = [
       charid: "bardolph",
       charname: "Lord Bardolph",
       abbrev: "LORD BARDOLPH",
-      works: "henry4p1,henry4p2",
+      works: ["henry4p1", "henry4p2"],
       descrip: "",
       speechcount: 35
   },
@@ -1147,7 +1147,7 @@ const allCharacters = [
       charid: "bardolphlesser",
       charname: "Bardolph",
       abbrev: "BARDOLPH",
-      works: "henry4p2,henry5",
+      works: ["henry4p2", "henry5"],
       descrip: "",
       speechcount: 46
   },
@@ -1155,7 +1155,7 @@ const allCharacters = [
       charid: "bardolph-mww",
       charname: "Bardolph",
       abbrev: "BARDOLPH",
-      works: "merrywives",
+      works: ["merrywives"],
       descrip: "sharper attending on Falstaff",
       speechcount: 14
   },
@@ -1163,7 +1163,7 @@ const allCharacters = [
       charid: "Barnardine",
       charname: "Barnardine",
       abbrev: "BARNARDINE",
-      works: "measure",
+      works: ["measure"],
       descrip: "a dissolute prisoner",
       speechcount: 7
   },
@@ -1171,7 +1171,7 @@ const allCharacters = [
       charid: "Bassanio",
       charname: "Bassanio",
       abbrev: "BASSANIO",
-      works: "merchantvenice",
+      works: ["merchantvenice"],
       descrip: "Antonio's friend, suitor likewise to Portia",
       speechcount: 73
   },
@@ -1179,7 +1179,7 @@ const allCharacters = [
       charid: "Basset",
       charname: "Basset",
       abbrev: "BASSET",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "of the Red Rose, or Lancaster, faction",
       speechcount: 7
   },
@@ -1187,7 +1187,7 @@ const allCharacters = [
       charid: "Bassianus",
       charname: "Bassianus",
       abbrev: "BASSIANUS",
-      works: "titus",
+      works: ["titus"],
       descrip: "brother to Saturninus; in love with Lavinia",
       speechcount: 14
   },
@@ -1195,7 +1195,7 @@ const allCharacters = [
       charid: "BastardOrleans",
       charname: "Bastard of Orleans",
       abbrev: "BASTARD OF ORLEANS",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 12
   },
@@ -1203,7 +1203,7 @@ const allCharacters = [
       charid: "Bates",
       charname: "Bates",
       abbrev: "BATES",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "soldier in King Henry's army",
       speechcount: 7
   },
@@ -1211,7 +1211,7 @@ const allCharacters = [
       charid: "Bawd",
       charname: "Bawd",
       abbrev: "Bawd",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 43
   },
@@ -1219,7 +1219,7 @@ const allCharacters = [
       charid: "Beadle",
       charname: "Beadle",
       abbrev: "Beadle",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 1
   },
@@ -1227,7 +1227,7 @@ const allCharacters = [
       charid: "beadle1",
       charname: "First Beadle",
       abbrev: "FIRST BEADLE",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "",
       speechcount: 4
   },
@@ -1235,7 +1235,7 @@ const allCharacters = [
       charid: "beadle2",
       charname: "Second Beadle",
       abbrev: "SECOND BEADLE",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "",
       speechcount: 0
   },
@@ -1243,7 +1243,7 @@ const allCharacters = [
       charid: "beatrice",
       charname: "Beatrice",
       abbrev: "BEATRICE",
-      works: "muchado",
+      works: ["muchado"],
       descrip: "Niece to Leonato",
       speechcount: 106
   },
@@ -1251,7 +1251,7 @@ const allCharacters = [
       charid: "bedford",
       charname: "Duke of Bedford",
       abbrev: "BEDFORD",
-      works: "henry5,henry6p1",
+      works: ["henry5", "henry6p1"],
       descrip: "brother to Henry IV, uncle to Henry V",
       speechcount: 24
   },
@@ -1259,7 +1259,7 @@ const allCharacters = [
       charid: "Belarius",
       charname: "Belarius",
       abbrev: "BELARIUS",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "a banished lord, disguised under the name of Morgan",
       speechcount: 58
   },
@@ -1267,7 +1267,7 @@ const allCharacters = [
       charid: "belch",
       charname: "Sir Toby Belch",
       abbrev: "SIR TOBY BELCH",
-      works: "12night",
+      works: ["12night"],
       descrip: "uncle to Olivia",
       speechcount: 152
   },
@@ -1275,7 +1275,7 @@ const allCharacters = [
       charid: "benedick",
       charname: "Benedick",
       abbrev: "BENEDICK",
-      works: "muchado",
+      works: ["muchado"],
       descrip: "A young lord of Padua",
       speechcount: 134
   },
@@ -1283,7 +1283,7 @@ const allCharacters = [
       charid: "benvolio",
       charname: "Benvolio",
       abbrev: "BENVOLIO",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "Nephew to Montague, and friend to Romeo",
       speechcount: 64
   },
@@ -1291,7 +1291,7 @@ const allCharacters = [
       charid: "Berkeley",
       charname: "Berkeley",
       abbrev: "BERKELEY",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "a gentleman attending on Lady Anne",
       speechcount: 0
   },
@@ -1299,7 +1299,7 @@ const allCharacters = [
       charid: "bernardo",
       charname: "Bernardo",
       abbrev: "Ber",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "sentinel",
       speechcount: 19
   },
@@ -1307,7 +1307,7 @@ const allCharacters = [
       charid: "BERTRAM",
       charname: "Bertram",
       abbrev: "BERTRAM",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "Count of Rousillon",
       speechcount: 102
   },
@@ -1315,7 +1315,7 @@ const allCharacters = [
       charid: "Bevis",
       charname: "George Bevis",
       abbrev: "BEVIS",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "a follower of Cade",
       speechcount: 9
   },
@@ -1323,7 +1323,7 @@ const allCharacters = [
       charid: "bianca",
       charname: "Bianca",
       abbrev: "BIANCA",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "",
       speechcount: 29
   },
@@ -1331,7 +1331,7 @@ const allCharacters = [
       charid: "bianca-oth",
       charname: "Bianca",
       abbrev: "BIANCA",
-      works: "othello",
+      works: ["othello"],
       descrip: "Mistress to Cassio",
       speechcount: 15
   },
@@ -1339,7 +1339,7 @@ const allCharacters = [
       charid: "Bigot",
       charname: "Lord Bigot",
       abbrev: "BIGOT",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "",
       speechcount: 6
   },
@@ -1347,7 +1347,7 @@ const allCharacters = [
       charid: "biondello",
       charname: "Biondello",
       abbrev: "BIONDELLO",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "",
       speechcount: 39
   },
@@ -1355,7 +1355,7 @@ const allCharacters = [
       charid: "Biron",
       charname: "Biron",
       abbrev: "BIRON",
-      works: "loveslabours",
+      works: ["loveslabours"],
       descrip: "lord attending on the king",
       speechcount: 159
   },
@@ -1363,7 +1363,7 @@ const allCharacters = [
       charid: "BishopCarlisle",
       charname: "Bishop of Carlisle",
       abbrev: "BISHOP OF CARLISLE",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "",
       speechcount: 6
   },
@@ -1371,7 +1371,7 @@ const allCharacters = [
       charid: "BishopLincoln",
       charname: "Bishop Lincoln",
       abbrev: "LINCOLN",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 2
   },
@@ -1379,7 +1379,7 @@ const allCharacters = [
       charid: "Blanch",
       charname: "Blanch",
       abbrev: "BLANCH",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "of Spain, niece to King John",
       speechcount: 9
   },
@@ -1387,7 +1387,7 @@ const allCharacters = [
       charid: "blunt",
       charname: "Blunt",
       abbrev: "BLUNT",
-      works: "henry4p1,henry4p2",
+      works: ["henry4p1", "henry4p2"],
       descrip: "",
       speechcount: 11
   },
@@ -1395,7 +1395,7 @@ const allCharacters = [
       charid: "Blunt-r3",
       charname: "Blunt",
       abbrev: "Blunt",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 3
   },
@@ -1403,7 +1403,7 @@ const allCharacters = [
       charid: "Boatswain",
       charname: "Boatswain",
       abbrev: "Boatswain",
-      works: "tempest",
+      works: ["tempest"],
       descrip: "",
       speechcount: 12
   },
@@ -1411,7 +1411,7 @@ const allCharacters = [
       charid: "Bolingbroke-h62",
       charname: "Bolingbroke",
       abbrev: "BOLINGBROKE",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "a conjurer",
       speechcount: 7
   },
@@ -1419,7 +1419,7 @@ const allCharacters = [
       charid: "Bona",
       charname: "Bona",
       abbrev: "BONA",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "sister to the French Queen",
       speechcount: 4
   },
@@ -1427,7 +1427,7 @@ const allCharacters = [
       charid: "borachio",
       charname: "Borachio",
       abbrev: "BORACHIO",
-      works: "muchado",
+      works: ["muchado"],
       descrip: "Follower of Don Juan",
       speechcount: 38
   },
@@ -1435,7 +1435,7 @@ const allCharacters = [
       charid: "both-aw",
       charname: "Both",
       abbrev: "Both",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "",
       speechcount: 2
   },
@@ -1443,7 +1443,7 @@ const allCharacters = [
       charid: "bothcitizens",
       charname: "Both Citizens",
       abbrev: "Both Citizens",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 1
   },
@@ -1451,7 +1451,7 @@ const allCharacters = [
       charid: "both-cor",
       charname: "Both",
       abbrev: "Both",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 3
   },
@@ -1459,7 +1459,7 @@ const allCharacters = [
       charid: "Both-h62",
       charname: "Both",
       abbrev: "Both",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 1
   },
@@ -1467,7 +1467,7 @@ const allCharacters = [
       charid: "Both-h8",
       charname: "Both",
       abbrev: "Both",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 1
   },
@@ -1475,7 +1475,7 @@ const allCharacters = [
       charid: "Both-per",
       charname: "Both",
       abbrev: "Both",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 1
   },
@@ -1483,7 +1483,7 @@ const allCharacters = [
       charid: "Both-r3",
       charname: "Both",
       abbrev: "Both",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 3
   },
@@ -1491,7 +1491,7 @@ const allCharacters = [
       charid: "Both-tim",
       charname: "Both",
       abbrev: "Both",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 7
   },
@@ -1499,7 +1499,7 @@ const allCharacters = [
       charid: "bothtribunes",
       charname: "Both Tribunes",
       abbrev: "Both Tribunes",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 4
   },
@@ -1507,7 +1507,7 @@ const allCharacters = [
       charid: "Bottom",
       charname: "Bottom",
       abbrev: "BOTTOM",
-      works: "midsummer",
+      works: ["midsummer"],
       descrip: "a weaver",
       speechcount: 59
   },
@@ -1515,7 +1515,7 @@ const allCharacters = [
       charid: "Boult",
       charname: "Boult",
       abbrev: "BOULT",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "Pandar's servant",
       speechcount: 38
   },
@@ -1523,7 +1523,7 @@ const allCharacters = [
       charid: "Bourbon",
       charname: "Duke of Bourbon",
       abbrev: "BOURBON",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "",
       speechcount: 4
   },
@@ -1531,7 +1531,7 @@ const allCharacters = [
       charid: "Boyet",
       charname: "Boyet",
       abbrev: "BOYET",
-      works: "loveslabours",
+      works: ["loveslabours"],
       descrip: "lord attending on the princess of France",
       speechcount: 80
   },
@@ -1539,7 +1539,7 @@ const allCharacters = [
       charid: "boy-h5",
       charname: "Boy",
       abbrev: "Boy",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "",
       speechcount: 16
   },
@@ -1547,7 +1547,7 @@ const allCharacters = [
       charid: "Boy-h61",
       charname: "Boy",
       abbrev: "Boy",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "son of the Master-Gunner",
       speechcount: 2
   },
@@ -1555,7 +1555,7 @@ const allCharacters = [
       charid: "boy-ma",
       charname: "Boy",
       abbrev: "Boy",
-      works: "muchado",
+      works: ["muchado"],
       descrip: "",
       speechcount: 2
   },
@@ -1563,7 +1563,7 @@ const allCharacters = [
       charid: "Boy-r3",
       charname: "Boy",
       abbrev: "Boy",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "a young son of Clarence",
       speechcount: 7
   },
@@ -1571,7 +1571,7 @@ const allCharacters = [
       charid: "Boy-tc",
       charname: "Boy",
       abbrev: "Boy",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "servant to Troilus",
       speechcount: 3
   },
@@ -1579,7 +1579,7 @@ const allCharacters = [
       charid: "brabantio",
       charname: "Brabantio",
       abbrev: "BRABANTIO",
-      works: "othello",
+      works: ["othello"],
       descrip: "A senator of Venice",
       speechcount: 30
   },
@@ -1587,7 +1587,7 @@ const allCharacters = [
       charid: "Brandon-h8",
       charname: "Brandon",
       abbrev: "BRANDON",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 6
   },
@@ -1595,7 +1595,7 @@ const allCharacters = [
       charid: "brothers-h4p2",
       charname: "Brothers",
       abbrev: "BROTHERS",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "",
       speechcount: 1
   },
@@ -1603,7 +1603,7 @@ const allCharacters = [
       charid: "Brutus",
       charname: "Brutus",
       abbrev: "BRUTUS",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "(Marcus Brutus)",
       speechcount: 194
   },
@@ -1611,7 +1611,7 @@ const allCharacters = [
       charid: "bullcalf",
       charname: "Peter Bullcalf",
       abbrev: "BULLCALF",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "country soldier",
       speechcount: 5
   },
@@ -1619,7 +1619,7 @@ const allCharacters = [
       charid: "Bushy",
       charname: "Bushy",
       abbrev: "BUSHY",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "servant to King Richard II",
       speechcount: 13
   },
@@ -1627,7 +1627,7 @@ const allCharacters = [
       charid: "caithness",
       charname: "Caithness",
       abbrev: "CAITHNESS",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "Nobleman of Scotland",
       speechcount: 3
   },
@@ -1635,7 +1635,7 @@ const allCharacters = [
       charid: "Caius",
       charname: "Caius",
       abbrev: "CAIUS",
-      works: "titus",
+      works: ["titus"],
       descrip: "kinsman to Titus",
       speechcount: 0
   },
@@ -1643,7 +1643,7 @@ const allCharacters = [
       charid: "CaiusLucius",
       charname: "Caius Lucius",
       abbrev: "CAIUS LUCIUS",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "general of the Roman forces",
       speechcount: 25
   },
@@ -1651,7 +1651,7 @@ const allCharacters = [
       charid: "Calchas",
       charname: "Calchas",
       abbrev: "CALCHAS",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "a Trojan priest, taking part with the Greeks",
       speechcount: 4
   },
@@ -1659,7 +1659,7 @@ const allCharacters = [
       charid: "Caliban",
       charname: "Caliban",
       abbrev: "CALIBAN",
-      works: "tempest",
+      works: ["tempest"],
       descrip: "a savage and deformed slave",
       speechcount: 50
   },
@@ -1667,7 +1667,7 @@ const allCharacters = [
       charid: "Calpurnia",
       charname: "Calpurnia",
       abbrev: "CALPURNIA",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "wife to Caesar",
       speechcount: 6
   },
@@ -1675,7 +1675,7 @@ const allCharacters = [
       charid: "cambridge",
       charname: "Earl of Cambridge",
       abbrev: "CAMBRIDGE",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "",
       speechcount: 5
   },
@@ -1683,7 +1683,7 @@ const allCharacters = [
       charid: "Camillo",
       charname: "Camillo",
       abbrev: "CAMILLO",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "a lord of Sicilia",
       speechcount: 72
   },
@@ -1691,7 +1691,7 @@ const allCharacters = [
       charid: "Campeius",
       charname: "Cardinal Campeius",
       abbrev: "CARDINAL CAMPEIUS",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 14
   },
@@ -1699,7 +1699,7 @@ const allCharacters = [
       charid: "Canidius",
       charname: "Canidius",
       abbrev: "CANIDIUS",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "lieutenant-general to Antony",
       speechcount: 10
   },
@@ -1707,7 +1707,7 @@ const allCharacters = [
       charid: "canterbury",
       charname: "Archbishop of Canterbury",
       abbrev: "CANTERBURY",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "",
       speechcount: 18
   },
@@ -1715,7 +1715,7 @@ const allCharacters = [
       charid: "Caphis",
       charname: "Caphis",
       abbrev: "CAPHIS",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "servant to Timon's creditors",
       speechcount: 14
   },
@@ -1723,7 +1723,7 @@ const allCharacters = [
       charid: "Captain-ac",
       charname: "Captain",
       abbrev: "Captain",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 1
   },
@@ -1731,7 +1731,7 @@ const allCharacters = [
       charid: "Captain-h61",
       charname: "Captain",
       abbrev: "Captain",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 5
   },
@@ -1739,7 +1739,7 @@ const allCharacters = [
       charid: "Captain-h62",
       charname: "Captain",
       abbrev: "Captain",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 11
   },
@@ -1747,7 +1747,7 @@ const allCharacters = [
       charid: "captain-kl",
       charname: "Captain",
       abbrev: "Capt",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "",
       speechcount: 5
   },
@@ -1755,7 +1755,7 @@ const allCharacters = [
       charid: "Captain-kr2",
       charname: "Captain",
       abbrev: "Captain",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "",
       speechcount: 2
   },
@@ -1763,7 +1763,7 @@ const allCharacters = [
       charid: "captain-ta",
       charname: "Captain",
       abbrev: "Captain",
-      works: "titus",
+      works: ["titus"],
       descrip: "",
       speechcount: 1
   },
@@ -1771,7 +1771,7 @@ const allCharacters = [
       charid: "Capucius",
       charname: "Capucius",
       abbrev: "CAPUCIUS",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "Ambassador from the Emperor Charles V",
       speechcount: 5
   },
@@ -1779,7 +1779,7 @@ const allCharacters = [
       charid: "capulet",
       charname: "Capulet",
       abbrev: "CAPULET",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "Head of the house of Capulet",
       speechcount: 51
   },
@@ -1787,7 +1787,7 @@ const allCharacters = [
       charid: "capulet2",
       charname: "Second Capulet",
       abbrev: "Second Capulet",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "An old man, cousin to Capulet",
       speechcount: 2
   },
@@ -1795,7 +1795,7 @@ const allCharacters = [
       charid: "CardinalBourchier",
       charname: "Cardinal Bourchier",
       abbrev: "CARDINAL",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "archbishop of Canterbury",
       speechcount: 2
   },
@@ -1803,7 +1803,7 @@ const allCharacters = [
       charid: "CardinalPandulph",
       charname: "Cardinal Pandulph",
       abbrev: "CARDINAL PANDULPH",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "the Pope's legate",
       speechcount: 23
   },
@@ -1811,7 +1811,7 @@ const allCharacters = [
       charid: "Carrier",
       charname: "Carrier",
       abbrev: "Carrier",
-      works: "henry4p1",
+      works: ["henry4p1"],
       descrip: "",
       speechcount: 1
   },
@@ -1819,7 +1819,7 @@ const allCharacters = [
       charid: "Casca",
       charname: "Casca",
       abbrev: "CASCA",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "a conspirator against Caesar",
       speechcount: 39
   },
@@ -1827,7 +1827,7 @@ const allCharacters = [
       charid: "Cassandra",
       charname: "Cassandra",
       abbrev: "CASSANDRA",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "daughter to Priam, a prophetess",
       speechcount: 13
   },
@@ -1835,7 +1835,7 @@ const allCharacters = [
       charid: "cassio",
       charname: "Cassio",
       abbrev: "CASSIO",
-      works: "othello",
+      works: ["othello"],
       descrip: "Othello's lieutenant",
       speechcount: 110
   },
@@ -1843,7 +1843,7 @@ const allCharacters = [
       charid: "Cassius",
       charname: "Cassius",
       abbrev: "CASSIUS",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "a conspirator against Caesar",
       speechcount: 140
   },
@@ -1851,7 +1851,7 @@ const allCharacters = [
       charid: "Cato",
       charname: "Young Cato",
       abbrev: "CATO",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "friend to Brutus",
       speechcount: 3
   },
@@ -1859,7 +1859,7 @@ const allCharacters = [
       charid: "celia",
       charname: "Celia",
       abbrev: "CELIA",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "daughter to Frederick",
       speechcount: 108
   },
@@ -1867,7 +1867,7 @@ const allCharacters = [
       charid: "Ceres",
       charname: "Ceres",
       abbrev: "CERES",
-      works: "tempest",
+      works: ["tempest"],
       descrip: "presented by spirits",
       speechcount: 4
   },
@@ -1875,7 +1875,7 @@ const allCharacters = [
       charid: "Cerimon",
       charname: "Cerimon",
       abbrev: "CERIMON",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "a lord of Ephesus",
       speechcount: 23
   },
@@ -1883,7 +1883,7 @@ const allCharacters = [
       charid: "Chamberlain",
       charname: "Chamberlain",
       abbrev: "Chamberlain",
-      works: "henry4p1",
+      works: ["henry4p1"],
       descrip: "",
       speechcount: 6
   },
@@ -1891,7 +1891,7 @@ const allCharacters = [
       charid: "charles-ayli",
       charname: "Charles",
       abbrev: "CHARLES",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "wrestler to Frederick",
       speechcount: 8
   },
@@ -1899,7 +1899,7 @@ const allCharacters = [
       charid: "Charles-h61",
       charname: "Charles, King of France",
       abbrev: "CHARLES",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "king of France",
       speechcount: 41
   },
@@ -1907,7 +1907,7 @@ const allCharacters = [
       charid: "Charmian",
       charname: "Charmian",
       abbrev: "CHARMIAN",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "attendant on Cleopatra",
       speechcount: 63
   },
@@ -1915,7 +1915,7 @@ const allCharacters = [
       charid: "Chatillon",
       charname: "Chatillon",
       abbrev: "CHATILLON",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "ambassador from France to King John",
       speechcount: 5
   },
@@ -1923,7 +1923,7 @@ const allCharacters = [
       charid: "chiefjustice",
       charname: "Lord Chief Justice",
       abbrev: "CHIEF JUSTICE",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "",
       speechcount: 56
   },
@@ -1931,7 +1931,7 @@ const allCharacters = [
       charid: "Children-r3",
       charname: "Children",
       abbrev: "Children",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 3
   },
@@ -1939,7 +1939,7 @@ const allCharacters = [
       charid: "Chiron",
       charname: "Chiron",
       abbrev: "CHIRON",
-      works: "titus",
+      works: ["titus"],
       descrip: "son to Tamora",
       speechcount: 30
   },
@@ -1947,7 +1947,7 @@ const allCharacters = [
       charid: "Chorus-h5",
       charname: "Chorus",
       abbrev: "Chorus",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "",
       speechcount: 6
   },
@@ -1955,7 +1955,7 @@ const allCharacters = [
       charid: "Chorus-h8",
       charname: "Chorus",
       abbrev: "Chorus",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 2
   },
@@ -1963,7 +1963,7 @@ const allCharacters = [
       charid: "chorus-rj",
       charname: "Chorus",
       abbrev: "Chorus",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "",
       speechcount: 2
   },
@@ -1971,7 +1971,7 @@ const allCharacters = [
       charid: "Chorus-tc",
       charname: "Chorus",
       abbrev: "Chorus",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "",
       speechcount: 1
   },
@@ -1979,7 +1979,7 @@ const allCharacters = [
       charid: "ChristopherUrswick",
       charname: "Christopher Urswick",
       abbrev: "CHRISTOPHER",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "a priest",
       speechcount: 2
   },
@@ -1987,7 +1987,7 @@ const allCharacters = [
       charid: "cicero",
       charname: "Cicero",
       abbrev: "Ciceronis",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "Senator",
       speechcount: 4
   },
@@ -1995,7 +1995,7 @@ const allCharacters = [
       charid: "Cinna",
       charname: "Cinna",
       abbrev: "CINNA",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "a conspirator against Caesar",
       speechcount: 11
   },
@@ -2003,7 +2003,7 @@ const allCharacters = [
       charid: "CinnaPoet",
       charname: "Cinna the Poet",
       abbrev: "CINNA THE POET",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "",
       speechcount: 8
   },
@@ -2011,7 +2011,7 @@ const allCharacters = [
       charid: "citizen",
       charname: "Citizen",
       abbrev: "Citizen",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 3
   },
@@ -2019,7 +2019,7 @@ const allCharacters = [
       charid: "citizens",
       charname: "Citizens",
       abbrev: "Citizens",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 17
   },
@@ -2027,7 +2027,7 @@ const allCharacters = [
       charid: "Citizens-jc",
       charname: "Citizens",
       abbrev: "Citizens",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "",
       speechcount: 2
   },
@@ -2035,7 +2035,7 @@ const allCharacters = [
       charid: "Citizens-r3",
       charname: "Citizens",
       abbrev: "Citizens",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 0
   },
@@ -2043,7 +2043,7 @@ const allCharacters = [
       charid: "claudio",
       charname: "Claudio",
       abbrev: "CLAUDIO",
-      works: "muchado",
+      works: ["muchado"],
       descrip: "A young lord of Florence",
       speechcount: 125
   },
@@ -2051,7 +2051,7 @@ const allCharacters = [
       charid: "Claudio-m4m",
       charname: "Claudio",
       abbrev: "CLAUDIO",
-      works: "measure",
+      works: ["measure"],
       descrip: "a young gentleman",
       speechcount: 35
   },
@@ -2059,7 +2059,7 @@ const allCharacters = [
       charid: "claudius",
       charname: "Claudius",
       abbrev: "King",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "King of Denmark",
       speechcount: 102
   },
@@ -2067,7 +2067,7 @@ const allCharacters = [
       charid: "Claudius-jc",
       charname: "Claudius",
       abbrev: "CLAUDIUS",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "servant to Brutus",
       speechcount: 2
   },
@@ -2075,7 +2075,7 @@ const allCharacters = [
       charid: "Cleomenes",
       charname: "Cleomenes",
       abbrev: "CLEOMENES",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "a lord of Sicilia",
       speechcount: 7
   },
@@ -2083,7 +2083,7 @@ const allCharacters = [
       charid: "Cleon",
       charname: "Cleon",
       abbrev: "CLEON",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "governor of Tarsus",
       speechcount: 19
   },
@@ -2091,7 +2091,7 @@ const allCharacters = [
       charid: "Cleopatra",
       charname: "Cleopatra",
       abbrev: "CLEOPATRA",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "queen of Egypt",
       speechcount: 204
   },
@@ -2099,7 +2099,7 @@ const allCharacters = [
       charid: "ClerkChatham",
       charname: "Clerk of Chatham",
       abbrev: "Clerk",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 2
   },
@@ -2107,7 +2107,7 @@ const allCharacters = [
       charid: "Clerk-mv",
       charname: "Clerk",
       abbrev: "Clerk",
-      works: "merchantvenice",
+      works: ["merchantvenice"],
       descrip: "",
       speechcount: 1
   },
@@ -2115,7 +2115,7 @@ const allCharacters = [
       charid: "Clitus",
       charname: "Clitus",
       abbrev: "CLITUS",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "servant to Brutus",
       speechcount: 8
   },
@@ -2123,7 +2123,7 @@ const allCharacters = [
       charid: "Cloten",
       charname: "Cloten",
       abbrev: "CLOTEN",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "son to the Queen by a former husband",
       speechcount: 77
   },
@@ -2131,7 +2131,7 @@ const allCharacters = [
       charid: "clown1-ham",
       charname: "First Clown",
       abbrev: "Clown",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "",
       speechcount: 34
   },
@@ -2139,7 +2139,7 @@ const allCharacters = [
       charid: "clown2-ham",
       charname: "Second Clown",
       abbrev: "Other",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "",
       speechcount: 12
   },
@@ -2147,7 +2147,7 @@ const allCharacters = [
       charid: "Clown-ac",
       charname: "Clown",
       abbrev: "Clown",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 8
   },
@@ -2155,7 +2155,7 @@ const allCharacters = [
       charid: "Clown-aw",
       charname: "Clown",
       abbrev: "Clown",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "servant to the Countess",
       speechcount: 58
   },
@@ -2163,7 +2163,7 @@ const allCharacters = [
       charid: "clown-oth",
       charname: "Clown",
       abbrev: "Clown",
-      works: "othello",
+      works: ["othello"],
       descrip: "Servant to Othello",
       speechcount: 14
   },
@@ -2171,7 +2171,7 @@ const allCharacters = [
       charid: "clown-ta",
       charname: "Clown",
       abbrev: "Clown",
-      works: "titus",
+      works: ["titus"],
       descrip: "",
       speechcount: 12
   },
@@ -2179,7 +2179,7 @@ const allCharacters = [
       charid: "Clown-wt",
       charname: "Clown",
       abbrev: "Clown",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "son of the old Shepherd",
       speechcount: 64
   },
@@ -2187,7 +2187,7 @@ const allCharacters = [
       charid: "Cobweb",
       charname: "Cobweb",
       abbrev: "COBWEB",
-      works: "midsummer",
+      works: ["midsummer"],
       descrip: "a fairy",
       speechcount: 4
   },
@@ -2195,7 +2195,7 @@ const allCharacters = [
       charid: "colville",
       charname: "Sir John Colville",
       abbrev: "COLVILLE",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "",
       speechcount: 5
   },
@@ -2203,7 +2203,7 @@ const allCharacters = [
       charid: "cominius",
       charname: "Cominius",
       abbrev: "COMINIUS",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "general against the Volscians",
       speechcount: 67
   },
@@ -2211,7 +2211,7 @@ const allCharacters = [
       charid: "Commons",
       charname: "Commons",
       abbrev: "Commons",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 2
   },
@@ -2219,7 +2219,7 @@ const allCharacters = [
       charid: "conrade",
       charname: "Conrade",
       abbrev: "CONRADE",
-      works: "muchado",
+      works: ["muchado"],
       descrip: "Follower of Don Juan",
       speechcount: 23
   },
@@ -2227,7 +2227,7 @@ const allCharacters = [
       charid: "Constable",
       charname: "Constable of France",
       abbrev: "Constable",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "",
       speechcount: 40
   },
@@ -2235,7 +2235,7 @@ const allCharacters = [
       charid: "Constance",
       charname: "Constance",
       abbrev: "CONSTANCE",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "mother to Arthur",
       speechcount: 36
   },
@@ -2243,7 +2243,7 @@ const allCharacters = [
       charid: "cordelia",
       charname: "Cordelia",
       abbrev: "Cor",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "daughter to Lear",
       speechcount: 31
   },
@@ -2251,7 +2251,7 @@ const allCharacters = [
       charid: "corin",
       charname: "Corin",
       abbrev: "CORIN",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "shepherd",
       speechcount: 24
   },
@@ -2259,7 +2259,7 @@ const allCharacters = [
       charid: "coriolanus",
       charname: "Coriolanus",
       abbrev: "CORIOLANUS",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "previously Caius Marcius Coriolanus",
       speechcount: 189
   },
@@ -2267,7 +2267,7 @@ const allCharacters = [
       charid: "cornelius",
       charname: "Cornelius",
       abbrev: "Cor",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "courtier",
       speechcount: 1
   },
@@ -2275,7 +2275,7 @@ const allCharacters = [
       charid: "Cornelius-cym",
       charname: "Cornelius",
       abbrev: "CORNELIUS",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "a physician",
       speechcount: 13
   },
@@ -2283,7 +2283,7 @@ const allCharacters = [
       charid: "Costard",
       charname: "Costard",
       abbrev: "COSTARD",
-      works: "loveslabours",
+      works: ["loveslabours"],
       descrip: "a clown",
       speechcount: 83
   },
@@ -2291,7 +2291,7 @@ const allCharacters = [
       charid: "CountessAuvergne",
       charname: "Countess of Auvergne",
       abbrev: "COUNTESS OF AUVERGNE",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 13
   },
@@ -2299,7 +2299,7 @@ const allCharacters = [
       charid: "Countess-aw",
       charname: "Countess",
       abbrev: "COUNTESS",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "mother to Bertram",
       speechcount: 87
   },
@@ -2307,7 +2307,7 @@ const allCharacters = [
       charid: "Court",
       charname: "Court",
       abbrev: "COURT",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "soldier in King Henry's army",
       speechcount: 1
   },
@@ -2315,7 +2315,7 @@ const allCharacters = [
       charid: "Courtezan",
       charname: "Courtezan",
       abbrev: "Courtezan",
-      works: "comedyerrors",
+      works: ["comedyerrors"],
       descrip: "",
       speechcount: 11
   },
@@ -2323,7 +2323,7 @@ const allCharacters = [
       charid: "Cranmer",
       charname: "Archbishop Cranmer",
       abbrev: "CRANMER",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "Archbishop of Canterbury",
       speechcount: 21
   },
@@ -2331,7 +2331,7 @@ const allCharacters = [
       charid: "Cressida",
       charname: "Cressida",
       abbrev: "CRESSIDA",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "daughter to Calchas",
       speechcount: 152
   },
@@ -2339,7 +2339,7 @@ const allCharacters = [
       charid: "Crier-h8",
       charname: "Crier",
       abbrev: "Crier",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 3
   },
@@ -2347,7 +2347,7 @@ const allCharacters = [
       charid: "Cromwell",
       charname: "Cromwell",
       abbrev: "CROMWELL",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "servant to Wolsey",
       speechcount: 21
   },
@@ -2355,7 +2355,7 @@ const allCharacters = [
       charid: "Cupid",
       charname: "Cupid",
       abbrev: "Cupid",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 1
   },
@@ -2363,7 +2363,7 @@ const allCharacters = [
       charid: "curan",
       charname: "Curan",
       abbrev: "Cur",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "a courtier",
       speechcount: 4
   },
@@ -2371,7 +2371,7 @@ const allCharacters = [
       charid: "CURIO",
       charname: "Curio",
       abbrev: "CURIO",
-      works: "12night",
+      works: ["12night"],
       descrip: "gentleman attending on the Duke",
       speechcount: 4
   },
@@ -2379,7 +2379,7 @@ const allCharacters = [
       charid: "curtis",
       charname: "Curtis",
       abbrev: "CURTIS",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "",
       speechcount: 20
   },
@@ -2387,7 +2387,7 @@ const allCharacters = [
       charid: "cymbeline",
       charname: "Cymbeline",
       abbrev: "CYMBELINE",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "king of Britain",
       speechcount: 81
   },
@@ -2395,7 +2395,7 @@ const allCharacters = [
       charid: "dancer",
       charname: "Dancer",
       abbrev: "Dancer",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "speaks the Epilogue",
       speechcount: 1
   },
@@ -2403,7 +2403,7 @@ const allCharacters = [
       charid: "Dardanius",
       charname: "Dardanius",
       abbrev: "DARDANIUS",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "servant to Brutus",
       speechcount: 3
   },
@@ -2411,7 +2411,7 @@ const allCharacters = [
       charid: "dauphin",
       charname: "Lewis the Dauphin",
       abbrev: "DAUPHIN",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "",
       speechcount: 31
   },
@@ -2419,7 +2419,7 @@ const allCharacters = [
       charid: "davy",
       charname: "Davy",
       abbrev: "DAVY",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "servant to Shallow",
       speechcount: 14
   },
@@ -2427,7 +2427,7 @@ const allCharacters = [
       charid: "Decius Brutus",
       charname: "Decius Brutus",
       abbrev: "DECIUS BRUTUS",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "a conspirator against Caesar",
       speechcount: 12
   },
@@ -2435,7 +2435,7 @@ const allCharacters = [
       charid: "Deiphobus",
       charname: "Deiphobus",
       abbrev: "DEIPHOBUS",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "son of Priam, king of Troy",
       speechcount: 2
   },
@@ -2443,7 +2443,7 @@ const allCharacters = [
       charid: "Demetrius",
       charname: "Demetrius",
       abbrev: "Demetrius",
-      works: "titus",
+      works: ["titus"],
       descrip: "son to Tamora",
       speechcount: 39
   },
@@ -2451,7 +2451,7 @@ const allCharacters = [
       charid: "Demetrius-ac",
       charname: "Demetrius",
       abbrev: "DEMETRIUS",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "friend to Antony",
       speechcount: 2
   },
@@ -2459,7 +2459,7 @@ const allCharacters = [
       charid: "Demetrius-mnd",
       charname: "Demetrius",
       abbrev: "DEMETRIUS",
-      works: "midsummer",
+      works: ["midsummer"],
       descrip: "in love with Hermia",
       speechcount: 48
   },
@@ -2467,7 +2467,7 @@ const allCharacters = [
       charid: "dennis",
       charname: "Dennis",
       abbrev: "DENNIS",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "shepherd",
       speechcount: 2
   },
@@ -2475,7 +2475,7 @@ const allCharacters = [
       charid: "Denny",
       charname: "Sir Anthony Denny",
       abbrev: "DENNY",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 3
   },
@@ -2483,7 +2483,7 @@ const allCharacters = [
       charid: "Dercetas",
       charname: "Dercetas",
       abbrev: "DERCETAS",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "friend to Antony",
       speechcount: 5
   },
@@ -2491,7 +2491,7 @@ const allCharacters = [
       charid: "desdemona",
       charname: "Desdemona",
       abbrev: "DESDEMONA",
-      works: "othello",
+      works: ["othello"],
       descrip: "Daughter to Brabantio and wife to Othello",
       speechcount: 165
   },
@@ -2499,7 +2499,7 @@ const allCharacters = [
       charid: "DIANA",
       charname: "Diana",
       abbrev: "DIANA",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "daughter to the Widow",
       speechcount: 44
   },
@@ -2507,7 +2507,7 @@ const allCharacters = [
       charid: "Diana-per",
       charname: "Diana",
       abbrev: "DIANA",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 1
   },
@@ -2515,7 +2515,7 @@ const allCharacters = [
       charid: "DickButcher",
       charname: "Dick the Butcher",
       abbrev: "DICK",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "a follower of Cade",
       speechcount: 24
   },
@@ -2523,7 +2523,7 @@ const allCharacters = [
       charid: "Diomedes",
       charname: "Diomedes",
       abbrev: "DIOMEDES",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "attendant on Cleopatra",
       speechcount: 7
   },
@@ -2531,7 +2531,7 @@ const allCharacters = [
       charid: "Diomedes-tc",
       charname: "Diomedes",
       abbrev: "DIOMEDES",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "a Greek prince",
       speechcount: 54
   },
@@ -2539,7 +2539,7 @@ const allCharacters = [
       charid: "Dion",
       charname: "Dion",
       abbrev: "DION",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "a lord of Sicilia",
       speechcount: 4
   },
@@ -2547,7 +2547,7 @@ const allCharacters = [
       charid: "Dionyza",
       charname: "Dionyza",
       abbrev: "DIONYZA",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "wife to Cleon",
       speechcount: 19
   },
@@ -2555,7 +2555,7 @@ const allCharacters = [
       charid: "DocButts",
       charname: "Doctor Butts",
       abbrev: "DOCTOR BUTTS",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "physician to the King",
       speechcount: 4
   },
@@ -2563,7 +2563,7 @@ const allCharacters = [
       charid: "doctorcaius",
       charname: "Doctor Caius",
       abbrev: "DOCTOR CAIUS",
-      works: "merrywives",
+      works: ["merrywives"],
       descrip: "a French physician",
       speechcount: 49
   },
@@ -2571,7 +2571,7 @@ const allCharacters = [
       charid: "doctor-kl",
       charname: "Doctor",
       abbrev: "Doct",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "",
       speechcount: 8
   },
@@ -2579,7 +2579,7 @@ const allCharacters = [
       charid: "doctor-mac",
       charname: "Doctor",
       abbrev: "Doctor",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "",
       speechcount: 20
   },
@@ -2587,7 +2587,7 @@ const allCharacters = [
       charid: "dogberry",
       charname: "Dogberry",
       abbrev: "DOGBERRY",
-      works: "muchado",
+      works: ["muchado"],
       descrip: "A constable",
       speechcount: 52
   },
@@ -2595,7 +2595,7 @@ const allCharacters = [
       charid: "Dolabella",
       charname: "Dolabella",
       abbrev: "DOLABELLA",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "friend to Caesar",
       speechcount: 23
   },
@@ -2603,7 +2603,7 @@ const allCharacters = [
       charid: "DomitiusEnobarus",
       charname: "Domitius Enobarus",
       abbrev: "DOMITIUS ENOBARBUS",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "friend to Antony",
       speechcount: 113
   },
@@ -2611,7 +2611,7 @@ const allCharacters = [
       charid: "DonAdriano",
       charname: "Don Adriano de Armado",
       abbrev: "DON ADRIANO DE ARMADO",
-      works: "loveslabours",
+      works: ["loveslabours"],
       descrip: "a fantastical Spaniard",
       speechcount: 102
   },
@@ -2619,7 +2619,7 @@ const allCharacters = [
       charid: "donalbain",
       charname: "Donalbain",
       abbrev: "DONALBAIN",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "Son of Duncan",
       speechcount: 3
   },
@@ -2627,7 +2627,7 @@ const allCharacters = [
       charid: "donjohn",
       charname: "Don John",
       abbrev: "DON JOHN",
-      works: "muchado",
+      works: ["muchado"],
       descrip: "The prince's bastard brother",
       speechcount: 40
   },
@@ -2635,7 +2635,7 @@ const allCharacters = [
       charid: "donpedro",
       charname: "Don Pedro",
       abbrev: "DON PEDRO",
-      works: "muchado",
+      works: ["muchado"],
       descrip: "Prince of Arragon",
       speechcount: 135
   },
@@ -2643,7 +2643,7 @@ const allCharacters = [
       charid: "Dorcas",
       charname: "Dorcas",
       abbrev: "DORCAS",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "a shepherdess",
       speechcount: 11
   },
@@ -2651,7 +2651,7 @@ const allCharacters = [
       charid: "drawer2",
       charname: "Second Drawer",
       abbrev: "SECOND DRAWER",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "",
       speechcount: 2
   },
@@ -2659,7 +2659,7 @@ const allCharacters = [
       charid: "drawer3",
       charname: "Third Drawer",
       abbrev: "THIRD DRAWER",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "",
       speechcount: 2
   },
@@ -2667,7 +2667,7 @@ const allCharacters = [
       charid: "DROMIOEPHESUS",
       charname: "Dromio of Ephesus",
       abbrev: "DROMIO OF EPHESUS",
-      works: "comedyerrors",
+      works: ["comedyerrors"],
       descrip: "twin brother to Dromio of Syracuse, and attendant on the two Antipholuses",
       speechcount: 63
   },
@@ -2675,7 +2675,7 @@ const allCharacters = [
       charid: "DROMIOSYRACUSE",
       charname: "Dromio of Syracuse",
       abbrev: "DROMIO OF SYRACUSE",
-      works: "comedyerrors",
+      works: ["comedyerrors"],
       descrip: "twin brother to Dromio of Ephesus, and attendant on the two Antipholuses",
       speechcount: 99
   },
@@ -2683,7 +2683,7 @@ const allCharacters = [
       charid: "DuchessGloucester",
       charname: "Duchess of Gloucester",
       abbrev: "DUCHESS",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "",
       speechcount: 4
   },
@@ -2691,7 +2691,7 @@ const allCharacters = [
       charid: "DuchessYork",
       charname: "Duchess of York",
       abbrev: "DUCHESS OF YORK",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "",
       speechcount: 28
   },
@@ -2699,7 +2699,7 @@ const allCharacters = [
       charid: "DuchessYork-r3",
       charname: "Duchess of York",
       abbrev: "DUCHESS of YORK",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "mother to King Edward IV",
       speechcount: 43
   },
@@ -2707,7 +2707,7 @@ const allCharacters = [
       charid: "Duke",
       charname: "Duke",
       abbrev: "DUKE",
-      works: "merchantvenice",
+      works: ["merchantvenice"],
       descrip: "of Venice",
       speechcount: 18
   },
@@ -2715,7 +2715,7 @@ const allCharacters = [
       charid: "dukealbany",
       charname: "Duke of Albany",
       abbrev: "Alb",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "",
       speechcount: 58
   },
@@ -2723,7 +2723,7 @@ const allCharacters = [
       charid: "DukeAlencon",
       charname: "Duke of Alencon",
       abbrev: "ALENCON",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 18
   },
@@ -2731,7 +2731,7 @@ const allCharacters = [
       charid: "duke-ayli",
       charname: "Duke",
       abbrev: "DUKE SENIOR",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "living in exile",
       speechcount: 32
   },
@@ -2739,7 +2739,7 @@ const allCharacters = [
       charid: "DukeBuckingham",
       charname: "Duke of Buckingham",
       abbrev: "BUCKINGHAM",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 26
   },
@@ -2747,7 +2747,7 @@ const allCharacters = [
       charid: "DukeBuckingham-h6",
       charname: "Duke of Buckingham",
       abbrev: "BUCKINGHAM",
-      works: "henry6p2,richard3",
+      works: ["henry6p2", "richard3"],
       descrip: "",
       speechcount: 115
   },
@@ -2755,7 +2755,7 @@ const allCharacters = [
       charid: "dukeburgundy",
       charname: "Duke of Burgundy",
       abbrev: "Bur",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "",
       speechcount: 5
   },
@@ -2763,7 +2763,7 @@ const allCharacters = [
       charid: "dukeburgundy-h5",
       charname: "Duke of Burgundy",
       abbrev: "BURGUNDY",
-      works: "henry5,henry6p1",
+      works: ["henry5", "henry6p1"],
       descrip: "",
       speechcount: 25
   },
@@ -2771,7 +2771,7 @@ const allCharacters = [
       charid: "dukecornwall",
       charname: "Duke of Cornwall",
       abbrev: "Corn",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "",
       speechcount: 53
   },
@@ -2779,7 +2779,7 @@ const allCharacters = [
       charid: "dukeflorence",
       charname: "Duke of Florence",
       abbrev: "DUKE",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "",
       speechcount: 6
   },
@@ -2787,7 +2787,7 @@ const allCharacters = [
       charid: "dukemilan",
       charname: "Duke of Milan",
       abbrev: "DUKE",
-      works: "twogents",
+      works: ["twogents"],
       descrip: "father to Silvia",
       speechcount: 48
   },
@@ -2795,7 +2795,7 @@ const allCharacters = [
       charid: "DukeNorfolk",
       charname: "Duke of Norfolk",
       abbrev: "NORFOLK",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 48
   },
@@ -2803,7 +2803,7 @@ const allCharacters = [
       charid: "DukeNorfolk-h63",
       charname: "Duke of Norfolk",
       abbrev: "NORFOLK",
-      works: "henry6p3,richard3",
+      works: ["henry6p3", "richard3"],
       descrip: "",
       speechcount: 11
   },
@@ -2811,7 +2811,7 @@ const allCharacters = [
       charid: "DukeSuffolk",
       charname: "Duke of Suffolk",
       abbrev: "SUFFOLK",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 30
   },
@@ -2819,7 +2819,7 @@ const allCharacters = [
       charid: "DukeSurrey",
       charname: "Duke of Surrey",
       abbrev: "DUKE OF SURREY",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "",
       speechcount: 3
   },
@@ -2827,7 +2827,7 @@ const allCharacters = [
       charid: "dukevenice",
       charname: "Duke of Venice",
       abbrev: "DUKE OF VENICE",
-      works: "othello",
+      works: ["othello"],
       descrip: "",
       speechcount: 25
   },
@@ -2835,7 +2835,7 @@ const allCharacters = [
       charid: "Dull",
       charname: "Dull",
       abbrev: "DULL",
-      works: "loveslabours",
+      works: ["loveslabours"],
       descrip: "a constable",
       speechcount: 15
   },
@@ -2843,7 +2843,7 @@ const allCharacters = [
       charid: "Dumain",
       charname: "Dumain",
       abbrev: "DUMAIN",
-      works: "loveslabours",
+      works: ["loveslabours"],
       descrip: "lord attending on the king",
       speechcount: 54
   },
@@ -2851,7 +2851,7 @@ const allCharacters = [
       charid: "duncan",
       charname: "Duncan",
       abbrev: "DUNCAN",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "King of Scotland",
       speechcount: 18
   },
@@ -2859,7 +2859,7 @@ const allCharacters = [
       charid: "EarlDouglas",
       charname: "Earl of Douglas",
       abbrev: "Earl of Douglas",
-      works: "henry4p1",
+      works: ["henry4p1"],
       descrip: "",
       speechcount: 19
   },
@@ -2867,7 +2867,7 @@ const allCharacters = [
       charid: "earlkent",
       charname: "Earl of Kent",
       abbrev: "Kent",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "",
       speechcount: 127
   },
@@ -2875,7 +2875,7 @@ const allCharacters = [
       charid: "earlnorth",
       charname: "Earl of Northumberland",
       abbrev: "NORTHUMBERLAND",
-      works: "richard2,henry4p1,henry4p2",
+      works: ["richard2", "henry4p1", "henry4p2"],
       descrip: "",
       speechcount: 66
   },
@@ -2883,7 +2883,7 @@ const allCharacters = [
       charid: "EarlNorthumberland",
       charname: "Earl of Northumberland",
       abbrev: "NORTHUMBERLAND",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "",
       speechcount: 15
   },
@@ -2891,7 +2891,7 @@ const allCharacters = [
       charid: "EarlOxford",
       charname: "Earl Oxford",
       abbrev: "OXFORD",
-      works: "henry6p3,richard3",
+      works: ["henry6p3", "richard3"],
       descrip: "",
       speechcount: 14
   },
@@ -2899,7 +2899,7 @@ const allCharacters = [
       charid: "EarlRichmond",
       charname: "Henry, Earl of Richmond",
       abbrev: "HENRY OF RICHMOND",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "a youth",
       speechcount: 0
   },
@@ -2907,7 +2907,7 @@ const allCharacters = [
       charid: "EarlSuffolk",
       charname: "Earl of Suffolk",
       abbrev: "SUFFOLK",
-      works: "henry6p1,henry6p2",
+      works: ["henry6p1", "henry6p2"],
       descrip: "",
       speechcount: 108
   },
@@ -2915,7 +2915,7 @@ const allCharacters = [
       charid: "EarlSurrey",
       charname: "Earl of Surrey",
       abbrev: "SURREY",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 24
   },
@@ -2923,7 +2923,7 @@ const allCharacters = [
       charid: "EarlSurrey-r3",
       charname: "Earl of Surrey",
       abbrev: "SURREY",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "son of the Duke of Norfolk",
       speechcount: 1
   },
@@ -2931,7 +2931,7 @@ const allCharacters = [
       charid: "EarlWestmoreland-h63",
       charname: "Earl of Westmoreland",
       abbrev: "WESTMORELAND",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "",
       speechcount: 6
   },
@@ -2939,7 +2939,7 @@ const allCharacters = [
       charid: "edgar",
       charname: "Edgar",
       abbrev: "Edg",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "son of Glouchester",
       speechcount: 98
   },
@@ -2947,7 +2947,7 @@ const allCharacters = [
       charid: "EdmondRutland",
       charname: "Edmond, Earl of Rutland",
       abbrev: "RUTLAND",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "",
       speechcount: 7
   },
@@ -2955,7 +2955,7 @@ const allCharacters = [
       charid: "edmund",
       charname: "Edmund",
       abbrev: "Edm",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "bastard son to Glouchester",
       speechcount: 79
   },
@@ -2963,7 +2963,7 @@ const allCharacters = [
       charid: "EdmundLangley",
       charname: "Edmund of Langley",
       abbrev: "DUKE OF YORK",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "duke of York, uncle to the king",
       speechcount: 54
   },
@@ -2971,7 +2971,7 @@ const allCharacters = [
       charid: "EdmundMortimer",
       charname: "Edmund Mortimer",
       abbrev: "MORTIMER",
-      works: "henry6p1,henry6p3",
+      works: ["henry6p1", "henry6p3"],
       descrip: "Earl of March",
       speechcount: 9
   },
@@ -2979,7 +2979,7 @@ const allCharacters = [
       charid: "EdwardPlantagenet",
       charname: "King Edward IV (Plantagenet)",
       abbrev: "EDWARD",
-      works: "henry6p2,henry6p3,richard3",
+      works: ["henry6p2", "henry6p3", "richard3"],
       descrip: "",
       speechcount: 144
   },
@@ -2987,7 +2987,7 @@ const allCharacters = [
       charid: "Egeus",
       charname: "Egeus",
       abbrev: "EGEUS",
-      works: "midsummer",
+      works: ["midsummer"],
       descrip: "father to Hermia",
       speechcount: 7
   },
@@ -2995,7 +2995,7 @@ const allCharacters = [
       charid: "Eglamour",
       charname: "Eglamour",
       abbrev: "EGLAMOUR",
-      works: "twogents",
+      works: ["twogents"],
       descrip: "agent for Silvia in her escape",
       speechcount: 8
   },
@@ -3003,7 +3003,7 @@ const allCharacters = [
       charid: "Egyptian",
       charname: "Egyptian",
       abbrev: "Egyptian",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 2
   },
@@ -3011,7 +3011,7 @@ const allCharacters = [
       charid: "Elbow",
       charname: "Elbow",
       abbrev: "ELBOW",
-      works: "measure",
+      works: ["measure"],
       descrip: "a simple constable",
       speechcount: 28
   },
@@ -3019,7 +3019,7 @@ const allCharacters = [
       charid: "Eleanor",
       charname: "Eleanor",
       abbrev: "DUCHESS",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "duchess of Gloucester",
       speechcount: 21
   },
@@ -3027,7 +3027,7 @@ const allCharacters = [
       charid: "ely",
       charname: "Bishop of Ely",
       abbrev: "ELY",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "",
       speechcount: 12
   },
@@ -3035,7 +3035,7 @@ const allCharacters = [
       charid: "emilia",
       charname: "Emilia",
       abbrev: "EMILIA",
-      works: "othello",
+      works: ["othello"],
       descrip: "Wife to Iago",
       speechcount: 103
   },
@@ -3043,7 +3043,7 @@ const allCharacters = [
       charid: "Emilia-wt",
       charname: "Emilia",
       abbrev: "EMILIA",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "a lady attending on Hermione",
       speechcount: 4
   },
@@ -3051,7 +3051,7 @@ const allCharacters = [
       charid: "EnglishHerald",
       charname: "English Herald",
       abbrev: "English Herald",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "",
       speechcount: 1
   },
@@ -3059,7 +3059,7 @@ const allCharacters = [
       charid: "Eros",
       charname: "Eros",
       abbrev: "EROS",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "friend to Antony",
       speechcount: 27
   },
@@ -3067,7 +3067,7 @@ const allCharacters = [
       charid: "erpingham",
       charname: "Sir Thomas Erpingham",
       abbrev: "ERPINGHAM",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "",
       speechcount: 5
   },
@@ -3075,7 +3075,7 @@ const allCharacters = [
       charid: "escalus",
       charname: "Prince Escalus",
       abbrev: "PRINCE",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "Prince of Verona",
       speechcount: 16
   },
@@ -3083,7 +3083,7 @@ const allCharacters = [
       charid: "Escalus-m4m",
       charname: "Escalus",
       abbrev: "ESCALUS",
-      works: "measure",
+      works: ["measure"],
       descrip: "Escalus",
       speechcount: 78
   },
@@ -3091,7 +3091,7 @@ const allCharacters = [
       charid: "Escanes",
       charname: "Escanes",
       abbrev: "ESCANES",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "a lord of Tyre",
       speechcount: 2
   },
@@ -3099,7 +3099,7 @@ const allCharacters = [
       charid: "Essex",
       charname: "Essex",
       abbrev: "ESSEX",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "earl of Essex",
       speechcount: 1
   },
@@ -3107,7 +3107,7 @@ const allCharacters = [
       charid: "Euphronius",
       charname: "Euphronius",
       abbrev: "EUPHRONIUS",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "an ambassador from Antony to Caesar",
       speechcount: 5
   },
@@ -3115,7 +3115,7 @@ const allCharacters = [
       charid: "exeter",
       charname: "Duke of Exeter",
       abbrev: "EXETER",
-      works: "henry5,henry6p1,henry6p3",
+      works: ["henry5", "henry6p1", "henry6p3"],
       descrip: "uncle to Henry IV, great-uncle to Henry V",
       speechcount: 46
   },
@@ -3123,7 +3123,7 @@ const allCharacters = [
       charid: "Exton",
       charname: "Sir Pierce of Exton",
       abbrev: "EXTON",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "",
       speechcount: 6
   },
@@ -3131,7 +3131,7 @@ const allCharacters = [
       charid: "FABIAN-12",
       charname: "Fabian",
       abbrev: "FABIAN",
-      works: "12night",
+      works: ["12night"],
       descrip: "servant to Olivia",
       speechcount: 51
   },
@@ -3139,7 +3139,7 @@ const allCharacters = [
       charid: "Fairy",
       charname: "Fairy",
       abbrev: "Fairy",
-      works: "midsummer",
+      works: ["midsummer"],
       descrip: "",
       speechcount: 4
   },
@@ -3147,7 +3147,7 @@ const allCharacters = [
       charid: "falstaff",
       charname: "Falstaff",
       abbrev: "FALSTAFF",
-      works: "henry4p1,henry4p2,henry5,merrywives",
+      works: ["henry4p1", "henry4p2", "henry5", "merrywives"],
       descrip: "Sir John Falstaff",
       speechcount: 471
   },
@@ -3155,7 +3155,7 @@ const allCharacters = [
       charid: "fang",
       charname: "Fang",
       abbrev: "FANG",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "a Sheriff's officer",
       speechcount: 7
   },
@@ -3163,7 +3163,7 @@ const allCharacters = [
       charid: "Father",
       charname: "Father",
       abbrev: "Father",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "who has killed his son",
       speechcount: 4
   },
@@ -3171,7 +3171,7 @@ const allCharacters = [
       charid: "Faulconbridge",
       charname: "Faulconbridge",
       abbrev: "ROBERT",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "son of Sir Robert Faulconbridge",
       speechcount: 4
   },
@@ -3179,7 +3179,7 @@ const allCharacters = [
       charid: "feeble",
       charname: "Francis Feeble",
       abbrev: "FEEBLE",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "country soldier",
       speechcount: 7
   },
@@ -3187,7 +3187,7 @@ const allCharacters = [
       charid: "fenton",
       charname: "Fenton",
       abbrev: "FENTON",
-      works: "merrywives",
+      works: ["merrywives"],
       descrip: "a gentleman",
       speechcount: 20
   },
@@ -3195,7 +3195,7 @@ const allCharacters = [
       charid: "Ferdinand",
       charname: "Ferdinand",
       abbrev: "FERDINAND",
-      works: "loveslabours",
+      works: ["loveslabours"],
       descrip: "king of Navarre",
       speechcount: 117
   },
@@ -3203,7 +3203,7 @@ const allCharacters = [
       charid: "Ferdinand-tem",
       charname: "Ferdinand",
       abbrev: "FERDINAND",
-      works: "tempest",
+      works: ["tempest"],
       descrip: "son to the King of Naples",
       speechcount: 31
   },
@@ -3211,7 +3211,7 @@ const allCharacters = [
       charid: "FESTE",
       charname: "Feste",
       abbrev: "Clown",
-      works: "12night",
+      works: ["12night"],
       descrip: "a clown, servant to Olivia",
       speechcount: 104
   },
@@ -3219,7 +3219,7 @@ const allCharacters = [
       charid: "FifthCitizen",
       charname: "Fifth Citizen",
       abbrev: "Fifth Citizen",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 1
   },
@@ -3227,7 +3227,7 @@ const allCharacters = [
       charid: "FirstAmbassador-h5",
       charname: "First Ambassador",
       abbrev: "First Ambassador",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "",
       speechcount: 2
   },
@@ -3235,7 +3235,7 @@ const allCharacters = [
       charid: "FirstAttendant",
       charname: "First Attendant",
       abbrev: "First Attendant",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 3
   },
@@ -3243,7 +3243,7 @@ const allCharacters = [
       charid: "FirstBandit",
       charname: "First Bandit",
       abbrev: "First Bandit",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 5
   },
@@ -3251,7 +3251,7 @@ const allCharacters = [
       charid: "FirstBrother",
       charname: "First Brother",
       abbrev: "First Brother",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "an apparition",
       speechcount: 2
   },
@@ -3259,7 +3259,7 @@ const allCharacters = [
       charid: "FirstCaptain-cym",
       charname: "First British Captain",
       abbrev: "First Captain",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "",
       speechcount: 2
   },
@@ -3267,7 +3267,7 @@ const allCharacters = [
       charid: "FirstCarrier",
       charname: "First Carrier",
       abbrev: "First Carrier",
-      works: "henry4p1",
+      works: ["henry4p1"],
       descrip: "",
       speechcount: 8
   },
@@ -3275,7 +3275,7 @@ const allCharacters = [
       charid: "FirstCitizen",
       charname: "First Citizen",
       abbrev: "First Citizen",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 33
   },
@@ -3283,7 +3283,7 @@ const allCharacters = [
       charid: "FirstCitizen-h62",
       charname: "First Citizen",
       abbrev: "First Citizen",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 1
   },
@@ -3291,7 +3291,7 @@ const allCharacters = [
       charid: "FirstCitizen-jc",
       charname: "First Citizen",
       abbrev: "First Citizen",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "",
       speechcount: 18
   },
@@ -3299,7 +3299,7 @@ const allCharacters = [
       charid: "FirstCitizen-kjo",
       charname: "First Citizen",
       abbrev: "First Citizen",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "",
       speechcount: 10
   },
@@ -3307,7 +3307,7 @@ const allCharacters = [
       charid: "FirstCitizen-r3",
       charname: "First Citizen",
       abbrev: "First Citizen",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 7
   },
@@ -3315,7 +3315,7 @@ const allCharacters = [
       charid: "FirstCommoner",
       charname: "First Commoner",
       abbrev: "First Commoner",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "",
       speechcount: 1
   },
@@ -3323,7 +3323,7 @@ const allCharacters = [
       charid: "FirstExecutioner",
       charname: "First Executioner",
       abbrev: "First Executioner",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "",
       speechcount: 2
   },
@@ -3331,7 +3331,7 @@ const allCharacters = [
       charid: "FirstFish",
       charname: "First Fisherman",
       abbrev: "First Fisherman",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 15
   },
@@ -3339,7 +3339,7 @@ const allCharacters = [
       charid: "FirstGaoler",
       charname: "First Gaoler",
       abbrev: "First Gaoler",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "",
       speechcount: 9
   },
@@ -3347,7 +3347,7 @@ const allCharacters = [
       charid: "FirstGaoler-h61",
       charname: "First Gaoler",
       abbrev: "First Gaoler",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 2
   },
@@ -3355,7 +3355,7 @@ const allCharacters = [
       charid: "FirstGentleman",
       charname: "First Gentleman",
       abbrev: "First Gentleman",
-      works: "measure",
+      works: ["measure"],
       descrip: "",
       speechcount: 12
   },
@@ -3363,7 +3363,7 @@ const allCharacters = [
       charid: "FirstGentleman-aw",
       charname: "First Gentleman",
       abbrev: "First Gentleman",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "",
       speechcount: 7
   },
@@ -3371,7 +3371,7 @@ const allCharacters = [
       charid: "FirstGentleman-cym",
       charname: "First Gentleman",
       abbrev: "First Gentleman",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "a gentleman of Cymbeline's court",
       speechcount: 10
   },
@@ -3379,7 +3379,7 @@ const allCharacters = [
       charid: "FirstGentleman-h62",
       charname: "First Gentleman",
       abbrev: "First Gentleman",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 4
   },
@@ -3387,7 +3387,7 @@ const allCharacters = [
       charid: "FirstGentleman-h8",
       charname: "First Gentleman",
       abbrev: "First Gentleman",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 34
   },
@@ -3395,7 +3395,7 @@ const allCharacters = [
       charid: "FirstGentleman-wt",
       charname: "First Gentleman",
       abbrev: "First Gentleman",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "",
       speechcount: 6
   },
@@ -3403,7 +3403,7 @@ const allCharacters = [
       charid: "FirstGent-per",
       charname: "First Gentleman",
       abbrev: "First Gentleman",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 10
   },
@@ -3411,7 +3411,7 @@ const allCharacters = [
       charid: "FirstGuard",
       charname: "First Guard",
       abbrev: "First Guard",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 11
   },
@@ -3419,7 +3419,7 @@ const allCharacters = [
       charid: "FirstHerald-kr2",
       charname: "First Herald",
       abbrev: "First Herald",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "",
       speechcount: 1
   },
@@ -3427,7 +3427,7 @@ const allCharacters = [
       charid: "FirstKeeper",
       charname: "First Keeper",
       abbrev: "First Keeper",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "",
       speechcount: 7
   },
@@ -3435,7 +3435,7 @@ const allCharacters = [
       charid: "FirstKnight-per",
       charname: "First Knight",
       abbrev: "First Knight",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 2
   },
@@ -3443,7 +3443,7 @@ const allCharacters = [
       charid: "FirstLady",
       charname: "First Lady",
       abbrev: "First Lady",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 1
   },
@@ -3451,7 +3451,7 @@ const allCharacters = [
       charid: "FirstLady-cym",
       charname: "First Lady",
       abbrev: "First Lady",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "",
       speechcount: 2
   },
@@ -3459,7 +3459,7 @@ const allCharacters = [
       charid: "FirstLady-wt",
       charname: "First Lady",
       abbrev: "First Lady",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "",
       speechcount: 4
   },
@@ -3467,7 +3467,7 @@ const allCharacters = [
       charid: "FirstLord",
       charname: "First Lord",
       abbrev: "First Lord",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 4
   },
@@ -3475,7 +3475,7 @@ const allCharacters = [
       charid: "FirstLord-aw",
       charname: "First Lord",
       abbrev: "First Lord",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "",
       speechcount: 48
   },
@@ -3483,7 +3483,7 @@ const allCharacters = [
       charid: "firstlord-ayli",
       charname: "First Lord",
       abbrev: "FIRST LORD",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "",
       speechcount: 6
   },
@@ -3491,7 +3491,7 @@ const allCharacters = [
       charid: "FirstLord-cym",
       charname: "First Lord",
       abbrev: "First Lord",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "a lord of Cymbeline's court",
       speechcount: 15
   },
@@ -3499,7 +3499,7 @@ const allCharacters = [
       charid: "FirstLord-lll",
       charname: "First Lord",
       abbrev: "First Lord",
-      works: "loveslabours",
+      works: ["loveslabours"],
       descrip: "",
       speechcount: 2
   },
@@ -3507,7 +3507,7 @@ const allCharacters = [
       charid: "FirstLord-per",
       charname: "First Lord",
       abbrev: "First Lord",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 9
   },
@@ -3515,7 +3515,7 @@ const allCharacters = [
       charid: "FirstLord-tim",
       charname: "First Lord",
       abbrev: "First Lord",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 28
   },
@@ -3523,7 +3523,7 @@ const allCharacters = [
       charid: "FirstLord-wt",
       charname: "First Lord",
       abbrev: "First Lord",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "",
       speechcount: 14
   },
@@ -3531,7 +3531,7 @@ const allCharacters = [
       charid: "FirstMerchant",
       charname: "First Merchant",
       abbrev: "First Merchant",
-      works: "comedyerrors",
+      works: ["comedyerrors"],
       descrip: "friend to Antipholus of Syracuse",
       speechcount: 3
   },
@@ -3539,7 +3539,7 @@ const allCharacters = [
       charid: "FirstMessenger-h63",
       charname: "First Messenger",
       abbrev: "First Messenger",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "",
       speechcount: 1
   },
@@ -3547,7 +3547,7 @@ const allCharacters = [
       charid: "FirstMurderer-h62",
       charname: "First Murderer",
       abbrev: "First Murderer",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 4
   },
@@ -3555,7 +3555,7 @@ const allCharacters = [
       charid: "FirstMurderer-r3",
       charname: "First Murderer",
       abbrev: "First Murderer",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 33
   },
@@ -3563,7 +3563,7 @@ const allCharacters = [
       charid: "FirstNeighbour-h62",
       charname: "First Neighbour",
       abbrev: "First Neighbour",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 1
   },
@@ -3571,7 +3571,7 @@ const allCharacters = [
       charid: "FirstOfficer-12",
       charname: "First Officer",
       abbrev: "First Officer",
-      works: "12night",
+      works: ["12night"],
       descrip: "",
       speechcount: 5
   },
@@ -3579,7 +3579,7 @@ const allCharacters = [
       charid: "FirstOfficer-ac",
       charname: "First Officer",
       abbrev: "First Officer",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 0
   },
@@ -3587,7 +3587,7 @@ const allCharacters = [
       charid: "FirstOfficer-cor",
       charname: "First Officer",
       abbrev: "First Officer",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 4
   },
@@ -3595,7 +3595,7 @@ const allCharacters = [
       charid: "FirstOutlaw",
       charname: "First Outlaw",
       abbrev: "First Outlaw",
-      works: "twogents",
+      works: ["twogents"],
       descrip: "",
       speechcount: 11
   },
@@ -3603,7 +3603,7 @@ const allCharacters = [
       charid: "FirstPetitioner-h62",
       charname: "First Petitioner",
       abbrev: "First Petitioner",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 3
   },
@@ -3611,7 +3611,7 @@ const allCharacters = [
       charid: "FirstPirate",
       charname: "First Pirate",
       abbrev: "First Pirate",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 2
   },
@@ -3619,7 +3619,7 @@ const allCharacters = [
       charid: "FirstPrentice",
       charname: "First 'Prentice",
       abbrev: "First 'Prentice",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 0
   },
@@ -3627,7 +3627,7 @@ const allCharacters = [
       charid: "FirstRoman",
       charname: "First Roman",
       abbrev: "First Roman",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 1
   },
@@ -3635,7 +3635,7 @@ const allCharacters = [
       charid: "FirstSailor-per",
       charname: "First Sailor",
       abbrev: "First Sailor",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 4
   },
@@ -3643,7 +3643,7 @@ const allCharacters = [
       charid: "FirstSecretary",
       charname: "First Secretary",
       abbrev: "First Secretary",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "to Wolsey",
       speechcount: 2
   },
@@ -3651,7 +3651,7 @@ const allCharacters = [
       charid: "FirstSenator",
       charname: "First Senator",
       abbrev: "First Senator",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 27
   },
@@ -3659,7 +3659,7 @@ const allCharacters = [
       charid: "FirstSenator-cym",
       charname: "First Senator",
       abbrev: "First Senator",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "",
       speechcount: 2
   },
@@ -3667,7 +3667,7 @@ const allCharacters = [
       charid: "FirstSentinel",
       charname: "First Sentinel",
       abbrev: "First Sentinel",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 1
   },
@@ -3675,7 +3675,7 @@ const allCharacters = [
       charid: "FirstServant-ac",
       charname: "First Servant",
       abbrev: "First Servant",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 4
   },
@@ -3683,7 +3683,7 @@ const allCharacters = [
       charid: "FirstServant-mww",
       charname: "First Servant",
       abbrev: "First Servant",
-      works: "merrywives",
+      works: ["merrywives"],
       descrip: "",
       speechcount: 2
   },
@@ -3691,7 +3691,7 @@ const allCharacters = [
       charid: "FirstServant-per",
       charname: "First Servant",
       abbrev: "First Servant",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 3
   },
@@ -3699,7 +3699,7 @@ const allCharacters = [
       charid: "FirstServant-tim",
       charname: "First Servant",
       abbrev: "First Servant",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 7
   },
@@ -3707,7 +3707,7 @@ const allCharacters = [
       charid: "FirstServant-wt",
       charname: "First Servant",
       abbrev: "First Servant",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "",
       speechcount: 2
   },
@@ -3715,7 +3715,7 @@ const allCharacters = [
       charid: "FirstServiceman",
       charname: "First Serviceman",
       abbrev: "First Serviceman",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 0
   },
@@ -3723,7 +3723,7 @@ const allCharacters = [
       charid: "FirstServingman",
       charname: "First Servingman",
       abbrev: "First Servingman",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 19
   },
@@ -3731,7 +3731,7 @@ const allCharacters = [
       charid: "FirstSoldier-ac",
       charname: "First Soldier",
       abbrev: "First Soldier",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 14
   },
@@ -3739,7 +3739,7 @@ const allCharacters = [
       charid: "FirstSoldier-aw",
       charname: "First Soldier",
       abbrev: "First Soldier",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "",
       speechcount: 37
   },
@@ -3747,7 +3747,7 @@ const allCharacters = [
       charid: "FirstSoldier-h61",
       charname: "First Soldier",
       abbrev: "First Soldier",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 1
   },
@@ -3755,7 +3755,7 @@ const allCharacters = [
       charid: "FirstSoldier-jc",
       charname: "First Soldier",
       abbrev: "First Soldier",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "",
       speechcount: 4
   },
@@ -3763,7 +3763,7 @@ const allCharacters = [
       charid: "FirstStranger",
       charname: "First Stranger",
       abbrev: "First Stranger",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 4
   },
@@ -3771,7 +3771,7 @@ const allCharacters = [
       charid: "FirstTraveller",
       charname: "First Traveller",
       abbrev: "First Traveller",
-      works: "henry4p1",
+      works: ["henry4p1"],
       descrip: "",
       speechcount: 1
   },
@@ -3779,7 +3779,7 @@ const allCharacters = [
       charid: "FirstTribune",
       charname: "First Tribune",
       abbrev: "First Tribune",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "",
       speechcount: 3
   },
@@ -3787,7 +3787,7 @@ const allCharacters = [
       charid: "FirstWarder",
       charname: "First Warder",
       abbrev: "First Warder",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 2
   },
@@ -3795,7 +3795,7 @@ const allCharacters = [
       charid: "FirstWatchman-h63",
       charname: "First Watchman",
       abbrev: "First Watchman",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "",
       speechcount: 5
   },
@@ -3803,7 +3803,7 @@ const allCharacters = [
       charid: "Flaminius-tim",
       charname: "Flaminius",
       abbrev: "Flaminius",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 10
   },
@@ -3811,7 +3811,7 @@ const allCharacters = [
       charid: "Flavius",
       charname: "Flavius",
       abbrev: "FLAVIUS",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "steward to Timon",
       speechcount: 41
   },
@@ -3819,7 +3819,7 @@ const allCharacters = [
       charid: "Flavius-jc",
       charname: "Flavius",
       abbrev: "FLAVIUS",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "a tribune",
       speechcount: 5
   },
@@ -3827,7 +3827,7 @@ const allCharacters = [
       charid: "fleance",
       charname: "Fleance",
       abbrev: "FLEANCE",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "Son to Banquo",
       speechcount: 2
   },
@@ -3835,7 +3835,7 @@ const allCharacters = [
       charid: "Florizel",
       charname: "Florizel",
       abbrev: "FLORIZEL",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "prince of Bohemia",
       speechcount: 45
   },
@@ -3843,7 +3843,7 @@ const allCharacters = [
       charid: "fluellen",
       charname: "Fluellen",
       abbrev: "FLUELLEN",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "",
       speechcount: 68
   },
@@ -3851,7 +3851,7 @@ const allCharacters = [
       charid: "Flute",
       charname: "Flute",
       abbrev: "FLUTE",
-      works: "midsummer",
+      works: ["midsummer"],
       descrip: "a bellows-mender",
       speechcount: 18
   },
@@ -3859,7 +3859,7 @@ const allCharacters = [
       charid: "fool-kl",
       charname: "Fool",
       abbrev: "Fool",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "",
       speechcount: 58
   },
@@ -3867,7 +3867,7 @@ const allCharacters = [
       charid: "Fool-tim",
       charname: "Fool",
       abbrev: "Fool",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 9
   },
@@ -3875,7 +3875,7 @@ const allCharacters = [
       charid: "ford",
       charname: "Ford",
       abbrev: "FORD",
-      works: "merrywives",
+      works: ["merrywives"],
       descrip: "a gentleman dwelling at Windsor",
       speechcount: 99
   },
@@ -3883,7 +3883,7 @@ const allCharacters = [
       charid: "Forester",
       charname: "Forester",
       abbrev: "Forester",
-      works: "loveslabours",
+      works: ["loveslabours"],
       descrip: "",
       speechcount: 4
   },
@@ -3891,7 +3891,7 @@ const allCharacters = [
       charid: "fortinbras",
       charname: "Fortinbras",
       abbrev: "Fort",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "Prince of Norway",
       speechcount: 6
   },
@@ -3899,7 +3899,7 @@ const allCharacters = [
       charid: "FourthCitizen",
       charname: "Fourth Citizen",
       abbrev: "Fourth Citizen",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 3
   },
@@ -3907,7 +3907,7 @@ const allCharacters = [
       charid: "FourthCitizen-jc",
       charname: "Fourth Citizen",
       abbrev: "Fourth Citizen",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "",
       speechcount: 16
   },
@@ -3915,7 +3915,7 @@ const allCharacters = [
       charid: "FourthLord",
       charname: "Fourth Lord",
       abbrev: "Fourth Lord",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 3
   },
@@ -3923,7 +3923,7 @@ const allCharacters = [
       charid: "FourthLord-aw",
       charname: "Fourth Lord",
       abbrev: "Fourth Lord",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "",
       speechcount: 1
   },
@@ -3931,7 +3931,7 @@ const allCharacters = [
       charid: "FourthMessenger",
       charname: "Fourth Messenger",
       abbrev: "Fourth Messenger",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 1
   },
@@ -3939,7 +3939,7 @@ const allCharacters = [
       charid: "FourthSoldier-ac",
       charname: "Fourth Soldier",
       abbrev: "Fourth Soldier",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 3
   },
@@ -3947,7 +3947,7 @@ const allCharacters = [
       charid: "Francisca",
       charname: "Francisca",
       abbrev: "FRANCISCA",
-      works: "measure",
+      works: ["measure"],
       descrip: "a nun",
       speechcount: 2
   },
@@ -3955,7 +3955,7 @@ const allCharacters = [
       charid: "francisco",
       charname: "Francisco",
       abbrev: "Fran",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "a soldier",
       speechcount: 8
   },
@@ -3963,7 +3963,7 @@ const allCharacters = [
       charid: "Francisco-tem",
       charname: "Francisco",
       abbrev: "FRANCISCO",
-      works: "tempest",
+      works: ["tempest"],
       descrip: "a lord",
       speechcount: 2
   },
@@ -3971,7 +3971,7 @@ const allCharacters = [
       charid: "francis-h4p2",
       charname: "Francis",
       abbrev: "FRANCIS",
-      works: "henry4p1,henry4p2",
+      works: ["henry4p1", "henry4p2"],
       descrip: "a drawer",
       speechcount: 18
   },
@@ -3979,7 +3979,7 @@ const allCharacters = [
       charid: "frederick",
       charname: "Frederick",
       abbrev: "FREDERICK",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "the Duke's brother, and usurper of his dominions",
       speechcount: 20
   },
@@ -3987,7 +3987,7 @@ const allCharacters = [
       charid: "FrenchHerald",
       charname: "French Herald",
       abbrev: "French Herald",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "",
       speechcount: 1
   },
@@ -3995,7 +3995,7 @@ const allCharacters = [
       charid: "frenchking",
       charname: "King of France",
       abbrev: "FRENCH KING",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "Charles VI",
       speechcount: 19
   },
@@ -4003,7 +4003,7 @@ const allCharacters = [
       charid: "Frenchman",
       charname: "Frenchman",
       abbrev: "Frenchman",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "friend to Philario",
       speechcount: 7
   },
@@ -4011,7 +4011,7 @@ const allCharacters = [
       charid: "FrenchSoldier",
       charname: "French Soldier",
       abbrev: "French Soldier",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "",
       speechcount: 10
   },
@@ -4019,7 +4019,7 @@ const allCharacters = [
       charid: "friarfrancis",
       charname: "Friar Francis",
       abbrev: "FRIAR FRANCIS",
-      works: "muchado",
+      works: ["muchado"],
       descrip: "",
       speechcount: 16
   },
@@ -4027,7 +4027,7 @@ const allCharacters = [
       charid: "friarjohn",
       charname: "Friar John",
       abbrev: "FRIAR JOHN",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "Franciscan friar",
       speechcount: 4
   },
@@ -4035,7 +4035,7 @@ const allCharacters = [
       charid: "friarlaurence",
       charname: "Friar Laurence",
       abbrev: "FRIAR LAURENCE",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "Franciscan friar",
       speechcount: 55
   },
@@ -4043,7 +4043,7 @@ const allCharacters = [
       charid: "FriarPeter",
       charname: "Friar Peter",
       abbrev: "FRIAR PETER",
-      works: "measure",
+      works: ["measure"],
       descrip: "",
       speechcount: 7
   },
@@ -4051,7 +4051,7 @@ const allCharacters = [
       charid: "FriarThomas",
       charname: "Friar Thomas",
       abbrev: "FRIAR THOMAS",
-      works: "measure",
+      works: ["measure"],
       descrip: "",
       speechcount: 3
   },
@@ -4059,7 +4059,7 @@ const allCharacters = [
       charid: "Froth",
       charname: "Froth",
       abbrev: "FROTH",
-      works: "measure",
+      works: ["measure"],
       descrip: "a foolish gentleman",
       speechcount: 8
   },
@@ -4067,7 +4067,7 @@ const allCharacters = [
       charid: "gadshill",
       charname: "Gadshill",
       abbrev: "Gadshill",
-      works: "henry4p1",
+      works: ["henry4p1"],
       descrip: "",
       speechcount: 17
   },
@@ -4075,7 +4075,7 @@ const allCharacters = [
       charid: "Gallus",
       charname: "Gallus",
       abbrev: "GALLUS",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "friend to Caesar",
       speechcount: 1
   },
@@ -4083,7 +4083,7 @@ const allCharacters = [
       charid: "Gaoler",
       charname: "Gaoler",
       abbrev: "Gaoler",
-      works: "comedyerrors",
+      works: ["comedyerrors"],
       descrip: "",
       speechcount: 1
   },
@@ -4091,7 +4091,7 @@ const allCharacters = [
       charid: "Gaoler-wt",
       charname: "Gaoler",
       abbrev: "Gaoler",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "",
       speechcount: 6
   },
@@ -4099,7 +4099,7 @@ const allCharacters = [
       charid: "Gardener",
       charname: "Gardener",
       abbrev: "Gardener",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "",
       speechcount: 6
   },
@@ -4107,7 +4107,7 @@ const allCharacters = [
       charid: "Gardiner",
       charname: "Gardiner",
       abbrev: "GARDINER",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "bishop of Winchester",
       speechcount: 22
   },
@@ -4115,7 +4115,7 @@ const allCharacters = [
       charid: "Garter",
       charname: "Garter",
       abbrev: "Garter",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "King-at-Arms",
       speechcount: 1
   },
@@ -4123,7 +4123,7 @@ const allCharacters = [
       charid: "garterhost",
       charname: "Host",
       abbrev: "Host",
-      works: "merrywives",
+      works: ["merrywives"],
       descrip: "host of the Garter Inn",
       speechcount: 46
   },
@@ -4131,7 +4131,7 @@ const allCharacters = [
       charid: "General-h61",
       charname: "General",
       abbrev: "General",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "of the French forces in Bordeaux",
       speechcount: 1
   },
@@ -4139,7 +4139,7 @@ const allCharacters = [
       charid: "Gentleman-aw",
       charname: "Gentleman",
       abbrev: "Gentleman",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "",
       speechcount: 9
   },
@@ -4147,7 +4147,7 @@ const allCharacters = [
       charid: "Gentleman-h8",
       charname: "Gentleman",
       abbrev: "Gentleman",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 3
   },
@@ -4155,7 +4155,7 @@ const allCharacters = [
       charid: "gentleman-kl",
       charname: "Gentleman",
       abbrev: "Gent",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "",
       speechcount: 41
   },
@@ -4163,7 +4163,7 @@ const allCharacters = [
       charid: "gentleman-oth",
       charname: "Gentleman",
       abbrev: "Gentleman",
-      works: "othello",
+      works: ["othello"],
       descrip: "",
       speechcount: 1
   },
@@ -4171,7 +4171,7 @@ const allCharacters = [
       charid: "Gentleman-r3",
       charname: "Gentleman",
       abbrev: "Gentleman",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 1
   },
@@ -4179,7 +4179,7 @@ const allCharacters = [
       charid: "Gentleman-wt",
       charname: "Gentleman",
       abbrev: "Gentleman",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "",
       speechcount: 5
   },
@@ -4187,7 +4187,7 @@ const allCharacters = [
       charid: "Gentlemen-r3",
       charname: "Gentlemen",
       abbrev: "GENTLEMEN",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 1
   },
@@ -4195,7 +4195,7 @@ const allCharacters = [
       charid: "gentlewoman-cor",
       charname: "Gentlewoman",
       abbrev: "Gentlewoman",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "attending on Virgilia",
       speechcount: 1
   },
@@ -4203,7 +4203,7 @@ const allCharacters = [
       charid: "gentlewoman-mac",
       charname: "Gentlewoman",
       abbrev: "Gentlewoman",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "",
       speechcount: 11
   },
@@ -4211,7 +4211,7 @@ const allCharacters = [
       charid: "gents-ham",
       charname: "Gentlemen",
       abbrev: "Gentlemen",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "",
       speechcount: 1
   },
@@ -4219,7 +4219,7 @@ const allCharacters = [
       charid: "GeorgePlantagenet",
       charname: "George Plantagenet (Duke of Clarence)",
       abbrev: "GEORGE",
-      works: "henry6p3,richard3",
+      works: ["henry6p3", "richard3"],
       descrip: "",
       speechcount: 72
   },
@@ -4227,7 +4227,7 @@ const allCharacters = [
       charid: "gertrude",
       charname: "Gertrude",
       abbrev: "Queen",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "Queen of Denmark and mother to Hamlet",
       speechcount: 70
   },
@@ -4235,7 +4235,7 @@ const allCharacters = [
       charid: "Girl-r3",
       charname: "Girl",
       abbrev: "Girl",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 3
   },
@@ -4243,7 +4243,7 @@ const allCharacters = [
       charid: "glendower",
       charname: "Glendower",
       abbrev: "GLENDOWER",
-      works: "henry4p1",
+      works: ["henry4p1"],
       descrip: "",
       speechcount: 23
   },
@@ -4251,7 +4251,7 @@ const allCharacters = [
       charid: "Gloucester-h5",
       charname: "Duke of Gloucester",
       abbrev: "GLOUCESTER",
-      works: "henry5,henry6p1,henry6p2,richard3",
+      works: ["henry5", "henry6p1", "henry6p2", "richard3"],
       descrip: "brother to the King",
       speechcount: 285
   },
@@ -4259,7 +4259,7 @@ const allCharacters = [
       charid: "gloucester-kl",
       charname: "Earl of Gloucester",
       abbrev: "Glou",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "",
       speechcount: 118
   },
@@ -4267,7 +4267,7 @@ const allCharacters = [
       charid: "goneril",
       charname: "Goneril",
       abbrev: "Gon",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "daughter to Lear",
       speechcount: 53
   },
@@ -4275,7 +4275,7 @@ const allCharacters = [
       charid: "Gonzalo",
       charname: "Gonzalo",
       abbrev: "GONZALO",
-      works: "tempest",
+      works: ["tempest"],
       descrip: "an honest old counsellor",
       speechcount: 52
   },
@@ -4283,7 +4283,7 @@ const allCharacters = [
       charid: "GovHarfleur",
       charname: "Governor of Harfleur",
       abbrev: "GOVERNOR",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "",
       speechcount: 1
   },
@@ -4291,7 +4291,7 @@ const allCharacters = [
       charid: "gower",
       charname: "Gower",
       abbrev: "GOWER",
-      works: "henry4p2,henry5",
+      works: ["henry4p2", "henry5"],
       descrip: "",
       speechcount: 31
   },
@@ -4299,7 +4299,7 @@ const allCharacters = [
       charid: "Gower-per",
       charname: "Gower",
       abbrev: "GOWER",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "as chorus",
       speechcount: 8
   },
@@ -4307,7 +4307,7 @@ const allCharacters = [
       charid: "Grandpre",
       charname: "Grandpre",
       abbrev: "GRANDPRE",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "French lord",
       speechcount: 1
   },
@@ -4315,7 +4315,7 @@ const allCharacters = [
       charid: "gratiano",
       charname: "Gratiano",
       abbrev: "GRATIANO",
-      works: "othello",
+      works: ["othello"],
       descrip: "Brother to Brabantio",
       speechcount: 20
   },
@@ -4323,7 +4323,7 @@ const allCharacters = [
       charid: "Gratiano-mv",
       charname: "Gratiano",
       abbrev: "GRATIANO",
-      works: "merchantvenice",
+      works: ["merchantvenice"],
       descrip: "friend to Antonio and Bassiano",
       speechcount: 48
   },
@@ -4331,7 +4331,7 @@ const allCharacters = [
       charid: "Green",
       charname: "Green",
       abbrev: "GREEN",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "servant to King Richard II",
       speechcount: 10
   },
@@ -4339,7 +4339,7 @@ const allCharacters = [
       charid: "gregory",
       charname: "Gregory",
       abbrev: "GREGORY",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "Servant to Capulet",
       speechcount: 16
   },
@@ -4347,7 +4347,7 @@ const allCharacters = [
       charid: "gremio",
       charname: "Gremio",
       abbrev: "GREMIO",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "",
       speechcount: 58
   },
@@ -4355,7 +4355,7 @@ const allCharacters = [
       charid: "grey",
       charname: "Sir Thomas Grey",
       abbrev: "GREY",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "",
       speechcount: 5
   },
@@ -4363,7 +4363,7 @@ const allCharacters = [
       charid: "Griffith",
       charname: "Griffith",
       abbrev: "GRIFFITH",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "gentleman-usher to Queen Katherine",
       speechcount: 13
   },
@@ -4371,7 +4371,7 @@ const allCharacters = [
       charid: "Groom",
       charname: "Groom",
       abbrev: "Groom",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "",
       speechcount: 4
   },
@@ -4379,7 +4379,7 @@ const allCharacters = [
       charid: "groom1",
       charname: "First Groom",
       abbrev: "FIRST GROOM",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "",
       speechcount: 1
   },
@@ -4387,7 +4387,7 @@ const allCharacters = [
       charid: "groom2",
       charname: "Second Groom",
       abbrev: "SECOND GROOM",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "",
       speechcount: 1
   },
@@ -4395,7 +4395,7 @@ const allCharacters = [
       charid: "groom3",
       charname: "Third Groom",
       abbrev: "THIRD GROOM",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "",
       speechcount: 1
   },
@@ -4403,7 +4403,7 @@ const allCharacters = [
       charid: "grumio",
       charname: "Grumio",
       abbrev: "GRUMIO",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "Petruchio's man",
       speechcount: 63
   },
@@ -4411,7 +4411,7 @@ const allCharacters = [
       charid: "Guard",
       charname: "Guard",
       abbrev: "Guard",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 2
   },
@@ -4419,7 +4419,7 @@ const allCharacters = [
       charid: "Guiderius",
       charname: "Guiderius",
       abbrev: "GUIDERIUS",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "son to Cymbeline, disguised under the name of Polydote, supposed son to Morgan",
       speechcount: 62
   },
@@ -4427,7 +4427,7 @@ const allCharacters = [
       charid: "guildenstern",
       charname: "Guildenstern",
       abbrev: "Guil",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "courtier",
       speechcount: 29
   },
@@ -4435,7 +4435,7 @@ const allCharacters = [
       charid: "Guildford",
       charname: "Sir Henry Guildford",
       abbrev: "GUILDFORD",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 1
   },
@@ -4443,7 +4443,7 @@ const allCharacters = [
       charid: "Gurney",
       charname: "James Gurney",
       abbrev: "GURNEY",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "servant to Lady Faulconbridge",
       speechcount: 1
   },
@@ -4451,7 +4451,7 @@ const allCharacters = [
       charid: "haberdasher",
       charname: "Haberdasher",
       abbrev: "HABERDASHER",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "",
       speechcount: 1
   },
@@ -4459,7 +4459,7 @@ const allCharacters = [
       charid: "hamgent",
       charname: "Gentleman",
       abbrev: "Gent",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "courtier",
       speechcount: 2
   },
@@ -4467,7 +4467,7 @@ const allCharacters = [
       charid: "hamghost",
       charname: "Father's Ghost",
       abbrev: "Ghost",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "Ghost of Hamlet's Father",
       speechcount: 15
   },
@@ -4475,7 +4475,7 @@ const allCharacters = [
       charid: "hamlet",
       charname: "Hamlet",
       abbrev: "Ham",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "son of the former king and nephew to the present king",
       speechcount: 358
   },
@@ -4483,7 +4483,7 @@ const allCharacters = [
       charid: "hampriest",
       charname: "Priest",
       abbrev: "Priest",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "",
       speechcount: 2
   },
@@ -4491,7 +4491,7 @@ const allCharacters = [
       charid: "harcourt",
       charname: "Harcourt",
       abbrev: "HARCOURT",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "",
       speechcount: 1
   },
@@ -4499,7 +4499,7 @@ const allCharacters = [
       charid: "hastings",
       charname: "Lord Hastings",
       abbrev: "HASTINGS",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "",
       speechcount: 17
   },
@@ -4507,7 +4507,7 @@ const allCharacters = [
       charid: "hecate",
       charname: "Hecate",
       abbrev: "HECATE",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "",
       speechcount: 2
   },
@@ -4515,7 +4515,7 @@ const allCharacters = [
       charid: "Hector",
       charname: "Hector",
       abbrev: "HECTOR",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "son of Priam, king of Troy",
       speechcount: 57
   },
@@ -4523,7 +4523,7 @@ const allCharacters = [
       charid: "Helen",
       charname: "Helen",
       abbrev: "HELEN",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "wife to Menelaus",
       speechcount: 17
   },
@@ -4531,7 +4531,7 @@ const allCharacters = [
       charid: "HELENA",
       charname: "Helena",
       abbrev: "HELENA",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "a gentlewoman protected by the Countess",
       speechcount: 109
   },
@@ -4539,7 +4539,7 @@ const allCharacters = [
       charid: "Helena-mnd",
       charname: "Helena",
       abbrev: "HELENA",
-      works: "midsummer",
+      works: ["midsummer"],
       descrip: "in love with Demetrius",
       speechcount: 36
   },
@@ -4547,7 +4547,7 @@ const allCharacters = [
       charid: "Helen-cym",
       charname: "Helen",
       abbrev: "HELEN",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "a lady attending on Cymbeline",
       speechcount: 0
   },
@@ -4555,7 +4555,7 @@ const allCharacters = [
       charid: "Helenus",
       charname: "Helenus",
       abbrev: "HELENUS",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "son of Priam, king of Troy",
       speechcount: 1
   },
@@ -4563,7 +4563,7 @@ const allCharacters = [
       charid: "Helicanus",
       charname: "Helicanus",
       abbrev: "HELICANUS",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "a lord of Tyre",
       speechcount: 37
   },
@@ -4571,7 +4571,7 @@ const allCharacters = [
       charid: "henry4",
       charname: "Henry IV",
       abbrev: "KING HENRY IV",
-      works: "richard2,henry4p1,henry4p2",
+      works: ["richard2", "henry4p1", "henry4p2"],
       descrip: "King of England",
       speechcount: 154
   },
@@ -4579,7 +4579,7 @@ const allCharacters = [
       charid: "henry5",
       charname: "Henry V",
       abbrev: "HENRY5",
-      works: "henry4p1,henry4p2,henry5",
+      works: ["henry4p1", "henry4p2", "henry5"],
       descrip: "Prince, King of England",
       speechcount: 377
   },
@@ -4587,7 +4587,7 @@ const allCharacters = [
       charid: "Henry6",
       charname: "Henry VI",
       abbrev: "KING HENRY VI",
-      works: "henry6p1,henry6p2,henry6p3,richard3",
+      works: ["henry6p1", "henry6p2", "henry6p3", "richard3"],
       descrip: "",
       speechcount: 183
   },
@@ -4595,7 +4595,7 @@ const allCharacters = [
       charid: "Henry7",
       charname: "Richmond (Henry VII)",
       abbrev: "King Henry VII",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "Earl of Richmond, later Henry VII",
       speechcount: 14
   },
@@ -4603,7 +4603,7 @@ const allCharacters = [
       charid: "Henry8",
       charname: "Henry VIII",
       abbrev: "KING HENRY VIII",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 81
   },
@@ -4611,7 +4611,7 @@ const allCharacters = [
       charid: "HenryBeaufort",
       charname: "Winchester",
       abbrev: "BISHOP OF WINCHESTER",
-      works: "henry6p1,henry6p2",
+      works: ["henry6p1", "henry6p2"],
       descrip: "Henry Beaufort, great-uncle to Henry V, bishop of Winchster, and later cardinal",
       speechcount: 58
   },
@@ -4619,7 +4619,7 @@ const allCharacters = [
       charid: "herald-cor",
       charname: "Herald",
       abbrev: "Herald",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 2
   },
@@ -4627,7 +4627,7 @@ const allCharacters = [
       charid: "herald-h5",
       charname: "Herald",
       abbrev: "Herald",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "",
       speechcount: 1
   },
@@ -4635,7 +4635,7 @@ const allCharacters = [
       charid: "Herald-h62",
       charname: "Herald",
       abbrev: "Herald",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 1
   },
@@ -4643,7 +4643,7 @@ const allCharacters = [
       charid: "herald-kl",
       charname: "Herald",
       abbrev: "Her",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "",
       speechcount: 4
   },
@@ -4651,7 +4651,7 @@ const allCharacters = [
       charid: "herald-oth",
       charname: "Herald",
       abbrev: "Herald",
-      works: "othello",
+      works: ["othello"],
       descrip: "",
       speechcount: 1
   },
@@ -4659,7 +4659,7 @@ const allCharacters = [
       charid: "Hermia",
       charname: "Hermia",
       abbrev: "HERMIA",
-      works: "midsummer",
+      works: ["midsummer"],
       descrip: "daughter to Egeus, in love with Lysander",
       speechcount: 48
   },
@@ -4667,7 +4667,7 @@ const allCharacters = [
       charid: "Hermione",
       charname: "Hermione",
       abbrev: "HERMIONE",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "queen to Leontes",
       speechcount: 35
   },
@@ -4675,7 +4675,7 @@ const allCharacters = [
       charid: "hero",
       charname: "Hero",
       abbrev: "HERO",
-      works: "muchado",
+      works: ["muchado"],
       descrip: "Daughter to Leonato",
       speechcount: 44
   },
@@ -4683,7 +4683,7 @@ const allCharacters = [
       charid: "Hippolyta",
       charname: "Hippolyta",
       abbrev: "HIPPOLYTA",
-      works: "midsummer",
+      works: ["midsummer"],
       descrip: "queen of the Amazons, betrothed to Theseus",
       speechcount: 14
   },
@@ -4691,7 +4691,7 @@ const allCharacters = [
       charid: "Holofernes",
       charname: "Holofernes",
       abbrev: "HOLOFERNES",
-      works: "loveslabours",
+      works: ["loveslabours"],
       descrip: "a schoolmaster",
       speechcount: 54
   },
@@ -4699,7 +4699,7 @@ const allCharacters = [
       charid: "horatio",
       charname: "Horatio",
       abbrev: "Hor",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "friend to Hamlet",
       speechcount: 109
   },
@@ -4707,7 +4707,7 @@ const allCharacters = [
       charid: "hortensio",
       charname: "Hortensio",
       abbrev: "HORTENSIO",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "",
       speechcount: 70
   },
@@ -4715,7 +4715,7 @@ const allCharacters = [
       charid: "Hortensius",
       charname: "Hortensius",
       abbrev: "HORTENSIUS",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 6
   },
@@ -4723,7 +4723,7 @@ const allCharacters = [
       charid: "Host",
       charname: "Host",
       abbrev: "Host",
-      works: "twogents",
+      works: ["twogents"],
       descrip: "where Julia lodges",
       speechcount: 16
   },
@@ -4731,7 +4731,7 @@ const allCharacters = [
       charid: "hostess-ts",
       charname: "Hostess",
       abbrev: "HOSTESS",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "",
       speechcount: 3
   },
@@ -4739,7 +4739,7 @@ const allCharacters = [
       charid: "hotspur",
       charname: "Hotspur (Henry Percy)",
       abbrev: "HOTSPUR",
-      works: "richard2,henry4p1",
+      works: ["richard2", "henry4p1"],
       descrip: "",
       speechcount: 114
   },
@@ -4747,7 +4747,7 @@ const allCharacters = [
       charid: "Hubert",
       charname: "Hubert de Burgh",
       abbrev: "HUBERT",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "",
       speechcount: 52
   },
@@ -4755,7 +4755,7 @@ const allCharacters = [
       charid: "Huntsman",
       charname: "Huntsman",
       abbrev: "Huntsman",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "",
       speechcount: 2
   },
@@ -4763,7 +4763,7 @@ const allCharacters = [
       charid: "huntsman1",
       charname: "First Huntsman",
       abbrev: "FIRST HUNTSMAN",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "",
       speechcount: 4
   },
@@ -4771,7 +4771,7 @@ const allCharacters = [
       charid: "huntsman2",
       charname: "Second Huntsman",
       abbrev: "SECOND HUNTSMAN",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "",
       speechcount: 2
   },
@@ -4779,7 +4779,7 @@ const allCharacters = [
       charid: "hymen",
       charname: "Hymen",
       abbrev: "HYMEN",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "",
       speechcount: 1
   },
@@ -4787,7 +4787,7 @@ const allCharacters = [
       charid: "Iachimo",
       charname: "Iachimo",
       abbrev: "IACHIMO",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "friend to Philario, an Italian.",
       speechcount: 77
   },
@@ -4795,7 +4795,7 @@ const allCharacters = [
       charid: "iago",
       charname: "Iago",
       abbrev: "IAGO",
-      works: "othello",
+      works: ["othello"],
       descrip: "Othello's ancient (?)",
       speechcount: 272
   },
@@ -4803,7 +4803,7 @@ const allCharacters = [
       charid: "Imogen",
       charname: "Imogen",
       abbrev: "IMOGEN",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "daughter to Cymbeline by a former queen",
       speechcount: 118
   },
@@ -4811,7 +4811,7 @@ const allCharacters = [
       charid: "Iras",
       charname: "Iras",
       abbrev: "IRAS",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "attendant on Cleopatra",
       speechcount: 18
   },
@@ -4819,7 +4819,7 @@ const allCharacters = [
       charid: "Iris",
       charname: "Iris",
       abbrev: "IRIS",
-      works: "tempest",
+      works: ["tempest"],
       descrip: "presented by spirits",
       speechcount: 4
   },
@@ -4827,7 +4827,7 @@ const allCharacters = [
       charid: "Isabel",
       charname: "Queen Isabel",
       abbrev: "QUEEN ISABEL",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "",
       speechcount: 5
   },
@@ -4835,7 +4835,7 @@ const allCharacters = [
       charid: "Isabella-m4m",
       charname: "Isabella",
       abbrev: "ISABELLA",
-      works: "measure",
+      works: ["measure"],
       descrip: "sister to Claudio",
       speechcount: 129
   },
@@ -4843,7 +4843,7 @@ const allCharacters = [
       charid: "JackCade",
       charname: "Jack Cade",
       abbrev: "CADE",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "a rebel",
       speechcount: 61
   },
@@ -4851,7 +4851,7 @@ const allCharacters = [
       charid: "Jamy",
       charname: "Jamy",
       abbrev: "JAMY",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "",
       speechcount: 4
   },
@@ -4859,7 +4859,7 @@ const allCharacters = [
       charid: "Jaquenetta",
       charname: "Jaquenetta",
       abbrev: "JAQUENETTA",
-      works: "loveslabours",
+      works: ["loveslabours"],
       descrip: "a country wench",
       speechcount: 13
   },
@@ -4867,7 +4867,7 @@ const allCharacters = [
       charid: "jaques1",
       charname: "Jaques (lord)",
       abbrev: "JAQUES",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "the Duke's brother, and usurper of his dominions",
       speechcount: 57
   },
@@ -4875,7 +4875,7 @@ const allCharacters = [
       charid: "jaques2",
       charname: "Jaques (son)",
       abbrev: "JAQUES DE BOYS",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "the Duke's brother, and usurper of his dominions",
       speechcount: 2
   },
@@ -4883,7 +4883,7 @@ const allCharacters = [
       charid: "Jessica",
       charname: "Jessica",
       abbrev: "JESSICA",
-      works: "merchantvenice",
+      works: ["merchantvenice"],
       descrip: "daughter to Shylock",
       speechcount: 26
   },
@@ -4891,7 +4891,7 @@ const allCharacters = [
       charid: "Jeweller",
       charname: "Jeweller",
       abbrev: "Jeweller",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 4
   },
@@ -4899,7 +4899,7 @@ const allCharacters = [
       charid: "JoanPucelle",
       charname: "Joan la Pucelle",
       abbrev: "JOAN LA PUCELLE",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "commonly called Joan of Arc",
       speechcount: 46
   },
@@ -4907,7 +4907,7 @@ const allCharacters = [
       charid: "JohnGaunt",
       charname: "John of Gaunt",
       abbrev: "JOHN OF GAUNT",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "duke of Lancaster, uncle to the king",
       speechcount: 28
   },
@@ -4915,7 +4915,7 @@ const allCharacters = [
       charid: "JohnHolland",
       charname: "John Holland",
       abbrev: "HOLLAND",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "a follower of Cade",
       speechcount: 10
   },
@@ -4923,7 +4923,7 @@ const allCharacters = [
       charid: "JohnHume",
       charname: "Father John Hume",
       abbrev: "HUME",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "a priest",
       speechcount: 6
   },
@@ -4931,7 +4931,7 @@ const allCharacters = [
       charid: "JohnMorton",
       charname: "John Morton",
       abbrev: "BISHOP OF ELY",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "bishop of Ely",
       speechcount: 6
   },
@@ -4939,7 +4939,7 @@ const allCharacters = [
       charid: "JohnSouthwell",
       charname: "Father John Southwell",
       abbrev: "JOHN SOUTHWELL",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "a priest",
       speechcount: 0
   },
@@ -4947,7 +4947,7 @@ const allCharacters = [
       charid: "joseph-ts",
       charname: "Joseph",
       abbrev: "JOSEPH",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "a servingman",
       speechcount: 1
   },
@@ -4955,7 +4955,7 @@ const allCharacters = [
       charid: "Jourdain",
       charname: "Margaret Jourdain",
       abbrev: "MARGARET JOURDAIN",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "a witch",
       speechcount: 1
   },
@@ -4963,7 +4963,7 @@ const allCharacters = [
       charid: "Julia-tg",
       charname: "Julia",
       abbrev: "JULIA",
-      works: "twogents",
+      works: ["twogents"],
       descrip: "beloved of Proteus",
       speechcount: 107
   },
@@ -4971,7 +4971,7 @@ const allCharacters = [
       charid: "juliet",
       charname: "Juliet",
       abbrev: "JULIET",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "Daughter to Capulet",
       speechcount: 118
   },
@@ -4979,7 +4979,7 @@ const allCharacters = [
       charid: "Juliet-m4m",
       charname: "Juliet",
       abbrev: "JULIET",
-      works: "measure",
+      works: ["measure"],
       descrip: "beloved of Claudio",
       speechcount: 7
   },
@@ -4987,7 +4987,7 @@ const allCharacters = [
       charid: "juliuscaesar",
       charname: "Caesar",
       abbrev: "CAESAR",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "(Julius Caesar)",
       speechcount: 42
   },
@@ -4995,7 +4995,7 @@ const allCharacters = [
       charid: "juniusbrutus",
       charname: "Junius Brutus",
       abbrev: "BRUTUS",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "tribune of the people",
       speechcount: 91
   },
@@ -5003,7 +5003,7 @@ const allCharacters = [
       charid: "Juno",
       charname: "Juno",
       abbrev: "JUNO",
-      works: "tempest",
+      works: ["tempest"],
       descrip: "presented by spirits",
       speechcount: 2
   },
@@ -5011,7 +5011,7 @@ const allCharacters = [
       charid: "Jupiter",
       charname: "Jupiter",
       abbrev: "Jupiter",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "",
       speechcount: 1
   },
@@ -5019,7 +5019,7 @@ const allCharacters = [
       charid: "Justice",
       charname: "Justice",
       abbrev: "Justice",
-      works: "measure",
+      works: ["measure"],
       descrip: "",
       speechcount: 3
   },
@@ -5027,7 +5027,7 @@ const allCharacters = [
       charid: "Katharine-h5",
       charname: "Katharine",
       abbrev: "KATHARINE",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "daughter to Charles and Isabel",
       speechcount: 33
   },
@@ -5035,7 +5035,7 @@ const allCharacters = [
       charid: "Katharine-iii",
       charname: "Katharine",
       abbrev: "KATHARINE",
-      works: "loveslabours",
+      works: ["loveslabours"],
       descrip: "lady attending on the princess",
       speechcount: 25
   },
@@ -5043,7 +5043,7 @@ const allCharacters = [
       charid: "katherina",
       charname: "Katherina",
       abbrev: "KATHERINA",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "the shrew",
       speechcount: 82
   },
@@ -5051,7 +5051,7 @@ const allCharacters = [
       charid: "Keeper",
       charname: "Keeper",
       abbrev: "Keeper",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "",
       speechcount: 4
   },
@@ -5059,7 +5059,7 @@ const allCharacters = [
       charid: "Keeper-h8",
       charname: "Keeper",
       abbrev: "Keeper",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 5
   },
@@ -5067,7 +5067,7 @@ const allCharacters = [
       charid: "kingfrance-aw",
       charname: "King of France",
       abbrev: "KING",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "",
       speechcount: 87
   },
@@ -5075,7 +5075,7 @@ const allCharacters = [
       charid: "kingfrance-kl",
       charname: "King of France",
       abbrev: "France",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "",
       speechcount: 5
   },
@@ -5083,7 +5083,7 @@ const allCharacters = [
       charid: "kingjohn",
       charname: "King John",
       abbrev: "KING JOHN",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "king of England",
       speechcount: 95
   },
@@ -5091,7 +5091,7 @@ const allCharacters = [
       charid: "KingPhilip",
       charname: "King Phillip",
       abbrev: "KING PHILIP",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "king of France",
       speechcount: 43
   },
@@ -5099,7 +5099,7 @@ const allCharacters = [
       charid: "knight-kl",
       charname: "Knight",
       abbrev: "Knight",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "",
       speechcount: 5
   },
@@ -5107,7 +5107,7 @@ const allCharacters = [
       charid: "Knights",
       charname: "Knights",
       abbrev: "Knights",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 3
   },
@@ -5115,7 +5115,7 @@ const allCharacters = [
       charid: "LadyAnne",
       charname: "Lady Anne",
       abbrev: "LADY ANNE",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "widow of Edward Prince of Wales, son to King Henry VI; afterwards married to Richard III",
       speechcount: 51
   },
@@ -5123,7 +5123,7 @@ const allCharacters = [
       charid: "ladycapulet",
       charname: "Lady Capulet",
       abbrev: "LADY CAPULET",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "Wife to Capulet",
       speechcount: 45
   },
@@ -5131,7 +5131,7 @@ const allCharacters = [
       charid: "Lady-cym",
       charname: "Lady",
       abbrev: "Lady",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "",
       speechcount: 8
   },
@@ -5139,7 +5139,7 @@ const allCharacters = [
       charid: "LadyFaulconbridge",
       charname: "Lady Faulconbridge",
       abbrev: "LADY FAULCONBRIDGE",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "wife to Sir Robert Faulconbridge",
       speechcount: 5
   },
@@ -5147,7 +5147,7 @@ const allCharacters = [
       charid: "Lady-kr2",
       charname: "Lady",
       abbrev: "Lady",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "attending on the Queen",
       speechcount: 6
   },
@@ -5155,7 +5155,7 @@ const allCharacters = [
       charid: "ladymacbeth",
       charname: "Lady Macbeth",
       abbrev: "LADY MACBETH",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "",
       speechcount: 59
   },
@@ -5163,7 +5163,7 @@ const allCharacters = [
       charid: "ladymacduff",
       charname: "Lady Macduff",
       abbrev: "LADY MACDUFF",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "",
       speechcount: 19
   },
@@ -5171,7 +5171,7 @@ const allCharacters = [
       charid: "ladymontague",
       charname: "Lady Montague",
       abbrev: "LADY MONTAGUE",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "Wife to Montague",
       speechcount: 2
   },
@@ -5179,7 +5179,7 @@ const allCharacters = [
       charid: "ladynorth",
       charname: "Lady Northumberland",
       abbrev: "LADY NORTHUMBERLAND",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "",
       speechcount: 2
   },
@@ -5187,7 +5187,7 @@ const allCharacters = [
       charid: "ladypercy",
       charname: "Lady Percy",
       abbrev: "LADY PERCY",
-      works: "henry4p1,henry4p2",
+      works: ["henry4p1", "henry4p2"],
       descrip: "",
       speechcount: 18
   },
@@ -5195,7 +5195,7 @@ const allCharacters = [
       charid: "laertes",
       charname: "Laertes",
       abbrev: "Laer",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "son to Polonius",
       speechcount: 62
   },
@@ -5203,7 +5203,7 @@ const allCharacters = [
       charid: "LAFEU",
       charname: "Lafeu",
       abbrev: "LAFEU",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "an old lord",
       speechcount: 97
   },
@@ -5211,7 +5211,7 @@ const allCharacters = [
       charid: "lartius",
       charname: "Titus Lartius",
       abbrev: "TITUS",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "general against the Volscians",
       speechcount: 23
   },
@@ -5219,7 +5219,7 @@ const allCharacters = [
       charid: "Launce",
       charname: "Launce",
       abbrev: "LAUNCE",
-      works: "twogents",
+      works: ["twogents"],
       descrip: "the like to Proteus",
       speechcount: 68
   },
@@ -5227,7 +5227,7 @@ const allCharacters = [
       charid: "Launcelot",
       charname: "Launcelot Gobbo",
       abbrev: "LAUNCELOT",
-      works: "merchantvenice",
+      works: ["merchantvenice"],
       descrip: "the clown, servant to Shylock",
       speechcount: 44
   },
@@ -5235,7 +5235,7 @@ const allCharacters = [
       charid: "Lavinia",
       charname: "Lavinia",
       abbrev: "LAVINIA",
-      works: "titus",
+      works: ["titus"],
       descrip: "",
       speechcount: 15
   },
@@ -5243,7 +5243,7 @@ const allCharacters = [
       charid: "Lawyer",
       charname: "Lawyer",
       abbrev: "Lawyer",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 2
   },
@@ -5251,7 +5251,7 @@ const allCharacters = [
       charid: "lear",
       charname: "Lear",
       abbrev: "Lear",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "King of Britain",
       speechcount: 188
   },
@@ -5259,7 +5259,7 @@ const allCharacters = [
       charid: "lebeau",
       charname: "Le Beau",
       abbrev: "LE BEAU",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "a courtier attending upon Frederick",
       speechcount: 14
   },
@@ -5267,7 +5267,7 @@ const allCharacters = [
       charid: "legate",
       charname: "Legate",
       abbrev: "Legate",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 1
   },
@@ -5275,7 +5275,7 @@ const allCharacters = [
       charid: "lennox",
       charname: "Lennox",
       abbrev: "LENNOX",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "Nobleman of Scotland",
       speechcount: 21
   },
@@ -5283,7 +5283,7 @@ const allCharacters = [
       charid: "Leonardo",
       charname: "Leonardo",
       abbrev: "LEONARDO",
-      works: "merchantvenice",
+      works: ["merchantvenice"],
       descrip: "servant to Bassiano",
       speechcount: 2
   },
@@ -5291,7 +5291,7 @@ const allCharacters = [
       charid: "leonato",
       charname: "Leonato",
       abbrev: "LEONATO",
-      works: "muchado",
+      works: ["muchado"],
       descrip: "Governor of Messina",
       speechcount: 120
   },
@@ -5299,7 +5299,7 @@ const allCharacters = [
       charid: "Leonatus",
       charname: "Sicilius Leonatus",
       abbrev: "Sicilius Leonatus",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "an apparition",
       speechcount: 7
   },
@@ -5307,7 +5307,7 @@ const allCharacters = [
       charid: "Leonine",
       charname: "Leonine",
       abbrev: "LEONINE",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "servant to Dionyza",
       speechcount: 12
   },
@@ -5315,7 +5315,7 @@ const allCharacters = [
       charid: "Leontes",
       charname: "Leontes",
       abbrev: "LEONTES",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "king of Sicilia",
       speechcount: 125
   },
@@ -5323,7 +5323,7 @@ const allCharacters = [
       charid: "lepidus",
       charname: "Lepidus",
       abbrev: "LEPIDUS",
-      works: "juliuscaesar,antonycleo",
+      works: ["juliuscaesar", "antonycleo"],
       descrip: "(Marcus Antonius Lepidus)",
       speechcount: 33
   },
@@ -5331,7 +5331,7 @@ const allCharacters = [
       charid: "Lewis",
       charname: "Lewis",
       abbrev: "LEWIS",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "the Dauphin",
       speechcount: 29
   },
@@ -5339,7 +5339,7 @@ const allCharacters = [
       charid: "Lewis11",
       charname: "King Lewis XI",
       abbrev: "KING LEWIS XI",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "king of France",
       speechcount: 21
   },
@@ -5347,7 +5347,7 @@ const allCharacters = [
       charid: "lieutenant",
       charname: "Lieutenant",
       abbrev: "LIEUTENANT",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "to Aufidius",
       speechcount: 4
   },
@@ -5355,7 +5355,7 @@ const allCharacters = [
       charid: "Lieutenant-h62",
       charname: "Lieutenant",
       abbrev: "Lieutenant",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "of the Tower",
       speechcount: 1
   },
@@ -5363,7 +5363,7 @@ const allCharacters = [
       charid: "Ligarius",
       charname: "Ligarius",
       abbrev: "LIGARIUS",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "a conspirator against Caesar",
       speechcount: 5
   },
@@ -5371,7 +5371,7 @@ const allCharacters = [
       charid: "lodovico",
       charname: "Lodovico",
       abbrev: "LODOVICO",
-      works: "othello",
+      works: ["othello"],
       descrip: "Kinsman to Brabantio",
       speechcount: 33
   },
@@ -5379,7 +5379,7 @@ const allCharacters = [
       charid: "Longaville",
       charname: "Longaville",
       abbrev: "LONGAVILLE",
-      works: "loveslabours",
+      works: ["loveslabours"],
       descrip: "lord attending on the king",
       speechcount: 40
   },
@@ -5387,7 +5387,7 @@ const allCharacters = [
       charid: "lord-ayli",
       charname: "Lord",
       abbrev: "LORD",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "",
       speechcount: 2
   },
@@ -5395,7 +5395,7 @@ const allCharacters = [
       charid: "LordBerkeley",
       charname: "Lord Berkeley",
       abbrev: "LORD BERKELEY",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "",
       speechcount: 2
   },
@@ -5403,7 +5403,7 @@ const allCharacters = [
       charid: "LordChamberlain",
       charname: "Lord Chamberlain",
       abbrev: "Chamberlain",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 38
   },
@@ -5411,7 +5411,7 @@ const allCharacters = [
       charid: "LordChancellor",
       charname: "Lord Chancellor",
       abbrev: "Chancellor",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 7
   },
@@ -5419,7 +5419,7 @@ const allCharacters = [
       charid: "LordClifford",
       charname: "Lord Clifford",
       abbrev: "CLIFFORD",
-      works: "henry6p2,henry6p3",
+      works: ["henry6p2", "henry6p3"],
       descrip: "",
       speechcount: 52
   },
@@ -5427,7 +5427,7 @@ const allCharacters = [
       charid: "Lord-cym",
       charname: "Lord",
       abbrev: "Lord",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "",
       speechcount: 6
   },
@@ -5435,7 +5435,7 @@ const allCharacters = [
       charid: "LordFitzwater",
       charname: "Lord Fitzwater",
       abbrev: "LORD FITZWATER",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "",
       speechcount: 6
   },
@@ -5443,7 +5443,7 @@ const allCharacters = [
       charid: "LordGrey",
       charname: "Lord Grey",
       abbrev: "GREY",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "son of Queen Elizabeth",
       speechcount: 6
   },
@@ -5451,7 +5451,7 @@ const allCharacters = [
       charid: "lord-ham",
       charname: "Lord",
       abbrev: "Lord",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "",
       speechcount: 3
   },
@@ -5459,7 +5459,7 @@ const allCharacters = [
       charid: "LordHastings-63",
       charname: "Lord Hastings",
       abbrev: "HASTINGS",
-      works: "henry6p3,richard3",
+      works: ["henry6p3", "richard3"],
       descrip: "",
       speechcount: 56
   },
@@ -5467,7 +5467,7 @@ const allCharacters = [
       charid: "Lord-kr2",
       charname: "Lord",
       abbrev: "Lord",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "",
       speechcount: 1
   },
@@ -5475,7 +5475,7 @@ const allCharacters = [
       charid: "LordLovel",
       charname: "Lord Lovel",
       abbrev: "LOVEL",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 2
   },
@@ -5483,7 +5483,7 @@ const allCharacters = [
       charid: "lord-ma",
       charname: "Lord",
       abbrev: "Lord",
-      works: "muchado",
+      works: ["muchado"],
       descrip: "",
       speechcount: 1
   },
@@ -5491,7 +5491,7 @@ const allCharacters = [
       charid: "lord-mac",
       charname: "Lord",
       abbrev: "Lord",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "",
       speechcount: 3
   },
@@ -5499,7 +5499,7 @@ const allCharacters = [
       charid: "LordMarshal",
       charname: "Lord Marshal",
       abbrev: "LORD MARSHAL",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "",
       speechcount: 10
   },
@@ -5507,7 +5507,7 @@ const allCharacters = [
       charid: "Lord-per",
       charname: "Lord",
       abbrev: "Lord",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 4
   },
@@ -5515,7 +5515,7 @@ const allCharacters = [
       charid: "LordRivers",
       charname: "Lord (Earl) Rivers",
       abbrev: "RIVERS",
-      works: "henry6p3,richard3",
+      works: ["henry6p3", "richard3"],
       descrip: "brother to Lady Gray (Queen Elizabeth)",
       speechcount: 29
   },
@@ -5523,7 +5523,7 @@ const allCharacters = [
       charid: "LordSands",
       charname: "Lord Sands",
       abbrev: "SANDS",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 17
   },
@@ -5531,7 +5531,7 @@ const allCharacters = [
       charid: "LordSay",
       charname: "Lord Say",
       abbrev: "SAY",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 13
   },
@@ -5539,7 +5539,7 @@ const allCharacters = [
       charid: "LordScales",
       charname: "Lord Scales",
       abbrev: "SCALES",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 2
   },
@@ -5547,7 +5547,7 @@ const allCharacters = [
       charid: "lordscroop",
       charname: "Lord Scroop",
       abbrev: "SCROOP",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "",
       speechcount: 5
   },
@@ -5555,7 +5555,7 @@ const allCharacters = [
       charid: "Lords-cym",
       charname: "Lords",
       abbrev: "Lords",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "",
       speechcount: 0
   },
@@ -5563,7 +5563,7 @@ const allCharacters = [
       charid: "lords-mac",
       charname: "Lords",
       abbrev: "Lords",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "",
       speechcount: 3
   },
@@ -5571,7 +5571,7 @@ const allCharacters = [
       charid: "Lords-r3",
       charname: "Lords",
       abbrev: "LORDS",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 3
   },
@@ -5579,7 +5579,7 @@ const allCharacters = [
       charid: "LordStafford",
       charname: "Lord Stafford",
       abbrev: "STAFFORD",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "",
       speechcount: 0
   },
@@ -5587,7 +5587,7 @@ const allCharacters = [
       charid: "Lords-wt",
       charname: "Lords",
       abbrev: "Lords",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "",
       speechcount: 2
   },
@@ -5595,7 +5595,7 @@ const allCharacters = [
       charid: "lord-ts",
       charname: "Lord",
       abbrev: "LORD",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "",
       speechcount: 17
   },
@@ -5603,7 +5603,7 @@ const allCharacters = [
       charid: "LordWilloughby",
       charname: "Lord Willoughby",
       abbrev: "LORD WILLOUGHBY",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "",
       speechcount: 8
   },
@@ -5611,7 +5611,7 @@ const allCharacters = [
       charid: "Lord-wt",
       charname: "Lord",
       abbrev: "Lord",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "",
       speechcount: 4
   },
@@ -5619,7 +5619,7 @@ const allCharacters = [
       charid: "Lorenzo",
       charname: "Lorenzo",
       abbrev: "LORENZO",
-      works: "merchantvenice",
+      works: ["merchantvenice"],
       descrip: "in love with Jessica",
       speechcount: 47
   },
@@ -5627,7 +5627,7 @@ const allCharacters = [
       charid: "Lovell",
       charname: "Sir Thomas Lovell",
       abbrev: "LOVELL",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 21
   },
@@ -5635,7 +5635,7 @@ const allCharacters = [
       charid: "LUCE",
       charname: "Luce",
       abbrev: "LUCE",
-      works: "comedyerrors",
+      works: ["comedyerrors"],
       descrip: "servant to Adriana",
       speechcount: 7
   },
@@ -5643,7 +5643,7 @@ const allCharacters = [
       charid: "lucentio",
       charname: "Lucentio",
       abbrev: "LUCENTIO",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "son to Vincentio, in love with Bianca",
       speechcount: 61
   },
@@ -5651,7 +5651,7 @@ const allCharacters = [
       charid: "Lucetta",
       charname: "Lucetta",
       abbrev: "LUCETTA",
-      works: "twogents",
+      works: ["twogents"],
       descrip: "waiting-woman to Julia",
       speechcount: 48
   },
@@ -5659,7 +5659,7 @@ const allCharacters = [
       charid: "LUCIANA",
       charname: "Luciana",
       abbrev: "LUCIANA",
-      works: "comedyerrors",
+      works: ["comedyerrors"],
       descrip: "sister to Adriana",
       speechcount: 43
   },
@@ -5667,7 +5667,7 @@ const allCharacters = [
       charid: "lucianus",
       charname: "Lucianus",
       abbrev: "Luc",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "",
       speechcount: 0
   },
@@ -5675,7 +5675,7 @@ const allCharacters = [
       charid: "Lucilius",
       charname: "Lucilius",
       abbrev: "LUCILIUS",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "servant to Timon",
       speechcount: 13
   },
@@ -5683,7 +5683,7 @@ const allCharacters = [
       charid: "Lucilius-jc",
       charname: "Lucilius",
       abbrev: "LUCILIUS",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "friend to Brutus",
       speechcount: 10
   },
@@ -5691,7 +5691,7 @@ const allCharacters = [
       charid: "LuciliusServant",
       charname: "Lucilius' Servant",
       abbrev: "Lucilius' Servant",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 0
   },
@@ -5699,7 +5699,7 @@ const allCharacters = [
       charid: "Lucio",
       charname: "Lucio",
       abbrev: "LUCIO",
-      works: "measure",
+      works: ["measure"],
       descrip: "a fantastic",
       speechcount: 111
   },
@@ -5707,7 +5707,7 @@ const allCharacters = [
       charid: "Lucius",
       charname: "Lucius",
       abbrev: "LUCIUS",
-      works: "titus",
+      works: ["titus"],
       descrip: "son to Titus Andronicus",
       speechcount: 51
   },
@@ -5715,7 +5715,7 @@ const allCharacters = [
       charid: "Lucius-jc",
       charname: "Lucius",
       abbrev: "LUCIUS",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "servant to Brutus",
       speechcount: 24
   },
@@ -5723,7 +5723,7 @@ const allCharacters = [
       charid: "Lucius-tim",
       charname: "Lucius",
       abbrev: "LUCIUS",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "flattering lord",
       speechcount: 0
   },
@@ -5731,7 +5731,7 @@ const allCharacters = [
       charid: "Lucullus",
       charname: "Lucullus",
       abbrev: "LUCULLUS",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "flattering lord",
       speechcount: 6
   },
@@ -5739,7 +5739,7 @@ const allCharacters = [
       charid: "Lychorida",
       charname: "Lychorida",
       abbrev: "LYCHORIDA",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "nurse to Marina",
       speechcount: 4
   },
@@ -5747,7 +5747,7 @@ const allCharacters = [
       charid: "Lymoges",
       charname: "Lymoges",
       abbrev: "AUSTRIA",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "duke of Austria",
       speechcount: 16
   },
@@ -5755,7 +5755,7 @@ const allCharacters = [
       charid: "Lysander",
       charname: "Lysander",
       abbrev: "LYSANDER",
-      works: "midsummer",
+      works: ["midsummer"],
       descrip: "in love with Hermia",
       speechcount: 50
   },
@@ -5763,7 +5763,7 @@ const allCharacters = [
       charid: "Lysimachus",
       charname: "Lysimachus",
       abbrev: "LYSIMACHUS",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "governor of Mytilene",
       speechcount: 40
   },
@@ -5771,7 +5771,7 @@ const allCharacters = [
       charid: "macbeth",
       charname: "Macbeth",
       abbrev: "MACBETH",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "General of the King's army",
       speechcount: 146
   },
@@ -5779,7 +5779,7 @@ const allCharacters = [
       charid: "macduff",
       charname: "Macduff",
       abbrev: "MACDUFF",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "Nobleman of Scotland",
       speechcount: 59
   },
@@ -5787,7 +5787,7 @@ const allCharacters = [
       charid: "macmorris",
       charname: "Macmorris",
       abbrev: "MACMORRIS",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "",
       speechcount: 4
   },
@@ -5795,7 +5795,7 @@ const allCharacters = [
       charid: "malcolm",
       charname: "Malcolm",
       abbrev: "MALCOLM",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "Son of Duncan",
       speechcount: 40
   },
@@ -5803,7 +5803,7 @@ const allCharacters = [
       charid: "MALVOLIO",
       charname: "Malvolio",
       abbrev: "MALVOLIO",
-      works: "12night",
+      works: ["12night"],
       descrip: "steward to Olivia",
       speechcount: 87
   },
@@ -5811,7 +5811,7 @@ const allCharacters = [
       charid: "Mamillius",
       charname: "Mamillius",
       abbrev: "MAMILLIUS",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "young prince of Sicilia",
       speechcount: 13
   },
@@ -5819,7 +5819,7 @@ const allCharacters = [
       charid: "Man-h8",
       charname: "Man",
       abbrev: "Man",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "the Porter's man",
       speechcount: 6
   },
@@ -5827,7 +5827,7 @@ const allCharacters = [
       charid: "marcellus",
       charname: "Marcellus",
       abbrev: "Mar",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "Officer",
       speechcount: 37
   },
@@ -5835,7 +5835,7 @@ const allCharacters = [
       charid: "MarcusAndronicus",
       charname: "Marcus Andronicus",
       abbrev: "MARCUS ANDRONICUS",
-      works: "titus",
+      works: ["titus"],
       descrip: "tribune of the people, and brother to Titus",
       speechcount: 63
   },
@@ -5843,7 +5843,7 @@ const allCharacters = [
       charid: "Mardian",
       charname: "Mardian",
       abbrev: "MARDIAN",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "a eunuch, attendant on Cleopatra",
       speechcount: 7
   },
@@ -5851,7 +5851,7 @@ const allCharacters = [
       charid: "Margarelon",
       charname: "Margarelon",
       abbrev: "MARGARELON",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "a bastard son of Priam",
       speechcount: 3
   },
@@ -5859,7 +5859,7 @@ const allCharacters = [
       charid: "margaret",
       charname: "Margaret",
       abbrev: "MARGARET",
-      works: "muchado",
+      works: ["muchado"],
       descrip: "Gentlewoman attending on Hero",
       speechcount: 26
   },
@@ -5867,7 +5867,7 @@ const allCharacters = [
       charid: "Margaret-h61",
       charname: "Queen Margaret",
       abbrev: "Margaret",
-      works: "henry6p1,henry6p2,henry6p3,richard3",
+      works: ["henry6p1", "henry6p2", "henry6p3", "richard3"],
       descrip: "daughter to Reignier, afterwards married to King Henry VI",
       speechcount: 169
   },
@@ -5875,7 +5875,7 @@ const allCharacters = [
       charid: "MargaretPlantagenet",
       charname: "Margaret Plantagenet",
       abbrev: "MARGARET PLANTAGENET",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "a young daughter of Clarence",
       speechcount: 0
   },
@@ -5883,7 +5883,7 @@ const allCharacters = [
       charid: "MARIA",
       charname: "Maria",
       abbrev: "MARIA",
-      works: "12night",
+      works: ["12night"],
       descrip: "Olivia's woman",
       speechcount: 59
   },
@@ -5891,7 +5891,7 @@ const allCharacters = [
       charid: "Maria-lll",
       charname: "Maria",
       abbrev: "MARIA",
-      works: "loveslabours",
+      works: ["loveslabours"],
       descrip: "lady attending on the princess",
       speechcount: 22
   },
@@ -5899,7 +5899,7 @@ const allCharacters = [
       charid: "MARIANA",
       charname: "Mariana",
       abbrev: "MARIANA",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "neighbor and friend to the widow",
       speechcount: 5
   },
@@ -5907,7 +5907,7 @@ const allCharacters = [
       charid: "Mariana-m4m",
       charname: "Mariana",
       abbrev: "MARIANA",
-      works: "measure",
+      works: ["measure"],
       descrip: "",
       speechcount: 24
   },
@@ -5915,7 +5915,7 @@ const allCharacters = [
       charid: "Marina",
       charname: "Marina",
       abbrev: "MARINA",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "daughter to Pericles and Thaisa",
       speechcount: 63
   },
@@ -5923,7 +5923,7 @@ const allCharacters = [
       charid: "Mariners",
       charname: "Mariners",
       abbrev: "Mariners",
-      works: "tempest",
+      works: ["tempest"],
       descrip: "",
       speechcount: 1
   },
@@ -5931,7 +5931,7 @@ const allCharacters = [
       charid: "Mariner-wt",
       charname: "Mariner",
       abbrev: "Mariner",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "",
       speechcount: 3
   },
@@ -5939,7 +5939,7 @@ const allCharacters = [
       charid: "MarquessMontague",
       charname: "Marquess of Montague",
       abbrev: "MONTAGUE",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "",
       speechcount: 15
   },
@@ -5947,7 +5947,7 @@ const allCharacters = [
       charid: "MarquisDorset",
       charname: "Marquis of Dorset",
       abbrev: "DORSET",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "son of Queen Elizabeth",
       speechcount: 10
   },
@@ -5955,7 +5955,7 @@ const allCharacters = [
       charid: "Marshal",
       charname: "Marshal",
       abbrev: "Marshal",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 1
   },
@@ -5963,7 +5963,7 @@ const allCharacters = [
       charid: "martext",
       charname: "Sir Oliver Martext",
       abbrev: "MARTEXT",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "a vicar",
       speechcount: 3
   },
@@ -5971,7 +5971,7 @@ const allCharacters = [
       charid: "Martius",
       charname: "Martius",
       abbrev: "MARTIUS",
-      works: "titus",
+      works: ["titus"],
       descrip: "son to Titus Andronicus",
       speechcount: 10
   },
@@ -5979,7 +5979,7 @@ const allCharacters = [
       charid: "Marullus",
       charname: "Marullus",
       abbrev: "MARULLUS",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "a tribune",
       speechcount: 6
   },
@@ -5987,7 +5987,7 @@ const allCharacters = [
       charid: "Master",
       charname: "Master",
       abbrev: "Master",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 1
   },
@@ -5995,7 +5995,7 @@ const allCharacters = [
       charid: "Master-Gunner",
       charname: "Master-Gunner",
       abbrev: "Master-Gunner",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "of Orleans",
       speechcount: 2
   },
@@ -6003,7 +6003,7 @@ const allCharacters = [
       charid: "MasterShip",
       charname: "Master",
       abbrev: "Master",
-      works: "tempest",
+      works: ["tempest"],
       descrip: "master of a ship",
       speechcount: 2
   },
@@ -6011,7 +6011,7 @@ const allCharacters = [
       charid: "MatthewGoffe",
       charname: "Matthew Goffe",
       abbrev: "MATTHEW GOFFE",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 0
   },
@@ -6019,7 +6019,7 @@ const allCharacters = [
       charid: "MayorAlbans",
       charname: "Mayor of Saint Alban's",
       abbrev: "Mayor",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 2
   },
@@ -6027,7 +6027,7 @@ const allCharacters = [
       charid: "MayorLondon",
       charname: "Lord Mayor of London",
       abbrev: "Mayor",
-      works: "henry6p1,richard3",
+      works: ["henry6p1", "richard3"],
       descrip: "",
       speechcount: 14
   },
@@ -6035,7 +6035,7 @@ const allCharacters = [
       charid: "MayorYork",
       charname: "Mayor of York",
       abbrev: "Mayor",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "",
       speechcount: 3
   },
@@ -6043,7 +6043,7 @@ const allCharacters = [
       charid: "Mecaenas",
       charname: "Mecaenas",
       abbrev: "MECAENAS",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "friend to Caesar",
       speechcount: 16
   },
@@ -6051,7 +6051,7 @@ const allCharacters = [
       charid: "Melun",
       charname: "Melun",
       abbrev: "MELUN",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "a French Lord",
       speechcount: 3
   },
@@ -6059,7 +6059,7 @@ const allCharacters = [
       charid: "Menas",
       charname: "Menas",
       abbrev: "MENAS",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "friend to Caesar",
       speechcount: 35
   },
@@ -6067,7 +6067,7 @@ const allCharacters = [
       charid: "Menecrates",
       charname: "Menecrates",
       abbrev: "MENECRATES",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "friend to Pompey",
       speechcount: 2
   },
@@ -6075,7 +6075,7 @@ const allCharacters = [
       charid: "Menelaus",
       charname: "Menelaus",
       abbrev: "MENELAUS",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "Agamemnon's brother",
       speechcount: 11
   },
@@ -6083,7 +6083,7 @@ const allCharacters = [
       charid: "menenius",
       charname: "Menenius Agrippa",
       abbrev: "MENENIUS",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "friend to Coriolanus",
       speechcount: 162
   },
@@ -6091,7 +6091,7 @@ const allCharacters = [
       charid: "menteith",
       charname: "Menteith",
       abbrev: "MENTEITH",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "Nobleman of Scotland",
       speechcount: 5
   },
@@ -6099,7 +6099,7 @@ const allCharacters = [
       charid: "Mercade",
       charname: "Mercade",
       abbrev: "MERCADE",
-      works: "loveslabours",
+      works: ["loveslabours"],
       descrip: "lord attending on the princess of France",
       speechcount: 3
   },
@@ -6107,7 +6107,7 @@ const allCharacters = [
       charid: "Merchant",
       charname: "Merchant",
       abbrev: "Merchant",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 8
   },
@@ -6115,7 +6115,7 @@ const allCharacters = [
       charid: "mercutio",
       charname: "Mercutio",
       abbrev: "MERCUTIO",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "Kinsman to Escalus the prince, and friend to Romeo",
       speechcount: 62
   },
@@ -6123,7 +6123,7 @@ const allCharacters = [
       charid: "Messala",
       charname: "Messala",
       abbrev: "MESSALA",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "friend to Brutus",
       speechcount: 20
   },
@@ -6131,7 +6131,7 @@ const allCharacters = [
       charid: "Messenger-ac",
       charname: "Messenger",
       abbrev: "Messenger",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 42
   },
@@ -6139,7 +6139,7 @@ const allCharacters = [
       charid: "Messenger-cor",
       charname: "Messenger",
       abbrev: "Messenger",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 12
   },
@@ -6147,7 +6147,7 @@ const allCharacters = [
       charid: "Messenger-cym",
       charname: "Messenger",
       abbrev: "Messenger",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "",
       speechcount: 2
   },
@@ -6155,7 +6155,7 @@ const allCharacters = [
       charid: "Messenger-h41",
       charname: "Messenger",
       abbrev: "Messenger",
-      works: "henry4p1",
+      works: ["henry4p1"],
       descrip: "",
       speechcount: 6
   },
@@ -6163,7 +6163,7 @@ const allCharacters = [
       charid: "messenger-h4p2",
       charname: "Messenger",
       abbrev: "MESSENGER",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "",
       speechcount: 1
   },
@@ -6171,7 +6171,7 @@ const allCharacters = [
       charid: "Messenger-h5",
       charname: "Messenger",
       abbrev: "Messenger",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "",
       speechcount: 4
   },
@@ -6179,7 +6179,7 @@ const allCharacters = [
       charid: "Messenger-h61",
       charname: "Messenger",
       abbrev: "Messenger",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 14
   },
@@ -6187,7 +6187,7 @@ const allCharacters = [
       charid: "Messenger-h62",
       charname: "Messenger",
       abbrev: "Messenger",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 5
   },
@@ -6195,7 +6195,7 @@ const allCharacters = [
       charid: "Messenger-h63",
       charname: "Messenger",
       abbrev: "Messenger",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "",
       speechcount: 6
   },
@@ -6203,7 +6203,7 @@ const allCharacters = [
       charid: "Messenger-h8",
       charname: "Messenger",
       abbrev: "Messenger",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 2
   },
@@ -6211,7 +6211,7 @@ const allCharacters = [
       charid: "messenger-ham",
       charname: "Messenger",
       abbrev: "Mess",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "",
       speechcount: 3
   },
@@ -6219,7 +6219,7 @@ const allCharacters = [
       charid: "Messenger-jc",
       charname: "Messenger",
       abbrev: "Messenger",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "",
       speechcount: 1
   },
@@ -6227,7 +6227,7 @@ const allCharacters = [
       charid: "Messenger-kjo",
       charname: "Messenger",
       abbrev: "Messenger",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "",
       speechcount: 9
   },
@@ -6235,7 +6235,7 @@ const allCharacters = [
       charid: "messenger-kl",
       charname: "Messenger",
       abbrev: "Mess",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "",
       speechcount: 1
   },
@@ -6243,7 +6243,7 @@ const allCharacters = [
       charid: "Messenger-m4m",
       charname: "Messenger",
       abbrev: "Messenger",
-      works: "measure",
+      works: ["measure"],
       descrip: "",
       speechcount: 1
   },
@@ -6251,7 +6251,7 @@ const allCharacters = [
       charid: "messenger-ma",
       charname: "Messenger",
       abbrev: "Messenger",
-      works: "muchado",
+      works: ["muchado"],
       descrip: "",
       speechcount: 17
   },
@@ -6259,7 +6259,7 @@ const allCharacters = [
       charid: "messenger-mac",
       charname: "Messenger",
       abbrev: "Messenger",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "",
       speechcount: 6
   },
@@ -6267,7 +6267,7 @@ const allCharacters = [
       charid: "messenger-oth",
       charname: "Messenger",
       abbrev: "Messenger",
-      works: "othello",
+      works: ["othello"],
       descrip: "",
       speechcount: 2
   },
@@ -6275,7 +6275,7 @@ const allCharacters = [
       charid: "Messenger-per",
       charname: "Messenger",
       abbrev: "Messenger",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 1
   },
@@ -6283,7 +6283,7 @@ const allCharacters = [
       charid: "Messenger-r3",
       charname: "Messenger",
       abbrev: "Messenger",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 13
   },
@@ -6291,7 +6291,7 @@ const allCharacters = [
       charid: "Messenger-ta",
       charname: "Messenger",
       abbrev: "Messenger",
-      works: "titus",
+      works: ["titus"],
       descrip: "",
       speechcount: 1
   },
@@ -6299,7 +6299,7 @@ const allCharacters = [
       charid: "Messenger-tim",
       charname: "Messenger",
       abbrev: "Messenger",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 6
   },
@@ -6307,7 +6307,7 @@ const allCharacters = [
       charid: "messenger-ts",
       charname: "Messenger",
       abbrev: "MESSENGER",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "",
       speechcount: 1
   },
@@ -6315,7 +6315,7 @@ const allCharacters = [
       charid: "MetellusCimber",
       charname: "Metellus Cimber",
       abbrev: "Metellus Cimber",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "a conspirator against Caesar",
       speechcount: 5
   },
@@ -6323,7 +6323,7 @@ const allCharacters = [
       charid: "Michael",
       charname: "Michael",
       abbrev: "MICHAEL",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "a follower of Cade",
       speechcount: 3
   },
@@ -6331,7 +6331,7 @@ const allCharacters = [
       charid: "Miranda",
       charname: "Miranda",
       abbrev: "MIRANDA",
-      works: "tempest",
+      works: ["tempest"],
       descrip: "daughter to Prospero",
       speechcount: 49
   },
@@ -6339,7 +6339,7 @@ const allCharacters = [
       charid: "mistressford",
       charname: "Mistress Ford",
       abbrev: "MISTRESS FORD",
-      works: "merrywives",
+      works: ["merrywives"],
       descrip: "",
       speechcount: 85
   },
@@ -6347,7 +6347,7 @@ const allCharacters = [
       charid: "MistressOverdone",
       charname: "Mistress Overdone",
       abbrev: "MISTRESS OVERDONE",
-      works: "measure",
+      works: ["measure"],
       descrip: "a bawd",
       speechcount: 15
   },
@@ -6355,7 +6355,7 @@ const allCharacters = [
       charid: "mistresspage",
       charname: "Mistress Page",
       abbrev: "MISTRESS PAGE",
-      works: "merrywives",
+      works: ["merrywives"],
       descrip: "",
       speechcount: 101
   },
@@ -6363,7 +6363,7 @@ const allCharacters = [
       charid: "montague",
       charname: "Montague",
       abbrev: "MONTAGUE",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "Head of the house of Montague",
       speechcount: 10
   },
@@ -6371,7 +6371,7 @@ const allCharacters = [
       charid: "montano",
       charname: "Montano",
       abbrev: "MONTANO",
-      works: "othello",
+      works: ["othello"],
       descrip: "Othello's predecessor in the government of Cyprus",
       speechcount: 24
   },
@@ -6379,7 +6379,7 @@ const allCharacters = [
       charid: "Montjoy",
       charname: "Montjoy",
       abbrev: "MONTJOY",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "a French herald",
       speechcount: 11
   },
@@ -6387,7 +6387,7 @@ const allCharacters = [
       charid: "Mopsa",
       charname: "Mopsa",
       abbrev: "MOPSA",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "a shepherdess",
       speechcount: 13
   },
@@ -6395,7 +6395,7 @@ const allCharacters = [
       charid: "mortimer",
       charname: "Mortimer",
       abbrev: "MORTIMER",
-      works: "henry4p1",
+      works: ["henry4p1"],
       descrip: "Earl of March",
       speechcount: 13
   },
@@ -6403,7 +6403,7 @@ const allCharacters = [
       charid: "morton",
       charname: "Morton",
       abbrev: "MORTON",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "retainer of Northumberland",
       speechcount: 6
   },
@@ -6411,7 +6411,7 @@ const allCharacters = [
       charid: "Moth",
       charname: "Moth",
       abbrev: "MOTH",
-      works: "loveslabours",
+      works: ["loveslabours"],
       descrip: "page to Armado",
       speechcount: 78
   },
@@ -6419,7 +6419,7 @@ const allCharacters = [
       charid: "Mother",
       charname: "Mother",
       abbrev: "Mother",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "an apparition",
       speechcount: 3
   },
@@ -6427,7 +6427,7 @@ const allCharacters = [
       charid: "Moth-mnd",
       charname: "Moth",
       abbrev: "MOTH",
-      works: "midsummer",
+      works: ["midsummer"],
       descrip: "a fairy",
       speechcount: 2
   },
@@ -6435,7 +6435,7 @@ const allCharacters = [
       charid: "mouldy",
       charname: "Ralph Mouldy",
       abbrev: "MOULDY",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "country soldier",
       speechcount: 5
   },
@@ -6443,7 +6443,7 @@ const allCharacters = [
       charid: "mowbray",
       charname: "Lord Mowbray",
       abbrev: "MOWBRAY",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "",
       speechcount: 18
   },
@@ -6451,7 +6451,7 @@ const allCharacters = [
       charid: "Mustardseed",
       charname: "Mustardseed",
       abbrev: "MUSTARDSEED",
-      works: "midsummer",
+      works: ["midsummer"],
       descrip: "a fairy",
       speechcount: 5
   },
@@ -6459,7 +6459,7 @@ const allCharacters = [
       charid: "Mutius",
       charname: "Mutius",
       abbrev: "MUTIUS",
-      works: "titus",
+      works: ["titus"],
       descrip: "son to Titus Andronicus",
       speechcount: 3
   },
@@ -6467,7 +6467,7 @@ const allCharacters = [
       charid: "Myrmidons",
       charname: "Myrmidons",
       abbrev: "MYRMIDONS",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "soldiers of Achilles in the Trojan war",
       speechcount: 1
   },
@@ -6475,7 +6475,7 @@ const allCharacters = [
       charid: "nathaniel-ts",
       charname: "Nathaniel",
       abbrev: "NATHANIEL",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "a servingman",
       speechcount: 4
   },
@@ -6483,7 +6483,7 @@ const allCharacters = [
       charid: "Nerissa",
       charname: "Nerissa",
       abbrev: "NERISSA",
-      works: "merchantvenice",
+      works: ["merchantvenice"],
       descrip: "Portia's maid-in-waiting",
       speechcount: 36
   },
@@ -6491,7 +6491,7 @@ const allCharacters = [
       charid: "Nestor",
       charname: "Nestor",
       abbrev: "NESTOR",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "a Greek prince",
       speechcount: 38
   },
@@ -6499,7 +6499,7 @@ const allCharacters = [
       charid: "nicholas-ts",
       charname: "Nicholas",
       abbrev: "NICHOLAS",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "a servingman",
       speechcount: 1
   },
@@ -6507,7 +6507,7 @@ const allCharacters = [
       charid: "Nobleman-h63",
       charname: "Nobleman",
       abbrev: "Nobleman",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "",
       speechcount: 1
   },
@@ -6515,7 +6515,7 @@ const allCharacters = [
       charid: "norcapt",
       charname: "Norwegian Captain",
       abbrev: "Capt",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "",
       speechcount: 7
   },
@@ -6523,7 +6523,7 @@ const allCharacters = [
       charid: "nurse-rj",
       charname: "Nurse",
       abbrev: "Nurse",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "Nurse to Juliet",
       speechcount: 90
   },
@@ -6531,7 +6531,7 @@ const allCharacters = [
       charid: "Nurse-ta",
       charname: "Nurse",
       abbrev: "Nurse",
-      works: "titus",
+      works: ["titus"],
       descrip: "",
       speechcount: 10
   },
@@ -6539,7 +6539,7 @@ const allCharacters = [
       charid: "nym",
       charname: "Nym",
       abbrev: "NYM",
-      works: "henry5,merrywives",
+      works: ["henry5", "merrywives"],
       descrip: "sharper attending on Falstaff",
       speechcount: 33
   },
@@ -6547,7 +6547,7 @@ const allCharacters = [
       charid: "Nymphs",
       charname: "Nymphs",
       abbrev: "Nymphs",
-      works: "tempest",
+      works: ["tempest"],
       descrip: "presented by spirits",
       speechcount: 0
   },
@@ -6555,7 +6555,7 @@ const allCharacters = [
       charid: "Oberon",
       charname: "Oberon",
       abbrev: "OBERON",
-      works: "midsummer",
+      works: ["midsummer"],
       descrip: "king of the fairies",
       speechcount: 29
   },
@@ -6563,7 +6563,7 @@ const allCharacters = [
       charid: "Octavia",
       charname: "Octavia",
       abbrev: "OCTAVIA",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "sister to Caesar and wife to Antony",
       speechcount: 13
   },
@@ -6571,7 +6571,7 @@ const allCharacters = [
       charid: "octavius",
       charname: "Octavius",
       abbrev: "OCTAVIUS",
-      works: "juliuscaesar,antonycleo",
+      works: ["juliuscaesar", "antonycleo"],
       descrip: "(Octavius Caesar)",
       speechcount: 117
   },
@@ -6579,7 +6579,7 @@ const allCharacters = [
       charid: "Officer-ce",
       charname: "Officer",
       abbrev: "Officer",
-      works: "comedyerrors",
+      works: ["comedyerrors"],
       descrip: "",
       speechcount: 11
   },
@@ -6587,7 +6587,7 @@ const allCharacters = [
       charid: "Officer-cor",
       charname: "Officer",
       abbrev: "Officer",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 1
   },
@@ -6595,7 +6595,7 @@ const allCharacters = [
       charid: "Officer-h61",
       charname: "Officer",
       abbrev: "Officer",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 1
   },
@@ -6603,7 +6603,7 @@ const allCharacters = [
       charid: "Officer-wt",
       charname: "Officer",
       abbrev: "Officer",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "",
       speechcount: 5
   },
@@ -6611,7 +6611,7 @@ const allCharacters = [
       charid: "OldAthenian",
       charname: "Old Athenian",
       abbrev: "Old Athenian",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 10
   },
@@ -6619,7 +6619,7 @@ const allCharacters = [
       charid: "OldGobbo",
       charname: "Old Gobbo",
       abbrev: "GOBBO",
-      works: "merchantvenice",
+      works: ["merchantvenice"],
       descrip: "father to Launcelot",
       speechcount: 19
   },
@@ -6627,7 +6627,7 @@ const allCharacters = [
       charid: "OldLady-h8",
       charname: "Old Lady",
       abbrev: "Old Lady",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "friend to Anne Bullen",
       speechcount: 14
   },
@@ -6635,7 +6635,7 @@ const allCharacters = [
       charid: "oldman-kl",
       charname: "Old Man",
       abbrev: "Old Man",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "tenant to Glouchester",
       speechcount: 9
   },
@@ -6643,7 +6643,7 @@ const allCharacters = [
       charid: "oldman-mac",
       charname: "Old Man",
       abbrev: "Old Man",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "",
       speechcount: 4
   },
@@ -6651,7 +6651,7 @@ const allCharacters = [
       charid: "OldShepherd",
       charname: "Old Shepherd",
       abbrev: "Shepherd",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "reputed father of Perdita",
       speechcount: 42
   },
@@ -6659,7 +6659,7 @@ const allCharacters = [
       charid: "oliver",
       charname: "Oliver",
       abbrev: "OLIVER",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "son of Sir Rowland de Boys",
       speechcount: 37
   },
@@ -6667,7 +6667,7 @@ const allCharacters = [
       charid: "OLIVIA",
       charname: "Olivia",
       abbrev: "OLIVIA",
-      works: "12night",
+      works: ["12night"],
       descrip: "",
       speechcount: 118
   },
@@ -6675,7 +6675,7 @@ const allCharacters = [
       charid: "ophelia",
       charname: "Ophelia",
       abbrev: "Oph",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "daughter to Polonius",
       speechcount: 58
   },
@@ -6683,7 +6683,7 @@ const allCharacters = [
       charid: "orlando",
       charname: "Orlando",
       abbrev: "ORLANDO",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "son of Sir Rowland de Boys",
       speechcount: 120
   },
@@ -6691,7 +6691,7 @@ const allCharacters = [
       charid: "orleans",
       charname: "Duke of Orleans",
       abbrev: "ORLEANS",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "",
       speechcount: 29
   },
@@ -6699,7 +6699,7 @@ const allCharacters = [
       charid: "ORSINO",
       charname: "Orsino",
       abbrev: "DUKE ORSINO",
-      works: "12night",
+      works: ["12night"],
       descrip: "Duke of Illyria",
       speechcount: 59
   },
@@ -6707,7 +6707,7 @@ const allCharacters = [
       charid: "osric",
       charname: "Osric",
       abbrev: "Osr",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "courtier",
       speechcount: 25
   },
@@ -6715,7 +6715,7 @@ const allCharacters = [
       charid: "Ostler",
       charname: "Ostler",
       abbrev: "Ostler",
-      works: "henry4p1",
+      works: ["henry4p1"],
       descrip: "",
       speechcount: 1
   },
@@ -6723,7 +6723,7 @@ const allCharacters = [
       charid: "oswald",
       charname: "Oswald",
       abbrev: "Osw",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "steward to Goneril",
       speechcount: 38
   },
@@ -6731,7 +6731,7 @@ const allCharacters = [
       charid: "othello",
       charname: "Othello",
       abbrev: "OTHELLO",
-      works: "othello",
+      works: ["othello"],
       descrip: "A noble Moor in the service of the Ventian state",
       speechcount: 274
   },
@@ -6739,7 +6739,7 @@ const allCharacters = [
       charid: "Outlaws",
       charname: "Outlaws",
       abbrev: "Outlaws",
-      works: "twogents",
+      works: ["twogents"],
       descrip: "",
       speechcount: 1
   },
@@ -6747,7 +6747,7 @@ const allCharacters = [
       charid: "page1-ayli",
       charname: "First Page",
       abbrev: "FIRST PAGE",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "",
       speechcount: 3
   },
@@ -6755,7 +6755,7 @@ const allCharacters = [
       charid: "page2-ayli",
       charname: "Second Page",
       abbrev: "SECOND PAGE",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "",
       speechcount: 2
   },
@@ -6763,7 +6763,7 @@ const allCharacters = [
       charid: "Page-aw",
       charname: "Page",
       abbrev: "Page",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "",
       speechcount: 1
   },
@@ -6771,7 +6771,7 @@ const allCharacters = [
       charid: "page-h4p2",
       charname: "Page",
       abbrev: "PAGE",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "to Falstaff",
       speechcount: 17
   },
@@ -6779,7 +6779,7 @@ const allCharacters = [
       charid: "Page-h8",
       charname: "Page",
       abbrev: "Boy",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "a page to Gardiner",
       speechcount: 1
   },
@@ -6787,7 +6787,7 @@ const allCharacters = [
       charid: "page-mww",
       charname: "Page",
       abbrev: "PAGE",
-      works: "merrywives",
+      works: ["merrywives"],
       descrip: "a gentleman dwelling at Windsor",
       speechcount: 75
   },
@@ -6795,7 +6795,7 @@ const allCharacters = [
       charid: "Page-r3",
       charname: "Page",
       abbrev: "Page",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 3
   },
@@ -6803,7 +6803,7 @@ const allCharacters = [
       charid: "page-rj",
       charname: "Page",
       abbrev: "PAGE",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "Page to Paris",
       speechcount: 4
   },
@@ -6811,7 +6811,7 @@ const allCharacters = [
       charid: "Page-tim",
       charname: "Page",
       abbrev: "Page",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 4
   },
@@ -6819,7 +6819,7 @@ const allCharacters = [
       charid: "page-ts",
       charname: "Page",
       abbrev: "PAGE",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "",
       speechcount: 8
   },
@@ -6827,7 +6827,7 @@ const allCharacters = [
       charid: "Painter",
       charname: "Painter",
       abbrev: "Painter",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 30
   },
@@ -6835,7 +6835,7 @@ const allCharacters = [
       charid: "Pandar",
       charname: "Pandar",
       abbrev: "Pandar",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 10
   },
@@ -6843,7 +6843,7 @@ const allCharacters = [
       charid: "Pandarus",
       charname: "Pandarus",
       abbrev: "PANDARUS",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "uncle to Cressida",
       speechcount: 153
   },
@@ -6851,7 +6851,7 @@ const allCharacters = [
       charid: "Panthino",
       charname: "Panthino",
       abbrev: "PANTHINO",
-      works: "twogents",
+      works: ["twogents"],
       descrip: "servant to Antonio",
       speechcount: 14
   },
@@ -6859,7 +6859,7 @@ const allCharacters = [
       charid: "paris",
       charname: "Paris",
       abbrev: "PARIS",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "A young nobleman, kinsman to Escalus the prince",
       speechcount: 23
   },
@@ -6867,7 +6867,7 @@ const allCharacters = [
       charid: "Paris-tc",
       charname: "Paris",
       abbrev: "PARIS",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "son of Priam, king of Troy",
       speechcount: 27
   },
@@ -6875,7 +6875,7 @@ const allCharacters = [
       charid: "PAROLLES",
       charname: "Parolles",
       abbrev: "PAROLLES",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "a follower of Bertram",
       speechcount: 141
   },
@@ -6883,7 +6883,7 @@ const allCharacters = [
       charid: "Patience",
       charname: "Patience",
       abbrev: "PATIENCE",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "woman to Queen Katharine",
       speechcount: 3
   },
@@ -6891,7 +6891,7 @@ const allCharacters = [
       charid: "patrician",
       charname: "Patrician",
       abbrev: "A Patrician",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 3
   },
@@ -6899,7 +6899,7 @@ const allCharacters = [
       charid: "Patroclus",
       charname: "Patroclus",
       abbrev: "PATROCLUS",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "a Greek prince",
       speechcount: 37
   },
@@ -6907,7 +6907,7 @@ const allCharacters = [
       charid: "Paulina",
       charname: "Paulina",
       abbrev: "PAULINA",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "wife to Antigonus",
       speechcount: 59
   },
@@ -6915,7 +6915,7 @@ const allCharacters = [
       charid: "Peaseblossom",
       charname: "Peaseblossom",
       abbrev: "PEASEBLOSSOM",
-      works: "midsummer",
+      works: ["midsummer"],
       descrip: "a fairy",
       speechcount: 4
   },
@@ -6923,7 +6923,7 @@ const allCharacters = [
       charid: "pedant",
       charname: "Pedant",
       abbrev: "PEDANT",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "",
       speechcount: 20
   },
@@ -6931,7 +6931,7 @@ const allCharacters = [
       charid: "Pembroke",
       charname: "Pembroke",
       abbrev: "PEMBROKE",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "earl of Pembroke",
       speechcount: 20
   },
@@ -6939,7 +6939,7 @@ const allCharacters = [
       charid: "Pembroke-h63",
       charname: "Earl of Pembroke",
       abbrev: "PEMBROKE",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "",
       speechcount: 0
   },
@@ -6947,7 +6947,7 @@ const allCharacters = [
       charid: "Perdita",
       charname: "Perdita",
       abbrev: "PERDITA",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "daughter to Leontes and Hermione",
       speechcount: 25
   },
@@ -6955,7 +6955,7 @@ const allCharacters = [
       charid: "Pericles",
       charname: "Pericles",
       abbrev: "PERICLES",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "prince of Tyre",
       speechcount: 121
   },
@@ -6963,7 +6963,7 @@ const allCharacters = [
       charid: "Peter-h62",
       charname: "Peter",
       abbrev: "PETER",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "Thomas Horner's man",
       speechcount: 9
   },
@@ -6971,7 +6971,7 @@ const allCharacters = [
       charid: "PeterPomfret",
       charname: "Peter of Pomfret",
       abbrev: "PETER",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "a prophet",
       speechcount: 1
   },
@@ -6979,7 +6979,7 @@ const allCharacters = [
       charid: "peter-rj",
       charname: "Peter",
       abbrev: "PETER",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "Servant to Julet's nurse",
       speechcount: 13
   },
@@ -6987,7 +6987,7 @@ const allCharacters = [
       charid: "peter-ts",
       charname: "Peter",
       abbrev: "PETER",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "a servingman",
       speechcount: 2
   },
@@ -6995,7 +6995,7 @@ const allCharacters = [
       charid: "peto",
       charname: "Peto",
       abbrev: "PETO",
-      works: "henry4p1,henry4p2",
+      works: ["henry4p1", "henry4p2"],
       descrip: "",
       speechcount: 8
   },
@@ -7003,7 +7003,7 @@ const allCharacters = [
       charid: "petruchio",
       charname: "Petruchio",
       abbrev: "PETRUCHIO",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "a gentleman of Verona, a suitor to Katherina",
       speechcount: 158
   },
@@ -7011,7 +7011,7 @@ const allCharacters = [
       charid: "phebe",
       charname: "Phebe",
       abbrev: "PHEBE",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "a shepherdess",
       speechcount: 23
   },
@@ -7019,7 +7019,7 @@ const allCharacters = [
       charid: "Philario",
       charname: "Philario",
       abbrev: "PHILARIO",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "friend to Posthumus, an Italian.",
       speechcount: 14
   },
@@ -7027,7 +7027,7 @@ const allCharacters = [
       charid: "Philemon",
       charname: "Philemon",
       abbrev: "PHILEMON",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "servant to Cerimon",
       speechcount: 1
   },
@@ -7035,7 +7035,7 @@ const allCharacters = [
       charid: "PhilipBastard",
       charname: "Philip the Bastard",
       abbrev: "BASTARD",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "illegitimate son of Sir Robert Faulconbridge",
       speechcount: 89
   },
@@ -7043,7 +7043,7 @@ const allCharacters = [
       charid: "philip-ts",
       charname: "Philip",
       abbrev: "PHILIP",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "a servingman",
       speechcount: 1
   },
@@ -7051,7 +7051,7 @@ const allCharacters = [
       charid: "Philo",
       charname: "Philo",
       abbrev: "PHILO",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "friend to Antony",
       speechcount: 2
   },
@@ -7059,7 +7059,7 @@ const allCharacters = [
       charid: "Philostrate",
       charname: "Philostrate",
       abbrev: "PHILOSTRATE",
-      works: "midsummer",
+      works: ["midsummer"],
       descrip: "master of the revels to Theseus",
       speechcount: 6
   },
@@ -7067,7 +7067,7 @@ const allCharacters = [
       charid: "Philotus",
       charname: "Philotus",
       abbrev: "PHILOTUS",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "servant to Timon's creditors",
       speechcount: 6
   },
@@ -7075,7 +7075,7 @@ const allCharacters = [
       charid: "Phrynia",
       charname: "Phrynia",
       abbrev: "PHRYNIA",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "mistress to Alcibiades",
       speechcount: 4
   },
@@ -7083,7 +7083,7 @@ const allCharacters = [
       charid: "PINCH",
       charname: "Pinch",
       abbrev: "PINCH",
-      works: "comedyerrors",
+      works: ["comedyerrors"],
       descrip: "a schoolmaster",
       speechcount: 6
   },
@@ -7091,7 +7091,7 @@ const allCharacters = [
       charid: "Pindarus",
       charname: "Pindarus",
       abbrev: "PINDARUS",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "servant to Cassius",
       speechcount: 5
   },
@@ -7099,7 +7099,7 @@ const allCharacters = [
       charid: "Pisanio",
       charname: "Pisanio",
       abbrev: "PISANIO",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "servant to Posthumus",
       speechcount: 58
   },
@@ -7107,7 +7107,7 @@ const allCharacters = [
       charid: "pistol",
       charname: "Pistol",
       abbrev: "PISTOL",
-      works: "henry4p2,henry5,merrywives",
+      works: ["henry4p2", "henry5", "merrywives"],
       descrip: "",
       speechcount: 122
   },
@@ -7115,7 +7115,7 @@ const allCharacters = [
       charid: "PlayerKing",
       charname: "Player King",
       abbrev: "PlayerKing",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "",
       speechcount: 4
   },
@@ -7123,7 +7123,7 @@ const allCharacters = [
       charid: "PlayerQueen",
       charname: "Player Queen",
       abbrev: "PlayerQueen",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "",
       speechcount: 4
   },
@@ -7131,7 +7131,7 @@ const allCharacters = [
       charid: "players-ts",
       charname: "Players",
       abbrev: "PLAYERS",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "",
       speechcount: 1
   },
@@ -7139,7 +7139,7 @@ const allCharacters = [
       charid: "player-ts",
       charname: "Player",
       abbrev: "PLAYER",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "",
       speechcount: 3
   },
@@ -7147,7 +7147,7 @@ const allCharacters = [
       charid: "Poet-jc",
       charname: "Poet",
       abbrev: "Poet",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "",
       speechcount: 3
   },
@@ -7155,7 +7155,7 @@ const allCharacters = [
       charid: "Poet-tim",
       charname: "Poet",
       abbrev: "Poet",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 30
   },
@@ -7163,7 +7163,7 @@ const allCharacters = [
       charid: "poins",
       charname: "Edward Poins",
       abbrev: "POINS",
-      works: "henry4p1,henry4p2",
+      works: ["henry4p1", "henry4p2"],
       descrip: "",
       speechcount: 64
   },
@@ -7171,7 +7171,7 @@ const allCharacters = [
       charid: "Polixenes",
       charname: "Polixenes",
       abbrev: "POLIXENES",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "king of Bohemia",
       speechcount: 57
   },
@@ -7179,7 +7179,7 @@ const allCharacters = [
       charid: "polonius",
       charname: "Polonius",
       abbrev: "Pol",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "Lord Chamberlain",
       speechcount: 86
   },
@@ -7187,7 +7187,7 @@ const allCharacters = [
       charid: "Pompey",
       charname: "Pompey",
       abbrev: "POMPEY",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "(Sextus Pompeius)",
       speechcount: 41
   },
@@ -7195,7 +7195,7 @@ const allCharacters = [
       charid: "Pompey-m4m",
       charname: "Pompey",
       abbrev: "POMPEY",
-      works: "measure",
+      works: ["measure"],
       descrip: "servant to Mistress Overdone",
       speechcount: 60
   },
@@ -7203,7 +7203,7 @@ const allCharacters = [
       charid: "Popilius",
       charname: "Popilius",
       abbrev: "POPILIUS",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "(Popilius Lena)",
       speechcount: 2
   },
@@ -7211,7 +7211,7 @@ const allCharacters = [
       charid: "porter",
       charname: "Porter",
       abbrev: "PORTER",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "",
       speechcount: 2
   },
@@ -7219,7 +7219,7 @@ const allCharacters = [
       charid: "Porter-h61",
       charname: "Porter",
       abbrev: "Porter",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 1
   },
@@ -7227,7 +7227,7 @@ const allCharacters = [
       charid: "Porter-h8",
       charname: "Porter",
       abbrev: "Porter",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "door-keeper of the Council-chamber",
       speechcount: 10
   },
@@ -7235,7 +7235,7 @@ const allCharacters = [
       charid: "porter-mac",
       charname: "Porter",
       abbrev: "Porter",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "",
       speechcount: 4
   },
@@ -7243,7 +7243,7 @@ const allCharacters = [
       charid: "Portia",
       charname: "Portia",
       abbrev: "PORTIA",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "wife to Brutus",
       speechcount: 16
   },
@@ -7251,7 +7251,7 @@ const allCharacters = [
       charid: "Portia-mv",
       charname: "Portia",
       abbrev: "PORTIA",
-      works: "merchantvenice",
+      works: ["merchantvenice"],
       descrip: "a rich heiress",
       speechcount: 117
   },
@@ -7259,7 +7259,7 @@ const allCharacters = [
       charid: "Post-h62",
       charname: "Post",
       abbrev: "Post",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 1
   },
@@ -7267,7 +7267,7 @@ const allCharacters = [
       charid: "Post-h63",
       charname: "Post",
       abbrev: "Post",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "",
       speechcount: 9
   },
@@ -7275,7 +7275,7 @@ const allCharacters = [
       charid: "PosthumusLeonatus",
       charname: "Posthumus Leonatus",
       abbrev: "POSTHUMUS LEONATUS",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "a gentleman, husband to Imogen",
       speechcount: 77
   },
@@ -7283,7 +7283,7 @@ const allCharacters = [
       charid: "Priam",
       charname: "Priam",
       abbrev: "PRIAM",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "king of Troy",
       speechcount: 6
   },
@@ -7291,7 +7291,7 @@ const allCharacters = [
       charid: "Priest-12",
       charname: "Priest",
       abbrev: "Priest",
-      works: "12night",
+      works: ["12night"],
       descrip: "",
       speechcount: 1
   },
@@ -7299,7 +7299,7 @@ const allCharacters = [
       charid: "Priest-r3",
       charname: "Priest",
       abbrev: "Priest",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 1
   },
@@ -7307,7 +7307,7 @@ const allCharacters = [
       charid: "PrinceArragon",
       charname: "Prince of Arragon",
       abbrev: "ARRAGON",
-      works: "merchantvenice",
+      works: ["merchantvenice"],
       descrip: "suitor to Portia",
       speechcount: 4
   },
@@ -7315,7 +7315,7 @@ const allCharacters = [
       charid: "PrinceEdward",
       charname: "Prince Edward",
       abbrev: "PRINCE EDWARD",
-      works: "henry6p3,richard3",
+      works: ["henry6p3", "richard3"],
       descrip: "",
       speechcount: 35
   },
@@ -7323,7 +7323,7 @@ const allCharacters = [
       charid: "PrinceHenry",
       charname: "Prince Henry",
       abbrev: "PRINCE HENRY",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "son to King John",
       speechcount: 8
   },
@@ -7331,7 +7331,7 @@ const allCharacters = [
       charid: "princehumphrey",
       charname: "Prince Humphrey",
       abbrev: "PRINCE HUMPHREY",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "of Goucester",
       speechcount: 11
   },
@@ -7339,7 +7339,7 @@ const allCharacters = [
       charid: "princejohn",
       charname: "Prince John",
       abbrev: "LANCASTER",
-      works: "henry4p1,henry4p2",
+      works: ["henry4p1", "henry4p2"],
       descrip: "of Lancaster",
       speechcount: 31
   },
@@ -7347,7 +7347,7 @@ const allCharacters = [
       charid: "PrinceMorocco",
       charname: "Prince of Morocco",
       abbrev: "MOROCCO",
-      works: "merchantvenice",
+      works: ["merchantvenice"],
       descrip: "suitor to Portia",
       speechcount: 7
   },
@@ -7355,7 +7355,7 @@ const allCharacters = [
       charid: "Princes-r3",
       charname: "Princes",
       abbrev: "Princes",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 1
   },
@@ -7363,7 +7363,7 @@ const allCharacters = [
       charid: "PrincessFrance",
       charname: "Princess of France",
       abbrev: "PRINCESS",
-      works: "loveslabours",
+      works: ["loveslabours"],
       descrip: "",
       speechcount: 102
   },
@@ -7371,7 +7371,7 @@ const allCharacters = [
       charid: "Proculeius",
       charname: "Proculeius",
       abbrev: "PROCULEIUS",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "friend to Caesar",
       speechcount: 10
   },
@@ -7379,7 +7379,7 @@ const allCharacters = [
       charid: "Prospero",
       charname: "Prospero",
       abbrev: "PROSPERO",
-      works: "tempest",
+      works: ["tempest"],
       descrip: "the rightful Duke of Milan",
       speechcount: 115
   },
@@ -7387,7 +7387,7 @@ const allCharacters = [
       charid: "Proteus",
       charname: "Proteus",
       abbrev: "PROTEUS",
-      works: "twogents",
+      works: ["twogents"],
       descrip: "a gentleman",
       speechcount: 147
   },
@@ -7395,7 +7395,7 @@ const allCharacters = [
       charid: "Provost",
       charname: "Provost",
       abbrev: "Provost",
-      works: "measure",
+      works: ["measure"],
       descrip: "",
       speechcount: 65
   },
@@ -7403,7 +7403,7 @@ const allCharacters = [
       charid: "Publius",
       charname: "Publius",
       abbrev: "PUBLIUS",
-      works: "titus",
+      works: ["titus"],
       descrip: "son to Marcus the Tribune",
       speechcount: 5
   },
@@ -7411,7 +7411,7 @@ const allCharacters = [
       charid: "publius-jc",
       charname: "Publius",
       abbrev: "PUBLIUS",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "Senator",
       speechcount: 2
   },
@@ -7419,7 +7419,7 @@ const allCharacters = [
       charid: "Puck",
       charname: "Puck",
       abbrev: "PUCK",
-      works: "midsummer",
+      works: ["midsummer"],
       descrip: "or Robin Goodfellow",
       speechcount: 33
   },
@@ -7427,7 +7427,7 @@ const allCharacters = [
       charid: "Pursuivant",
       charname: "Pursuivant",
       abbrev: "Pursuivant",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 3
   },
@@ -7435,7 +7435,7 @@ const allCharacters = [
       charid: "Queen-cym",
       charname: "Queen",
       abbrev: "QUEEN",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "wife to Cymbeline",
       speechcount: 27
   },
@@ -7443,7 +7443,7 @@ const allCharacters = [
       charid: "QueenElinor",
       charname: "Queen Elinor",
       abbrev: "QUEEN ELINOR",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "mother to King John",
       speechcount: 22
   },
@@ -7451,7 +7451,7 @@ const allCharacters = [
       charid: "QueenElizabeth",
       charname: "Queen Elizabeth",
       abbrev: "QUEEN ELIZABETH",
-      works: "henry6p3,richard3",
+      works: ["henry6p3", "richard3"],
       descrip: "starts as Lady Grey, marries Edward IV",
       speechcount: 129
   },
@@ -7459,7 +7459,7 @@ const allCharacters = [
       charid: "QueenKatharine",
       charname: "Queen Katharine",
       abbrev: "QUEEN KATHARINE",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "wife to King Henry, afterwards divorced",
       speechcount: 50
   },
@@ -7467,7 +7467,7 @@ const allCharacters = [
       charid: "Queen-kr2",
       charname: "Queen",
       abbrev: "QUEEN",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "",
       speechcount: 25
   },
@@ -7475,7 +7475,7 @@ const allCharacters = [
       charid: "quickly",
       charname: "Hostess Quickly",
       abbrev: "HOSTESS",
-      works: "henry4p1,henry4p2,henry5,merrywives",
+      works: ["henry4p1", "henry4p2", "henry5", "merrywives"],
       descrip: "hostess of a tavern in Eastcheap",
       speechcount: 158
   },
@@ -7483,7 +7483,7 @@ const allCharacters = [
       charid: "Quince",
       charname: "Quince",
       abbrev: "QUINCE",
-      works: "midsummer",
+      works: ["midsummer"],
       descrip: "a carpenter",
       speechcount: 40
   },
@@ -7491,7 +7491,7 @@ const allCharacters = [
       charid: "Quintus",
       charname: "Quintus",
       abbrev: "QUINTUS",
-      works: "titus",
+      works: ["titus"],
       descrip: "son to Titus Andronicus",
       speechcount: 11
   },
@@ -7499,7 +7499,7 @@ const allCharacters = [
       charid: "Rambures",
       charname: "Rambures",
       abbrev: "RAMBURES",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "French lord",
       speechcount: 5
   },
@@ -7507,7 +7507,7 @@ const allCharacters = [
       charid: "Reapers",
       charname: "Reapers",
       abbrev: "Reapers",
-      works: "tempest",
+      works: ["tempest"],
       descrip: "presented by spirits",
       speechcount: 0
   },
@@ -7515,7 +7515,7 @@ const allCharacters = [
       charid: "regan",
       charname: "Regan",
       abbrev: "Reg",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "daughter to Lear",
       speechcount: 73
   },
@@ -7523,7 +7523,7 @@ const allCharacters = [
       charid: "Reignier",
       charname: "Reignier",
       abbrev: "REIGNIER",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "duke of Anjou, and titular king of Naples",
       speechcount: 24
   },
@@ -7531,7 +7531,7 @@ const allCharacters = [
       charid: "reynaldo",
       charname: "Reynaldo",
       abbrev: "Rey",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "servant to Polonius",
       speechcount: 13
   },
@@ -7539,7 +7539,7 @@ const allCharacters = [
       charid: "Richard2",
       charname: "King Richard II",
       abbrev: "KING RICHARD II",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "king of England",
       speechcount: 98
   },
@@ -7547,7 +7547,7 @@ const allCharacters = [
       charid: "Richard3",
       charname: "Richard III",
       abbrev: "RICHARD3",
-      works: "henry6p3,richard3",
+      works: ["henry6p3", "richard3"],
       descrip: "son of Richard Plantagenet, duke of York; was duke of Gloucester before enthronement",
       speechcount: 246
   },
@@ -7555,7 +7555,7 @@ const allCharacters = [
       charid: "RichardPlantagenet",
       charname: "Richard Plantagenet (Duke of Gloucester)",
       abbrev: "PLANTAGENET",
-      works: "henry6p1,henry6p2,henry6p3,richard3",
+      works: ["henry6p1", "henry6p2", "henry6p3", "richard3"],
       descrip: "becomes duke of York in Henry VI, Part",
       speechcount: 172
   },
@@ -7563,7 +7563,7 @@ const allCharacters = [
       charid: "RichardPlantagenet2",
       charname: "Richard Plantagenet the Younger",
       abbrev: "RICHARD",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 6
   },
@@ -7571,7 +7571,7 @@ const allCharacters = [
       charid: "robin",
       charname: "Robin",
       abbrev: "ROBIN",
-      works: "merrywives",
+      works: ["merrywives"],
       descrip: "page to Falstaff",
       speechcount: 6
   },
@@ -7579,7 +7579,7 @@ const allCharacters = [
       charid: "roderigo",
       charname: "Roderigo",
       abbrev: "RODERIGO",
-      works: "othello",
+      works: ["othello"],
       descrip: "A Venetian gentleman",
       speechcount: 59
   },
@@ -7587,7 +7587,7 @@ const allCharacters = [
       charid: "RomanCaptain",
       charname: "Roman Captain",
       abbrev: "Captain",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "",
       speechcount: 4
   },
@@ -7595,7 +7595,7 @@ const allCharacters = [
       charid: "Roman-cor",
       charname: "Roman",
       abbrev: "Roman",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 10
   },
@@ -7603,7 +7603,7 @@ const allCharacters = [
       charid: "romeo",
       charname: "Romeo",
       abbrev: "ROMEO",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "Son to Montague",
       speechcount: 163
   },
@@ -7611,7 +7611,7 @@ const allCharacters = [
       charid: "rosalind",
       charname: "Rosalind",
       abbrev: "ROSALIND",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "daughter to the banished Duke",
       speechcount: 201
   },
@@ -7619,7 +7619,7 @@ const allCharacters = [
       charid: "Rosaline-lll",
       charname: "Rosaline",
       abbrev: "ROSALINE",
-      works: "loveslabours",
+      works: ["loveslabours"],
       descrip: "lady attending on the princess",
       speechcount: 75
   },
@@ -7627,7 +7627,7 @@ const allCharacters = [
       charid: "rosencrantz",
       charname: "Rosencrantz",
       abbrev: "Ros",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "courtier",
       speechcount: 48
   },
@@ -7635,7 +7635,7 @@ const allCharacters = [
       charid: "ross",
       charname: "Ross",
       abbrev: "ROSS",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "Nobleman of Scotland",
       speechcount: 39
   },
@@ -7643,7 +7643,7 @@ const allCharacters = [
       charid: "Ross-kr2",
       charname: "Lord Ross",
       abbrev: "LORD ROSS",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "",
       speechcount: 11
   },
@@ -7651,7 +7651,7 @@ const allCharacters = [
       charid: "rugby",
       charname: "Rugby",
       abbrev: "RUGBY",
-      works: "merrywives",
+      works: ["merrywives"],
       descrip: "servant to Doctor Caius",
       speechcount: 9
   },
@@ -7659,7 +7659,7 @@ const allCharacters = [
       charid: "rumour",
       charname: "Rumour",
       abbrev: "RUMOUR",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "the Presenter",
       speechcount: 1
   },
@@ -7667,7 +7667,7 @@ const allCharacters = [
       charid: "sailor-ham",
       charname: "Sailor",
       abbrev: "Sailor",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "",
       speechcount: 2
   },
@@ -7675,7 +7675,7 @@ const allCharacters = [
       charid: "sailor-oth",
       charname: "Sailor",
       abbrev: "Sailor",
-      works: "othello",
+      works: ["othello"],
       descrip: "",
       speechcount: 2
   },
@@ -7683,7 +7683,7 @@ const allCharacters = [
       charid: "Salanio",
       charname: "Salanio",
       abbrev: "SALANIO",
-      works: "merchantvenice",
+      works: ["merchantvenice"],
       descrip: "friend to Antonio and Bassiano",
       speechcount: 18
   },
@@ -7691,7 +7691,7 @@ const allCharacters = [
       charid: "Salarino",
       charname: "Salarino",
       abbrev: "SALARINO",
-      works: "merchantvenice",
+      works: ["merchantvenice"],
       descrip: "friend to Antonio and Bassiano",
       speechcount: 27
   },
@@ -7699,7 +7699,7 @@ const allCharacters = [
       charid: "Salerio",
       charname: "Salerio",
       abbrev: "SALERIO",
-      works: "merchantvenice",
+      works: ["merchantvenice"],
       descrip: "friend to Antonio and Bassiano",
       speechcount: 6
   },
@@ -7707,7 +7707,7 @@ const allCharacters = [
       charid: "salisbury",
       charname: "Earl of Salisbury",
       abbrev: "SALISBURY",
-      works: "henry5,henry6p1,henry6p2",
+      works: ["henry5", "henry6p1", "henry6p2"],
       descrip: "",
       speechcount: 23
   },
@@ -7715,7 +7715,7 @@ const allCharacters = [
       charid: "Salisbury-kj",
       charname: "Salisbury",
       abbrev: "SALISBURY",
-      works: "kingjohn",
+      works: ["kingjohn"],
       descrip: "earl of Salisbury",
       speechcount: 36
   },
@@ -7723,7 +7723,7 @@ const allCharacters = [
       charid: "Salisbury-kr2",
       charname: "Earl of Salisbury",
       abbrev: "EARL OF SALISBURY",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "",
       speechcount: 3
   },
@@ -7731,7 +7731,7 @@ const allCharacters = [
       charid: "sampson",
       charname: "Sampson",
       abbrev: "SAMPSON",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "Servant to Capulet",
       speechcount: 20
   },
@@ -7739,7 +7739,7 @@ const allCharacters = [
       charid: "Saturninus",
       charname: "Saturninus",
       abbrev: "SATURNINUS",
-      works: "titus",
+      works: ["titus"],
       descrip: "son to the late Emperor of Rome, and afterwards\\n\tdeclared Emperor",
       speechcount: 49
   },
@@ -7747,7 +7747,7 @@ const allCharacters = [
       charid: "Scarus",
       charname: "Scarus",
       abbrev: "SCARUS",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "friend to Antony",
       speechcount: 12
   },
@@ -7755,7 +7755,7 @@ const allCharacters = [
       charid: "Scout-h61",
       charname: "Scout",
       abbrev: "Scout",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 2
   },
@@ -7763,7 +7763,7 @@ const allCharacters = [
       charid: "Scribe-h8",
       charname: "Scribe",
       abbrev: "Scribe",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 2
   },
@@ -7771,7 +7771,7 @@ const allCharacters = [
       charid: "Scrivener",
       charname: "Scrivener",
       abbrev: "Scrivener",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 1
   },
@@ -7779,7 +7779,7 @@ const allCharacters = [
       charid: "scroop",
       charname: "Archbishop Scroop",
       abbrev: "ARCHBISHOP",
-      works: "henry4p1,henry4p2",
+      works: ["henry4p1", "henry4p2"],
       descrip: "Archbishop of York",
       speechcount: 30
   },
@@ -7787,7 +7787,7 @@ const allCharacters = [
       charid: "SeaCaptain",
       charname: "Captain",
       abbrev: "Captain",
-      works: "12night",
+      works: ["12night"],
       descrip: "friend to Viola",
       speechcount: 10
   },
@@ -7795,7 +7795,7 @@ const allCharacters = [
       charid: "SEBASTIAN",
       charname: "Sebastian",
       abbrev: "SEBASTIAN",
-      works: "12night",
+      works: ["12night"],
       descrip: "brother to Viola",
       speechcount: 31
   },
@@ -7803,7 +7803,7 @@ const allCharacters = [
       charid: "Sebastian-tem",
       charname: "Sebastian",
       abbrev: "SEBASTIAN",
-      works: "tempest",
+      works: ["tempest"],
       descrip: "the King's brother",
       speechcount: 67
   },
@@ -7811,7 +7811,7 @@ const allCharacters = [
       charid: "SecondAttendant",
       charname: "Second Attendant",
       abbrev: "Second Attendant",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 1
   },
@@ -7819,7 +7819,7 @@ const allCharacters = [
       charid: "SecondBandit",
       charname: "Second Bandit",
       abbrev: "Second Bandit",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 4
   },
@@ -7827,7 +7827,7 @@ const allCharacters = [
       charid: "SecondBrother",
       charname: "Second Brother",
       abbrev: "Second Brother",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "an apparition",
       speechcount: 2
   },
@@ -7835,7 +7835,7 @@ const allCharacters = [
       charid: "SecondCaptain-cym",
       charname: "Second British Captain",
       abbrev: "Second Captain",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "",
       speechcount: 2
   },
@@ -7843,7 +7843,7 @@ const allCharacters = [
       charid: "SecondCarrier",
       charname: "Second Carrier",
       abbrev: "Second Carrier",
-      works: "henry4p1",
+      works: ["henry4p1"],
       descrip: "",
       speechcount: 6
   },
@@ -7851,7 +7851,7 @@ const allCharacters = [
       charid: "SecondCitizen",
       charname: "Second Citizen",
       abbrev: "Second Citizen",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 18
   },
@@ -7859,7 +7859,7 @@ const allCharacters = [
       charid: "SecondCitizen-jc",
       charname: "Second Citizen",
       abbrev: "Second Citizen",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "",
       speechcount: 18
   },
@@ -7867,7 +7867,7 @@ const allCharacters = [
       charid: "SecondCitizen-r3",
       charname: "Second Citizen",
       abbrev: "Second Citizen",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 6
   },
@@ -7875,7 +7875,7 @@ const allCharacters = [
       charid: "SecondCommoner",
       charname: "Second Commoner",
       abbrev: "Second Commoner",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "",
       speechcount: 6
   },
@@ -7883,7 +7883,7 @@ const allCharacters = [
       charid: "SecondFish",
       charname: "Second Fisherman",
       abbrev: "Second Fisherman",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 12
   },
@@ -7891,7 +7891,7 @@ const allCharacters = [
       charid: "SecondGaoler",
       charname: "Second Gaoler",
       abbrev: "Second Gaoler",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "",
       speechcount: 1
   },
@@ -7899,7 +7899,7 @@ const allCharacters = [
       charid: "SecondGentleman",
       charname: "Second Gentleman",
       abbrev: "Second Gentleman",
-      works: "measure",
+      works: ["measure"],
       descrip: "",
       speechcount: 9
   },
@@ -7907,7 +7907,7 @@ const allCharacters = [
       charid: "SecondGentleman-aw",
       charname: "Second Gentleman",
       abbrev: "Second Gentleman",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "",
       speechcount: 5
   },
@@ -7915,7 +7915,7 @@ const allCharacters = [
       charid: "SecondGentleman-cym",
       charname: "Second Gentleman",
       abbrev: "Second Gentleman",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "a gentleman of Cymbeline's court",
       speechcount: 9
   },
@@ -7923,7 +7923,7 @@ const allCharacters = [
       charid: "SecondGentleman-h62",
       charname: "Second Gentleman",
       abbrev: "Second Gentleman",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 1
   },
@@ -7931,7 +7931,7 @@ const allCharacters = [
       charid: "SecondGentleman-h8",
       charname: "Second Gentleman",
       abbrev: "Second Gentleman",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 37
   },
@@ -7939,7 +7939,7 @@ const allCharacters = [
       charid: "SecondGentleman-wt",
       charname: "Second Gentleman",
       abbrev: "Second Gentleman",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "",
       speechcount: 4
   },
@@ -7947,7 +7947,7 @@ const allCharacters = [
       charid: "SecondGent-per",
       charname: "Second Gentleman",
       abbrev: "Second Gentleman",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 10
   },
@@ -7955,7 +7955,7 @@ const allCharacters = [
       charid: "SecondGuard",
       charname: "Second Guard",
       abbrev: "Second Guard",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 4
   },
@@ -7963,7 +7963,7 @@ const allCharacters = [
       charid: "SecondHerald-kr2",
       charname: "Second Herald",
       abbrev: "Second Herald",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "",
       speechcount: 1
   },
@@ -7971,7 +7971,7 @@ const allCharacters = [
       charid: "SecondKeeper",
       charname: "Second Keeper",
       abbrev: "Second Keeper",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "",
       speechcount: 9
   },
@@ -7979,7 +7979,7 @@ const allCharacters = [
       charid: "SecondKnight-per",
       charname: "Second Knight",
       abbrev: "Second Knight",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 1
   },
@@ -7987,7 +7987,7 @@ const allCharacters = [
       charid: "SecondLady-wt",
       charname: "Second Lady",
       abbrev: "Second Lady",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "",
       speechcount: 3
   },
@@ -7995,7 +7995,7 @@ const allCharacters = [
       charid: "SecondLord",
       charname: "Second Lord",
       abbrev: "Second Lord",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 3
   },
@@ -8003,7 +8003,7 @@ const allCharacters = [
       charid: "SecondLord-aw",
       charname: "Second Lord",
       abbrev: "Second Lord",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "",
       speechcount: 57
   },
@@ -8011,7 +8011,7 @@ const allCharacters = [
       charid: "secondlord-ayli",
       charname: "Second Lord",
       abbrev: "SECOND LORD",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "",
       speechcount: 2
   },
@@ -8019,7 +8019,7 @@ const allCharacters = [
       charid: "SecondLord-cym",
       charname: "Second Lord",
       abbrev: "Second Lord",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "a lord of Cymbeline's court",
       speechcount: 20
   },
@@ -8027,7 +8027,7 @@ const allCharacters = [
       charid: "SecondLord-per",
       charname: "Second Lord",
       abbrev: "Second Lord",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 4
   },
@@ -8035,7 +8035,7 @@ const allCharacters = [
       charid: "SecondLord-tim",
       charname: "Second Lord",
       abbrev: "Second Lord",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 29
   },
@@ -8043,7 +8043,7 @@ const allCharacters = [
       charid: "SecondMerchant",
       charname: "Second Merchant",
       abbrev: "Second Merchant",
-      works: "comedyerrors",
+      works: ["comedyerrors"],
       descrip: "indebted to Angelo",
       speechcount: 13
   },
@@ -8051,7 +8051,7 @@ const allCharacters = [
       charid: "SecondMessenger",
       charname: "Second Messenger",
       abbrev: "Second Messenger",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 1
   },
@@ -8059,7 +8059,7 @@ const allCharacters = [
       charid: "SecondMessenger-ac",
       charname: "Second Messenger",
       abbrev: "Second Messenger",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 2
   },
@@ -8067,7 +8067,7 @@ const allCharacters = [
       charid: "SecondMessenger-cor",
       charname: "Second Messenger",
       abbrev: "Second Messenger",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 5
   },
@@ -8075,7 +8075,7 @@ const allCharacters = [
       charid: "SecondMessenger-h63",
       charname: "Second Messenger",
       abbrev: "Second Messenger",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "",
       speechcount: 1
   },
@@ -8083,7 +8083,7 @@ const allCharacters = [
       charid: "SecondMurderer-h62",
       charname: "Second Murderer",
       abbrev: "Second Murderer",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 1
   },
@@ -8091,7 +8091,7 @@ const allCharacters = [
       charid: "SecondMurderer-r3",
       charname: "Second Murderer",
       abbrev: "Second Murderer",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 30
   },
@@ -8099,7 +8099,7 @@ const allCharacters = [
       charid: "SecondNeighbour-h62",
       charname: "Second Neighbour",
       abbrev: "Second Neighbour",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 1
   },
@@ -8107,7 +8107,7 @@ const allCharacters = [
       charid: "SecondOfficer-12",
       charname: "Second Officer",
       abbrev: "Second Officer",
-      works: "12night",
+      works: ["12night"],
       descrip: "",
       speechcount: 3
   },
@@ -8115,7 +8115,7 @@ const allCharacters = [
       charid: "SecondOfficer-ac",
       charname: "Second Officer",
       abbrev: "Second Officer",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 0
   },
@@ -8123,7 +8123,7 @@ const allCharacters = [
       charid: "SecondOfficer-cor",
       charname: "Second Officer",
       abbrev: "Second Officer",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 3
   },
@@ -8131,7 +8131,7 @@ const allCharacters = [
       charid: "SecondOutlaw",
       charname: "Second Outlaw",
       abbrev: "Second Outlaw",
-      works: "twogents",
+      works: ["twogents"],
       descrip: "",
       speechcount: 10
   },
@@ -8139,7 +8139,7 @@ const allCharacters = [
       charid: "SecondPetitioner-h62",
       charname: "Second Petitioner",
       abbrev: "Second Petitioner",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 3
   },
@@ -8147,7 +8147,7 @@ const allCharacters = [
       charid: "SecondPirate",
       charname: "Second Pirate",
       abbrev: "Second Pirate",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 1
   },
@@ -8155,7 +8155,7 @@ const allCharacters = [
       charid: "SecondPrentice",
       charname: "Second 'Prentice",
       abbrev: "Second 'Prentice",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 0
   },
@@ -8163,7 +8163,7 @@ const allCharacters = [
       charid: "SecondRoman",
       charname: "Second Roman",
       abbrev: "Second Roman",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 1
   },
@@ -8171,7 +8171,7 @@ const allCharacters = [
       charid: "SecondSailor-per",
       charname: "Second Sailor",
       abbrev: "Second Sailor",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 4
   },
@@ -8179,7 +8179,7 @@ const allCharacters = [
       charid: "SecondSecretary",
       charname: "Second Secretary",
       abbrev: "Second Secretary",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "to Wolsey",
       speechcount: 0
   },
@@ -8187,7 +8187,7 @@ const allCharacters = [
       charid: "SecondSenator-cym",
       charname: "Second Senator",
       abbrev: "Second Senator",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "",
       speechcount: 1
   },
@@ -8195,7 +8195,7 @@ const allCharacters = [
       charid: "SecondSenator-tim",
       charname: "Second Senator",
       abbrev: "Second Senator",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 14
   },
@@ -8203,7 +8203,7 @@ const allCharacters = [
       charid: "SecondSentinel",
       charname: "Second Sentinel",
       abbrev: "Second Sentinel",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 0
   },
@@ -8211,7 +8211,7 @@ const allCharacters = [
       charid: "SecondServant-ac",
       charname: "Second Servant",
       abbrev: "Second Servant",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 3
   },
@@ -8219,7 +8219,7 @@ const allCharacters = [
       charid: "SecondServant-mww",
       charname: "Second Servant",
       abbrev: "Second Servant",
-      works: "merrywives",
+      works: ["merrywives"],
       descrip: "",
       speechcount: 1
   },
@@ -8227,7 +8227,7 @@ const allCharacters = [
       charid: "SecondServant-tim",
       charname: "Second Servant",
       abbrev: "Second Servant",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 5
   },
@@ -8235,7 +8235,7 @@ const allCharacters = [
       charid: "SecondServant-wt",
       charname: "Second Servant",
       abbrev: "Second Servant",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "",
       speechcount: 1
   },
@@ -8243,7 +8243,7 @@ const allCharacters = [
       charid: "SecondServiceman",
       charname: "Second Serviceman",
       abbrev: "Second Serviceman",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 0
   },
@@ -8251,7 +8251,7 @@ const allCharacters = [
       charid: "SecondServingman",
       charname: "Second Servingman",
       abbrev: "Second Servingman",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 19
   },
@@ -8259,7 +8259,7 @@ const allCharacters = [
       charid: "SecondSoldier-ac",
       charname: "Second Soldier",
       abbrev: "Second Soldier",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 11
   },
@@ -8267,7 +8267,7 @@ const allCharacters = [
       charid: "SecondSoldier-aw",
       charname: "Second Soldier",
       abbrev: "Second Soldier",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "",
       speechcount: 2
   },
@@ -8275,7 +8275,7 @@ const allCharacters = [
       charid: "SecondSoldier-jc",
       charname: "Second Soldier",
       abbrev: "Second Soldier",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "",
       speechcount: 2
   },
@@ -8283,7 +8283,7 @@ const allCharacters = [
       charid: "SecondStranger",
       charname: "Second Stranger",
       abbrev: "Second Stranger",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 3
   },
@@ -8291,7 +8291,7 @@ const allCharacters = [
       charid: "SecondWarder",
       charname: "Second Warder",
       abbrev: "Second Warder",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 1
   },
@@ -8299,7 +8299,7 @@ const allCharacters = [
       charid: "SecondWatchman-h63",
       charname: "Second Watchman",
       abbrev: "Second Watchman",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "",
       speechcount: 5
   },
@@ -8307,7 +8307,7 @@ const allCharacters = [
       charid: "Seleucus",
       charname: "Seleucus",
       abbrev: "SELEUCUS",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "attendant on Cleopatra",
       speechcount: 3
   },
@@ -8315,7 +8315,7 @@ const allCharacters = [
       charid: "Sempronius",
       charname: "Sempronius",
       abbrev: "SEMPRONIUS",
-      works: "titus",
+      works: ["titus"],
       descrip: "kinsman to Titus",
       speechcount: 0
   },
@@ -8323,7 +8323,7 @@ const allCharacters = [
       charid: "Sempronius-tim",
       charname: "Sempronius",
       abbrev: "SEMPRONIUS",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "flattering lord",
       speechcount: 2
   },
@@ -8331,7 +8331,7 @@ const allCharacters = [
       charid: "Senator-tim",
       charname: "Senator",
       abbrev: "Senator",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 4
   },
@@ -8339,7 +8339,7 @@ const allCharacters = [
       charid: "Sentinels",
       charname: "Sentinels",
       abbrev: "Sentinels",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 1
   },
@@ -8347,7 +8347,7 @@ const allCharacters = [
       charid: "Sergeant-h61",
       charname: "Sergeant",
       abbrev: "Sergeant",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 1
   },
@@ -8355,7 +8355,7 @@ const allCharacters = [
       charid: "Sergeant-h8",
       charname: "Sergeant",
       abbrev: "Sergeant",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "a sergeant-at-arms",
       speechcount: 1
   },
@@ -8363,7 +8363,7 @@ const allCharacters = [
       charid: "sergeant-mac",
       charname: "Sergeant",
       abbrev: "Sergeant",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "",
       speechcount: 3
   },
@@ -8371,7 +8371,7 @@ const allCharacters = [
       charid: "Servant",
       charname: "Servant",
       abbrev: "Servant",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "servant to Diomedes",
       speechcount: 15
   },
@@ -8379,7 +8379,7 @@ const allCharacters = [
       charid: "Servant-12",
       charname: "Servant",
       abbrev: "Servant",
-      works: "12night",
+      works: ["12night"],
       descrip: "",
       speechcount: 1
   },
@@ -8387,7 +8387,7 @@ const allCharacters = [
       charid: "servant1-kl",
       charname: "Servant 1",
       abbrev: "Serv1",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "",
       speechcount: 4
   },
@@ -8395,7 +8395,7 @@ const allCharacters = [
       charid: "servant1-ts",
       charname: "First Servant",
       abbrev: "FIRST SERVANT",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "",
       speechcount: 6
   },
@@ -8403,7 +8403,7 @@ const allCharacters = [
       charid: "servant2-kl",
       charname: "Servant 2",
       abbrev: "Serv2",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "",
       speechcount: 2
   },
@@ -8411,7 +8411,7 @@ const allCharacters = [
       charid: "servant2-ts",
       charname: "Second Servant",
       abbrev: "SECOND SERVANT",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "",
       speechcount: 4
   },
@@ -8419,7 +8419,7 @@ const allCharacters = [
       charid: "servant3-kl",
       charname: "Servant 3",
       abbrev: "Serv3",
-      works: "kinglear",
+      works: ["kinglear"],
       descrip: "",
       speechcount: 2
   },
@@ -8427,7 +8427,7 @@ const allCharacters = [
       charid: "servant3-ts",
       charname: "Third Servant",
       abbrev: "THIRD SERVANT",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "",
       speechcount: 4
   },
@@ -8435,7 +8435,7 @@ const allCharacters = [
       charid: "Servant-aw",
       charname: "Servant",
       abbrev: "Servant",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "",
       speechcount: 1
   },
@@ -8443,7 +8443,7 @@ const allCharacters = [
       charid: "Servant-ce",
       charname: "Servant",
       abbrev: "Servant",
-      works: "comedyerrors",
+      works: ["comedyerrors"],
       descrip: "",
       speechcount: 2
   },
@@ -8451,7 +8451,7 @@ const allCharacters = [
       charid: "Servant-h41",
       charname: "Servant",
       abbrev: "Servant",
-      works: "henry4p1",
+      works: ["henry4p1"],
       descrip: "",
       speechcount: 3
   },
@@ -8459,7 +8459,7 @@ const allCharacters = [
       charid: "servant-h4p2",
       charname: "Servant",
       abbrev: "SERVANT",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "",
       speechcount: 7
   },
@@ -8467,7 +8467,7 @@ const allCharacters = [
       charid: "Servant-h61",
       charname: "Servant",
       abbrev: "Servant",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 1
   },
@@ -8475,7 +8475,7 @@ const allCharacters = [
       charid: "Servant-h62",
       charname: "Servant",
       abbrev: "Servant",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 1
   },
@@ -8483,7 +8483,7 @@ const allCharacters = [
       charid: "Servant-h8",
       charname: "Servant",
       abbrev: "Servant",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 1
   },
@@ -8491,7 +8491,7 @@ const allCharacters = [
       charid: "servant-ham",
       charname: "Servant",
       abbrev: "Servant",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "",
       speechcount: 1
   },
@@ -8499,7 +8499,7 @@ const allCharacters = [
       charid: "Servant-jc",
       charname: "Servant",
       abbrev: "Servant",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "",
       speechcount: 11
   },
@@ -8507,7 +8507,7 @@ const allCharacters = [
       charid: "Servant-kr2",
       charname: "Servant",
       abbrev: "Servant",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "",
       speechcount: 8
   },
@@ -8515,7 +8515,7 @@ const allCharacters = [
       charid: "Servant-m4m",
       charname: "Servant",
       abbrev: "Servant",
-      works: "measure",
+      works: ["measure"],
       descrip: "",
       speechcount: 3
   },
@@ -8523,7 +8523,7 @@ const allCharacters = [
       charid: "servant-mac",
       charname: "Servant",
       abbrev: "Servant",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "",
       speechcount: 5
   },
@@ -8531,7 +8531,7 @@ const allCharacters = [
       charid: "Servant-mv",
       charname: "Servant",
       abbrev: "Servant",
-      works: "merchantvenice",
+      works: ["merchantvenice"],
       descrip: "",
       speechcount: 4
   },
@@ -8539,7 +8539,7 @@ const allCharacters = [
       charid: "servant-mww",
       charname: "Servant",
       abbrev: "Servant",
-      works: "merrywives",
+      works: ["merrywives"],
       descrip: "",
       speechcount: 1
   },
@@ -8547,7 +8547,7 @@ const allCharacters = [
       charid: "Servant-per",
       charname: "Servant",
       abbrev: "Servant",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 1
   },
@@ -8555,7 +8555,7 @@ const allCharacters = [
       charid: "servant-rj",
       charname: "Servant",
       abbrev: "Servant",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "",
       speechcount: 10
   },
@@ -8563,7 +8563,7 @@ const allCharacters = [
       charid: "Servants-h62",
       charname: "Servants",
       abbrev: "Servants",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 1
   },
@@ -8571,7 +8571,7 @@ const allCharacters = [
       charid: "servants-ts",
       charname: "Servants",
       abbrev: "ALL SERVANTS",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "",
       speechcount: 1
   },
@@ -8579,7 +8579,7 @@ const allCharacters = [
       charid: "Servant-tim",
       charname: "Servant",
       abbrev: "Servant",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 9
   },
@@ -8587,7 +8587,7 @@ const allCharacters = [
       charid: "servant-ts",
       charname: "Servant",
       abbrev: "SERVANT",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "",
       speechcount: 2
   },
@@ -8595,7 +8595,7 @@ const allCharacters = [
       charid: "Servant-wt",
       charname: "Servant",
       abbrev: "Servant",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "",
       speechcount: 10
   },
@@ -8603,7 +8603,7 @@ const allCharacters = [
       charid: "Servilius",
       charname: "Servilius",
       abbrev: "SERVILIUS",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "servant to Timon",
       speechcount: 8
   },
@@ -8611,7 +8611,7 @@ const allCharacters = [
       charid: "servingmen",
       charname: "Serving-Men",
       abbrev: "Serving-Men",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 1
   },
@@ -8619,7 +8619,7 @@ const allCharacters = [
       charid: "SeventhCitizen",
       charname: "Seventh Citizen",
       abbrev: "Seventh Citizen",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 1
   },
@@ -8627,7 +8627,7 @@ const allCharacters = [
       charid: "SeveralCitizens",
       charname: "Several Citizens",
       abbrev: "Several Citizens",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "",
       speechcount: 2
   },
@@ -8635,7 +8635,7 @@ const allCharacters = [
       charid: "sexton-ma",
       charname: "Sexton",
       abbrev: "Sexton",
-      works: "muchado",
+      works: ["muchado"],
       descrip: "",
       speechcount: 7
   },
@@ -8643,7 +8643,7 @@ const allCharacters = [
       charid: "seyton",
       charname: "Seyton",
       abbrev: "SEYTON",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "An officer attending on Macduff",
       speechcount: 5
   },
@@ -8651,7 +8651,7 @@ const allCharacters = [
       charid: "shadow",
       charname: "Simon Shadow",
       abbrev: "SHADOW",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "country soldier",
       speechcount: 2
   },
@@ -8659,7 +8659,7 @@ const allCharacters = [
       charid: "Shakespeare",
       charname: "Shakespeare",
       abbrev: "Shakespeare",
-      works: "phoenixturtle,loverscomplaint,sonnets,rapelucrece,passionatepilgrim,venusadonis",
+      works: ["phoenixturtle", "loverscomplaint", "sonnets", "rapelucrece", "passionatepilgrim", "venusadonis"],
       descrip: "the voice of Shakespeare's poetry",
       speechcount: 733
   },
@@ -8667,7 +8667,7 @@ const allCharacters = [
       charid: "shallow",
       charname: "Robert Shallow",
       abbrev: "SHALLOW",
-      works: "henry4p2,merrywives",
+      works: ["henry4p2", "merrywives"],
       descrip: "country Justice",
       speechcount: 136
   },
@@ -8675,7 +8675,7 @@ const allCharacters = [
       charid: "Shepherd-h61",
       charname: "Shepherd",
       abbrev: "Shepherd",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "father to Joan of Arc",
       speechcount: 4
   },
@@ -8683,7 +8683,7 @@ const allCharacters = [
       charid: "sheriff-h41",
       charname: "Sheriff",
       abbrev: "Sheriff",
-      works: "henry4p1",
+      works: ["henry4p1"],
       descrip: "",
       speechcount: 5
   },
@@ -8691,7 +8691,7 @@ const allCharacters = [
       charid: "Sheriff-h62",
       charname: "Sheriff",
       abbrev: "Sheriff",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 2
   },
@@ -8699,7 +8699,7 @@ const allCharacters = [
       charid: "SheriffWiltshire",
       charname: "Sheriff of Wiltshire",
       abbrev: "Sheriff",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 2
   },
@@ -8707,7 +8707,7 @@ const allCharacters = [
       charid: "Shylock",
       charname: "Shylock",
       abbrev: "SHYLOCK",
-      works: "merchantvenice",
+      works: ["merchantvenice"],
       descrip: "a rich Jew",
       speechcount: 79
   },
@@ -8715,7 +8715,7 @@ const allCharacters = [
       charid: "sicinius",
       charname: "Sicinius Velutus",
       abbrev: "SICINIUS",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "tribune of the people",
       speechcount: 117
   },
@@ -8723,7 +8723,7 @@ const allCharacters = [
       charid: "silence",
       charname: "Silence",
       abbrev: "SILENCE",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "country Justice",
       speechcount: 22
   },
@@ -8731,7 +8731,7 @@ const allCharacters = [
       charid: "Silius",
       charname: "Silius",
       abbrev: "SILIUS",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "an officer in Ventidius's army",
       speechcount: 3
   },
@@ -8739,7 +8739,7 @@ const allCharacters = [
       charid: "Silvia",
       charname: "Silvia",
       abbrev: "SILVIA",
-      works: "twogents",
+      works: ["twogents"],
       descrip: "beloved of Valentine",
       speechcount: 58
   },
@@ -8747,7 +8747,7 @@ const allCharacters = [
       charid: "silvius",
       charname: "Silvius",
       abbrev: "SILVIUS",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "daughter to the banished Duke",
       speechcount: 24
   },
@@ -8755,7 +8755,7 @@ const allCharacters = [
       charid: "Simonides",
       charname: "Simonides",
       abbrev: "SIMONIDES",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "king of Pentapolis",
       speechcount: 42
   },
@@ -8763,7 +8763,7 @@ const allCharacters = [
       charid: "Simpcox",
       charname: "Simpcox",
       abbrev: "SIMPCOX",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "an imposter",
       speechcount: 18
   },
@@ -8771,7 +8771,7 @@ const allCharacters = [
       charid: "simple",
       charname: "Simple",
       abbrev: "SIMPLE",
-      works: "merrywives",
+      works: ["merrywives"],
       descrip: "servant to Slender",
       speechcount: 25
   },
@@ -8779,7 +8779,7 @@ const allCharacters = [
       charid: "sirhugh",
       charname: "Sir Hugh Evans",
       abbrev: "SIR HUGH EVANS",
-      works: "merrywives",
+      works: ["merrywives"],
       descrip: "a Welsh parson",
       speechcount: 87
   },
@@ -8787,7 +8787,7 @@ const allCharacters = [
       charid: "SirHughMortimer",
       charname: "Sir Hugh Mortimer",
       abbrev: "HUGH MORTIMER",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "uncle to the Duke of York",
       speechcount: 0
   },
@@ -8795,7 +8795,7 @@ const allCharacters = [
       charid: "SirHumphrey",
       charname: "Sir Humphrey Stafford",
       abbrev: "SIR HUMPHREY",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "brother to William Stafford",
       speechcount: 6
   },
@@ -8803,7 +8803,7 @@ const allCharacters = [
       charid: "SirJamesBlount",
       charname: "Sir James Blount",
       abbrev: "Blount",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 0
   },
@@ -8811,7 +8811,7 @@ const allCharacters = [
       charid: "SirJamesTyrrel",
       charname: "Sir James Tyrrel",
       abbrev: "TYRREL",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 10
   },
@@ -8819,7 +8819,7 @@ const allCharacters = [
       charid: "SirJohnFastolfe",
       charname: "Sir John Fastolfe",
       abbrev: "FASTOLFE",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 3
   },
@@ -8827,7 +8827,7 @@ const allCharacters = [
       charid: "SirJohnMontgomery",
       charname: "Sir John Montgomery",
       abbrev: "MONTGOMERY",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "",
       speechcount: 0
   },
@@ -8835,7 +8835,7 @@ const allCharacters = [
       charid: "SirJohnMortimer",
       charname: "Sir John Mortimer",
       abbrev: "JOHN MORTIMER",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "uncle to the Duke of York",
       speechcount: 1
   },
@@ -8843,7 +8843,7 @@ const allCharacters = [
       charid: "SirJohnSomerville",
       charname: "Sir John Somerville",
       abbrev: "SOMERVILLE",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "",
       speechcount: 0
   },
@@ -8851,7 +8851,7 @@ const allCharacters = [
       charid: "SirJohnStanley",
       charname: "Sir John Stanley",
       abbrev: "STANLEY",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 4
   },
@@ -8859,7 +8859,7 @@ const allCharacters = [
       charid: "sirmichael",
       charname: "Sir Michael",
       abbrev: "SIR MICHAEL",
-      works: "henry4p1",
+      works: ["henry4p1"],
       descrip: "a friend to the Archbishop of York",
       speechcount: 4
   },
@@ -8867,7 +8867,7 @@ const allCharacters = [
       charid: "SirNathaniel",
       charname: "Sir Nathaniel",
       abbrev: "SIR NATHANIEL",
-      works: "loveslabours",
+      works: ["loveslabours"],
       descrip: "a curate",
       speechcount: 19
   },
@@ -8875,7 +8875,7 @@ const allCharacters = [
       charid: "SirRichardRatcliff",
       charname: "Sir Richard Ratcliff",
       abbrev: "RATCLIFF",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 18
   },
@@ -8883,7 +8883,7 @@ const allCharacters = [
       charid: "SirRobertBrakenbury",
       charname: "Sir Robert Brakenbury",
       abbrev: "BRAKENBURY",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 16
   },
@@ -8891,7 +8891,7 @@ const allCharacters = [
       charid: "SirScroop",
       charname: "Sir Stephen Scroop",
       abbrev: "SIR STEPHEN SCROOP",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "",
       speechcount: 6
   },
@@ -8899,7 +8899,7 @@ const allCharacters = [
       charid: "SirThomasGargrave",
       charname: "Sir Thomas Gargrave",
       abbrev: "GARGRAVE",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 2
   },
@@ -8907,7 +8907,7 @@ const allCharacters = [
       charid: "SirThomasVaughan",
       charname: "Sir Thomas Vaughan",
       abbrev: "VAUGHAN",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 2
   },
@@ -8915,7 +8915,7 @@ const allCharacters = [
       charid: "SirWalterHerbert",
       charname: "Sir Walter Herbert",
       abbrev: "HERBERT",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 1
   },
@@ -8923,7 +8923,7 @@ const allCharacters = [
       charid: "SirWilliamCatesby",
       charname: "Sir William Catesby",
       abbrev: "CATESBY",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 31
   },
@@ -8931,7 +8931,7 @@ const allCharacters = [
       charid: "SirWilliamGlansdale",
       charname: "Sir  William Glansdale",
       abbrev: "GLANSDALE",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 1
   },
@@ -8939,7 +8939,7 @@ const allCharacters = [
       charid: "SirWilliamLucy",
       charname: "Sir William Lucy",
       abbrev: "LUCY",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 14
   },
@@ -8947,7 +8947,7 @@ const allCharacters = [
       charid: "SirWilliamStanley",
       charname: "Sir William Stanley",
       abbrev: "STANLEY",
-      works: "henry6p3,richard3",
+      works: ["henry6p3", "richard3"],
       descrip: "called also Earl of Derby",
       speechcount: 32
   },
@@ -8955,7 +8955,7 @@ const allCharacters = [
       charid: "siward",
       charname: "Siward",
       abbrev: "SIWARD",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "Earl of Northumberland, general of English forces",
       speechcount: 11
   },
@@ -8963,7 +8963,7 @@ const allCharacters = [
       charid: "SixthCitizen",
       charname: "Sixth Citizen",
       abbrev: "Sixth Citizen",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 1
   },
@@ -8971,7 +8971,7 @@ const allCharacters = [
       charid: "slender",
       charname: "Slender",
       abbrev: "SLENDER",
-      works: "merrywives",
+      works: ["merrywives"],
       descrip: "cousin to Shallow",
       speechcount: 56
   },
@@ -8979,7 +8979,7 @@ const allCharacters = [
       charid: "sly",
       charname: "Christopher Sly",
       abbrev: "SLY",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "a tinker",
       speechcount: 24
   },
@@ -8987,7 +8987,7 @@ const allCharacters = [
       charid: "SmithWeaver",
       charname: "Smith the Weaver",
       abbrev: "SMITH",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "a follower of Cade",
       speechcount: 9
   },
@@ -8995,7 +8995,7 @@ const allCharacters = [
       charid: "snare",
       charname: "Snare",
       abbrev: "SNARE",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "a Sheriff's officer",
       speechcount: 2
   },
@@ -9003,7 +9003,7 @@ const allCharacters = [
       charid: "Snout",
       charname: "Snout",
       abbrev: "SNOUT",
-      works: "midsummer",
+      works: ["midsummer"],
       descrip: "a tinker",
       speechcount: 9
   },
@@ -9011,7 +9011,7 @@ const allCharacters = [
       charid: "Snug",
       charname: "Snug",
       abbrev: "SNUG",
-      works: "midsummer",
+      works: ["midsummer"],
       descrip: "a joiner",
       speechcount: 4
   },
@@ -9019,7 +9019,7 @@ const allCharacters = [
       charid: "Soldier-ac",
       charname: "Soldier",
       abbrev: "Soldier",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 13
   },
@@ -9027,7 +9027,7 @@ const allCharacters = [
       charid: "Soldier-h61",
       charname: "Soldier",
       abbrev: "Soldier",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 1
   },
@@ -9035,7 +9035,7 @@ const allCharacters = [
       charid: "Soldier-h62",
       charname: "Soldier",
       abbrev: "Soldier",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 1
   },
@@ -9043,7 +9043,7 @@ const allCharacters = [
       charid: "Soldier-h63",
       charname: "Soldier",
       abbrev: "Soldier",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "",
       speechcount: 1
   },
@@ -9051,7 +9051,7 @@ const allCharacters = [
       charid: "soldiers-mac",
       charname: "Soldiers",
       abbrev: "Soldiers",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "",
       speechcount: 1
   },
@@ -9059,7 +9059,7 @@ const allCharacters = [
       charid: "Soldier-tim",
       charname: "Soldier",
       abbrev: "Soldier",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 2
   },
@@ -9067,7 +9067,7 @@ const allCharacters = [
       charid: "SOLINUS",
       charname: "Solinus",
       abbrev: "DUKE SOLINUS",
-      works: "comedyerrors",
+      works: ["comedyerrors"],
       descrip: "Duke of Ephesus",
       speechcount: 22
   },
@@ -9075,7 +9075,7 @@ const allCharacters = [
       charid: "SomeOthers",
       charname: "Some Others",
       abbrev: "Some Others",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 1
   },
@@ -9083,7 +9083,7 @@ const allCharacters = [
       charid: "Somerset",
       charname: "Duke/Earl of Somerset",
       abbrev: "SOMERSET",
-      works: "henry6p1,henry6p2,henry6p3",
+      works: ["henry6p1", "henry6p2", "henry6p3"],
       descrip: "John Beaufort",
       speechcount: 52
   },
@@ -9091,7 +9091,7 @@ const allCharacters = [
       charid: "SomeSpeak",
       charname: "Some Speak",
       abbrev: "Some Speak",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 1
   },
@@ -9099,7 +9099,7 @@ const allCharacters = [
       charid: "Son-h63",
       charname: "Son",
       abbrev: "Son",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "who has killed his father",
       speechcount: 4
   },
@@ -9107,7 +9107,7 @@ const allCharacters = [
       charid: "son-mac",
       charname: "Son",
       abbrev: "Son",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "Macduff's son",
       speechcount: 14
   },
@@ -9115,7 +9115,7 @@ const allCharacters = [
       charid: "Soothsayer",
       charname: "Soothsayer",
       abbrev: "Soothsayer",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "",
       speechcount: 9
   },
@@ -9123,7 +9123,7 @@ const allCharacters = [
       charid: "Soothsayer-ac",
       charname: "Soothsayer",
       abbrev: "Soothsayer",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 14
   },
@@ -9131,7 +9131,7 @@ const allCharacters = [
       charid: "Soothsayer-cym",
       charname: "Soothsayer",
       abbrev: "Soothsayer",
-      works: "cymbeline",
+      works: ["cymbeline"],
       descrip: "",
       speechcount: 5
   },
@@ -9139,7 +9139,7 @@ const allCharacters = [
       charid: "Speed",
       charname: "Speed",
       abbrev: "SPEED",
-      works: "twogents",
+      works: ["twogents"],
       descrip: "a clownish servant to Valentine",
       speechcount: 117
   },
@@ -9147,7 +9147,7 @@ const allCharacters = [
       charid: "Spirit",
       charname: "Spirit",
       abbrev: "Spirit",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 5
   },
@@ -9155,7 +9155,7 @@ const allCharacters = [
       charid: "Starveling",
       charname: "Starveling",
       abbrev: "STARVELING",
-      works: "midsummer",
+      works: ["midsummer"],
       descrip: "a tailor",
       speechcount: 7
   },
@@ -9163,7 +9163,7 @@ const allCharacters = [
       charid: "Stephano",
       charname: "Stephano",
       abbrev: "STEPHANO",
-      works: "merchantvenice",
+      works: ["merchantvenice"],
       descrip: "servant to Portia",
       speechcount: 3
   },
@@ -9171,7 +9171,7 @@ const allCharacters = [
       charid: "Stephano-tem",
       charname: "Stephano",
       abbrev: "STEPHANO",
-      works: "tempest",
+      works: ["tempest"],
       descrip: "a drunken butler",
       speechcount: 60
   },
@@ -9179,7 +9179,7 @@ const allCharacters = [
       charid: "Steward-aw",
       charname: "Steward",
       abbrev: "Steward",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "servant to the Countess",
       speechcount: 6
   },
@@ -9187,7 +9187,7 @@ const allCharacters = [
       charid: "Strato",
       charname: "Strato",
       abbrev: "STRATO",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "servant to Brutus",
       speechcount: 4
   },
@@ -9195,7 +9195,7 @@ const allCharacters = [
       charid: "Surveyor",
       charname: "Surveyor",
       abbrev: "Surveyor",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "to the Duke of Buckingham",
       speechcount: 9
   },
@@ -9203,7 +9203,7 @@ const allCharacters = [
       charid: "tailor",
       charname: "Tailor",
       abbrev: "TAILOR",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "",
       speechcount: 12
   },
@@ -9211,7 +9211,7 @@ const allCharacters = [
       charid: "Talbot",
       charname: "Lord Talbot/Earl of Shrewsbury",
       abbrev: "JOHN TALBOT",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 59
   },
@@ -9219,7 +9219,7 @@ const allCharacters = [
       charid: "Tamora",
       charname: "Tamora",
       abbrev: "TAMORA",
-      works: "titus",
+      works: ["titus"],
       descrip: "",
       speechcount: 49
   },
@@ -9227,7 +9227,7 @@ const allCharacters = [
       charid: "Taurus",
       charname: "Taurus",
       abbrev: "TAURUS",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "lieutenant-general to Caesar",
       speechcount: 1
   },
@@ -9235,7 +9235,7 @@ const allCharacters = [
       charid: "tearsheet",
       charname: "Doll Tearsheet",
       abbrev: "DOLL",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "",
       speechcount: 31
   },
@@ -9243,7 +9243,7 @@ const allCharacters = [
       charid: "Thaisa",
       charname: "Thaisa",
       abbrev: "THAISA",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "daughter to Simonides",
       speechcount: 32
   },
@@ -9251,7 +9251,7 @@ const allCharacters = [
       charid: "Thaliard",
       charname: "Thaliard",
       abbrev: "THALIARD",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "a lord of Antioch",
       speechcount: 8
   },
@@ -9259,7 +9259,7 @@ const allCharacters = [
       charid: "Thersites",
       charname: "Thersites",
       abbrev: "THERSITES",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "a deformed and scurrilous Greek",
       speechcount: 90
   },
@@ -9267,7 +9267,7 @@ const allCharacters = [
       charid: "Theseus",
       charname: "Theseus",
       abbrev: "THESEUS",
-      works: "midsummer",
+      works: ["midsummer"],
       descrip: "Duke of Athens",
       speechcount: 48
   },
@@ -9275,7 +9275,7 @@ const allCharacters = [
       charid: "thieves",
       charname: "Thieves",
       abbrev: "Thieves",
-      works: "henry4p1",
+      works: ["henry4p1"],
       descrip: "",
       speechcount: 1
   },
@@ -9283,7 +9283,7 @@ const allCharacters = [
       charid: "ThirdBandit",
       charname: "Third Bandit",
       abbrev: "Third Bandit",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 3
   },
@@ -9291,7 +9291,7 @@ const allCharacters = [
       charid: "ThirdCitizen",
       charname: "Third Citizen",
       abbrev: "Third Citizen",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 13
   },
@@ -9299,7 +9299,7 @@ const allCharacters = [
       charid: "ThirdCitizen-jc",
       charname: "Third Citizen",
       abbrev: "Third Citizen",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "",
       speechcount: 16
   },
@@ -9307,7 +9307,7 @@ const allCharacters = [
       charid: "ThirdCitizen-r3",
       charname: "Third Citizen",
       abbrev: "Third Citizen",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 9
   },
@@ -9315,7 +9315,7 @@ const allCharacters = [
       charid: "ThirdFish",
       charname: "Third Fisherman",
       abbrev: "Third Fisherman",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 6
   },
@@ -9323,7 +9323,7 @@ const allCharacters = [
       charid: "ThirdGentleman-h8",
       charname: "Third Gentleman",
       abbrev: "Third Gentleman",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 10
   },
@@ -9331,7 +9331,7 @@ const allCharacters = [
       charid: "ThirdGentleman-wt",
       charname: "Third Gentleman",
       abbrev: "Third Gentleman",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "",
       speechcount: 6
   },
@@ -9339,7 +9339,7 @@ const allCharacters = [
       charid: "ThirdGuard",
       charname: "Third Guard",
       abbrev: "Third Guard",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 1
   },
@@ -9347,7 +9347,7 @@ const allCharacters = [
       charid: "ThirdKnight-per",
       charname: "Third Knight",
       abbrev: "Third Knight",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 1
   },
@@ -9355,7 +9355,7 @@ const allCharacters = [
       charid: "ThirdLord",
       charname: "Third Lord",
       abbrev: "Third Lord",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 1
   },
@@ -9363,7 +9363,7 @@ const allCharacters = [
       charid: "ThirdLord-aw",
       charname: "Third Lord",
       abbrev: "Third Lord",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "",
       speechcount: 0
   },
@@ -9371,7 +9371,7 @@ const allCharacters = [
       charid: "ThirdLord-per",
       charname: "Third Lord",
       abbrev: "Third Lord",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 2
   },
@@ -9379,7 +9379,7 @@ const allCharacters = [
       charid: "ThirdLord-tim",
       charname: "Third Lord",
       abbrev: "Third Lord",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 11
   },
@@ -9387,7 +9387,7 @@ const allCharacters = [
       charid: "ThirdMessenger",
       charname: "Third Messenger",
       abbrev: "Third Messenger",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "",
       speechcount: 3
   },
@@ -9395,7 +9395,7 @@ const allCharacters = [
       charid: "ThirdNeighbour-h62",
       charname: "Third Neighbour",
       abbrev: "Third Neighbour",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 1
   },
@@ -9403,7 +9403,7 @@ const allCharacters = [
       charid: "ThirdOfficer-ac",
       charname: "Third Officer",
       abbrev: "Third Officer",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 0
   },
@@ -9411,7 +9411,7 @@ const allCharacters = [
       charid: "ThirdOutlaw",
       charname: "Third Outlaw",
       abbrev: "Third Outlaw",
-      works: "twogents",
+      works: ["twogents"],
       descrip: "",
       speechcount: 8
   },
@@ -9419,7 +9419,7 @@ const allCharacters = [
       charid: "ThirdPirate",
       charname: "Third Pirate",
       abbrev: "Third Pirate",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 1
   },
@@ -9427,7 +9427,7 @@ const allCharacters = [
       charid: "ThirdRoman",
       charname: "Third Roman",
       abbrev: "Third Roman",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 1
   },
@@ -9435,7 +9435,7 @@ const allCharacters = [
       charid: "ThirdSenator",
       charname: "Third Senator",
       abbrev: "Third Senator",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 2
   },
@@ -9443,7 +9443,7 @@ const allCharacters = [
       charid: "ThirdServant-tim",
       charname: "Third Servant",
       abbrev: "Third Servant",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 2
   },
@@ -9451,7 +9451,7 @@ const allCharacters = [
       charid: "ThirdServiceman",
       charname: "Third Serviceman",
       abbrev: "Third Serviceman",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 0
   },
@@ -9459,7 +9459,7 @@ const allCharacters = [
       charid: "ThirdServingman",
       charname: "Third Servingman",
       abbrev: "Third Servingman",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 20
   },
@@ -9467,7 +9467,7 @@ const allCharacters = [
       charid: "ThirdSoldier-ac",
       charname: "Third Soldier",
       abbrev: "Third Soldier",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "",
       speechcount: 10
   },
@@ -9475,7 +9475,7 @@ const allCharacters = [
       charid: "ThirdSoldier-jc",
       charname: "Third Soldier",
       abbrev: "Third Soldier",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "",
       speechcount: 1
   },
@@ -9483,7 +9483,7 @@ const allCharacters = [
       charid: "ThirdStranger",
       charname: "Third Stranger",
       abbrev: "Third Stranger",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 1
   },
@@ -9491,7 +9491,7 @@ const allCharacters = [
       charid: "ThirdWatchman-h63",
       charname: "Third Watchman",
       abbrev: "Third Watchman",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "",
       speechcount: 3
   },
@@ -9499,7 +9499,7 @@ const allCharacters = [
       charid: "ThMowbray",
       charname: "Thomas Mowbray",
       abbrev: "THOMAS MOWBRAY",
-      works: "richard2",
+      works: ["richard2"],
       descrip: "Duke of Norfolk",
       speechcount: 13
   },
@@ -9507,7 +9507,7 @@ const allCharacters = [
       charid: "thomas-h4p2",
       charname: "Prince Thomas",
       abbrev: "CLARENCE",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "Duke of Clarence",
       speechcount: 13
   },
@@ -9515,7 +9515,7 @@ const allCharacters = [
       charid: "ThomasHorner",
       charname: "Thomas Horner",
       abbrev: "HORNER",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "an armourer",
       speechcount: 6
   },
@@ -9523,7 +9523,7 @@ const allCharacters = [
       charid: "ThomasRotherham",
       charname: "Thomas Rotherham",
       abbrev: "ARCHBISHOP OF YORK",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "archbishop of York",
       speechcount: 5
   },
@@ -9531,7 +9531,7 @@ const allCharacters = [
       charid: "Thurio",
       charname: "Thurio",
       abbrev: "THURIO",
-      works: "twogents",
+      works: ["twogents"],
       descrip: "a foolish rival to Valentine",
       speechcount: 36
   },
@@ -9539,7 +9539,7 @@ const allCharacters = [
       charid: "Thyreus",
       charname: "Thyreus",
       abbrev: "THYREUS",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "friend to Caesar",
       speechcount: 12
   },
@@ -9547,7 +9547,7 @@ const allCharacters = [
       charid: "Timandra",
       charname: "Timandra",
       abbrev: "TIMANDRA",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "mistress to Alcibiades",
       speechcount: 3
   },
@@ -9555,7 +9555,7 @@ const allCharacters = [
       charid: "Time",
       charname: "Time",
       abbrev: "Time",
-      works: "winterstale",
+      works: ["winterstale"],
       descrip: "as the chorus",
       speechcount: 1
   },
@@ -9563,7 +9563,7 @@ const allCharacters = [
       charid: "Timon",
       charname: "Timon",
       abbrev: "TIMON",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 210
   },
@@ -9571,7 +9571,7 @@ const allCharacters = [
       charid: "Tintinius",
       charname: "Tintinius",
       abbrev: "Tintinius",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "friend to Brutus",
       speechcount: 10
   },
@@ -9579,7 +9579,7 @@ const allCharacters = [
       charid: "Titania",
       charname: "Titania",
       abbrev: "TITANIA",
-      works: "midsummer",
+      works: ["midsummer"],
       descrip: "queen of the fairies",
       speechcount: 23
   },
@@ -9587,7 +9587,7 @@ const allCharacters = [
       charid: "TitusAndronicus",
       charname: "Titus Andronicus",
       abbrev: "TITUS ANDRONICUS",
-      works: "titus",
+      works: ["titus"],
       descrip: "a noble Roman, general against the Goths.",
       speechcount: 117
   },
@@ -9595,7 +9595,7 @@ const allCharacters = [
       charid: "Titus-tim",
       charname: "Titus",
       abbrev: "TITUS",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "servant to Timon's creditors",
       speechcount: 12
   },
@@ -9603,7 +9603,7 @@ const allCharacters = [
       charid: "touchstone",
       charname: "Touchstone",
       abbrev: "TOUCHSTONE",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "the court jester",
       speechcount: 74
   },
@@ -9611,7 +9611,7 @@ const allCharacters = [
       charid: "Townsman-h62",
       charname: "Townsman",
       abbrev: "Townsman",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 2
   },
@@ -9619,7 +9619,7 @@ const allCharacters = [
       charid: "tranio",
       charname: "Tranio",
       abbrev: "TRANIO",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "",
       speechcount: 90
   },
@@ -9627,7 +9627,7 @@ const allCharacters = [
       charid: "Travellers",
       charname: "Travellers",
       abbrev: "Travellers",
-      works: "henry4p1",
+      works: ["henry4p1"],
       descrip: "",
       speechcount: 2
   },
@@ -9635,7 +9635,7 @@ const allCharacters = [
       charid: "travers",
       charname: "Travers",
       abbrev: "TRAVERS",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "retainer of Northumberland",
       speechcount: 1
   },
@@ -9643,7 +9643,7 @@ const allCharacters = [
       charid: "Trebonius",
       charname: "Trebonius",
       abbrev: "TREBONIUS",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "a conspirator against Caesar",
       speechcount: 4
   },
@@ -9651,7 +9651,7 @@ const allCharacters = [
       charid: "Tressel",
       charname: "Tressel",
       abbrev: "TRESSEL",
-      works: "richard3",
+      works: ["richard3"],
       descrip: "a gentleman attending on Lady Anne",
       speechcount: 0
   },
@@ -9659,7 +9659,7 @@ const allCharacters = [
       charid: "Tribunes-ta",
       charname: "Tribunes",
       abbrev: "Tribunes",
-      works: "titus",
+      works: ["titus"],
       descrip: "",
       speechcount: 1
   },
@@ -9667,7 +9667,7 @@ const allCharacters = [
       charid: "Trinculo",
       charname: "Trinculo",
       abbrev: "TRINCULO",
-      works: "tempest",
+      works: ["tempest"],
       descrip: "a jester",
       speechcount: 39
   },
@@ -9675,7 +9675,7 @@ const allCharacters = [
       charid: "Troilus",
       charname: "Troilus",
       abbrev: "TROILUS",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "son of Priam, king of Troy",
       speechcount: 131
   },
@@ -9683,7 +9683,7 @@ const allCharacters = [
       charid: "Tubal",
       charname: "Tubal",
       abbrev: "TUBAL",
-      works: "merchantvenice",
+      works: ["merchantvenice"],
       descrip: "a Jew, his friend",
       speechcount: 8
   },
@@ -9691,7 +9691,7 @@ const allCharacters = [
       charid: "tullus",
       charname: "Tullus Aufidius",
       abbrev: "AUFIDIUS",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "general of the Vulscians",
       speechcount: 45
   },
@@ -9699,7 +9699,7 @@ const allCharacters = [
       charid: "TutorRutland",
       charname: "Tutor of Rutland",
       abbrev: "Tutor",
-      works: "henry6p3",
+      works: ["henry6p3"],
       descrip: "",
       speechcount: 2
   },
@@ -9707,7 +9707,7 @@ const allCharacters = [
       charid: "tybalt",
       charname: "Tybalt",
       abbrev: "TYBALT",
-      works: "romeojuliet",
+      works: ["romeojuliet"],
       descrip: "Nephew to Lady Capulet",
       speechcount: 17
   },
@@ -9715,7 +9715,7 @@ const allCharacters = [
       charid: "TyrianSailor",
       charname: "Tyrian Sailor",
       abbrev: "Tyrian Sailor",
-      works: "pericles",
+      works: ["pericles"],
       descrip: "",
       speechcount: 3
   },
@@ -9723,7 +9723,7 @@ const allCharacters = [
       charid: "Ulysses",
       charname: "Ulysses",
       abbrev: "ULYSSES",
-      works: "troilus",
+      works: ["troilus"],
       descrip: "a Greek prince",
       speechcount: 80
   },
@@ -9731,7 +9731,7 @@ const allCharacters = [
       charid: "ursula",
       charname: "Ursula",
       abbrev: "URSULA",
-      works: "muchado",
+      works: ["muchado"],
       descrip: "Gentlewoman attending on Hero",
       speechcount: 19
   },
@@ -9739,7 +9739,7 @@ const allCharacters = [
       charid: "Valentine",
       charname: "Valentine",
       abbrev: "VALENTINE",
-      works: "titus",
+      works: ["titus"],
       descrip: "kinsman to Titus",
       speechcount: 0
   },
@@ -9747,7 +9747,7 @@ const allCharacters = [
       charid: "VALENTINE-12",
       charname: "Valentine",
       abbrev: "VALENTINE",
-      works: "12night",
+      works: ["12night"],
       descrip: "gentleman attending on the Duke",
       speechcount: 3
   },
@@ -9755,7 +9755,7 @@ const allCharacters = [
       charid: "Valentine-tg",
       charname: "Valentine",
       abbrev: "VALENTINE",
-      works: "twogents",
+      works: ["twogents"],
       descrip: "a gentleman",
       speechcount: 149
   },
@@ -9763,7 +9763,7 @@ const allCharacters = [
       charid: "valeria",
       charname: "Valeria",
       abbrev: "VALERIA",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "friend to Virgilia",
       speechcount: 14
   },
@@ -9771,7 +9771,7 @@ const allCharacters = [
       charid: "Varrius",
       charname: "Varrius",
       abbrev: "VARRIUS",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "friend to Pompey",
       speechcount: 1
   },
@@ -9779,7 +9779,7 @@ const allCharacters = [
       charid: "Varrius-m4m",
       charname: "Varrius",
       abbrev: "VARRIUS",
-      works: "measure",
+      works: ["measure"],
       descrip: "",
       speechcount: 0
   },
@@ -9787,7 +9787,7 @@ const allCharacters = [
       charid: "Varro",
       charname: "Varro",
       abbrev: "VARRO",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "servant to Brutus",
       speechcount: 6
   },
@@ -9795,7 +9795,7 @@ const allCharacters = [
       charid: "VarroFirst",
       charname: "Varro's First Servant",
       abbrev: "Varro's First Servant",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 0
   },
@@ -9803,7 +9803,7 @@ const allCharacters = [
       charid: "VarroSecond",
       charname: "Varro's Second Servant",
       abbrev: "Varro's Second Servant",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "",
       speechcount: 0
   },
@@ -9811,7 +9811,7 @@ const allCharacters = [
       charid: "Vaux",
       charname: "Sir Nicholas Vaux",
       abbrev: "VAUX",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 1
   },
@@ -9819,7 +9819,7 @@ const allCharacters = [
       charid: "Vaux-h62",
       charname: "Vaux",
       abbrev: "VAUX",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 1
   },
@@ -9827,7 +9827,7 @@ const allCharacters = [
       charid: "Ventidius",
       charname: "Ventidius",
       abbrev: "VENTIDIUS",
-      works: "timonathens",
+      works: ["timonathens"],
       descrip: "one of Timon's false friends",
       speechcount: 2
   },
@@ -9835,7 +9835,7 @@ const allCharacters = [
       charid: "Ventidius-ac",
       charname: "Ventidius",
       abbrev: "VENTIDIUS",
-      works: "antonycleo",
+      works: ["antonycleo"],
       descrip: "friend to Antony",
       speechcount: 4
   },
@@ -9843,7 +9843,7 @@ const allCharacters = [
       charid: "verges",
       charname: "Verges",
       abbrev: "VERGES",
-      works: "muchado",
+      works: ["muchado"],
       descrip: "A headborough",
       speechcount: 18
   },
@@ -9851,7 +9851,7 @@ const allCharacters = [
       charid: "Vernon",
       charname: "Vernon",
       abbrev: "VERNON",
-      works: "henry4p1,henry6p1",
+      works: ["henry4p1", "henry6p1"],
       descrip: "of the White Rose, or York, faction",
       speechcount: 26
   },
@@ -9859,7 +9859,7 @@ const allCharacters = [
       charid: "vincentio",
       charname: "Vincentio",
       abbrev: "VINCENTIO",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "a merchant of Pisa",
       speechcount: 23
   },
@@ -9867,7 +9867,7 @@ const allCharacters = [
       charid: "Vincentio-m4m",
       charname: "Vincentio",
       abbrev: "DUKE VINCENTIO",
-      works: "measure",
+      works: ["measure"],
       descrip: "the Duke",
       speechcount: 194
   },
@@ -9875,7 +9875,7 @@ const allCharacters = [
       charid: "Vintner",
       charname: "Vintner",
       abbrev: "Vintner",
-      works: "henry4p1",
+      works: ["henry4p1"],
       descrip: "",
       speechcount: 1
   },
@@ -9883,7 +9883,7 @@ const allCharacters = [
       charid: "VIOLA",
       charname: "Viola",
       abbrev: "VIOLA",
-      works: "12night",
+      works: ["12night"],
       descrip: "",
       speechcount: 121
   },
@@ -9891,7 +9891,7 @@ const allCharacters = [
       charid: "VIOLENTA",
       charname: "Violenta",
       abbrev: "VIOLENTA",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "neighbor and friend to the widow",
       speechcount: 0
   },
@@ -9899,7 +9899,7 @@ const allCharacters = [
       charid: "virgilia",
       charname: "Virgilia",
       abbrev: "VIRGILIA",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "wife to Coriolanus",
       speechcount: 26
   },
@@ -9907,7 +9907,7 @@ const allCharacters = [
       charid: "Volsce",
       charname: "Volsce",
       abbrev: "Volsce",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "",
       speechcount: 9
   },
@@ -9915,7 +9915,7 @@ const allCharacters = [
       charid: "voltemand",
       charname: "Voltemand",
       abbrev: "Volt",
-      works: "hamlet",
+      works: ["hamlet"],
       descrip: "courtier",
       speechcount: 1
   },
@@ -9923,7 +9923,7 @@ const allCharacters = [
       charid: "volumnia",
       charname: "Volumnia",
       abbrev: "VOLUMNIA",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "mother to Coriolanus",
       speechcount: 57
   },
@@ -9931,7 +9931,7 @@ const allCharacters = [
       charid: "Volumnius",
       charname: "Volumnius",
       abbrev: "VOLUMNIUS",
-      works: "juliuscaesar",
+      works: ["juliuscaesar"],
       descrip: "friend to Brutus",
       speechcount: 3
   },
@@ -9939,7 +9939,7 @@ const allCharacters = [
       charid: "WalterWhitmore",
       charname: "Walter Whitmore",
       abbrev: "WHITMORE",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 8
   },
@@ -9947,7 +9947,7 @@ const allCharacters = [
       charid: "wart",
       charname: "Thomas Wart",
       abbrev: "WART",
-      works: "henry4p2",
+      works: ["henry4p2"],
       descrip: "country soldier",
       speechcount: 2
   },
@@ -9955,7 +9955,7 @@ const allCharacters = [
       charid: "warwick",
       charname: "Earl of Warwick",
       abbrev: "WARWICK",
-      works: "henry4p2,henry5,henry6p1,henry6p2,henry6p3",
+      works: ["henry4p2", "henry5", "henry6p1", "henry6p2", "henry6p3"],
       descrip: "",
       speechcount: 182
   },
@@ -9963,7 +9963,7 @@ const allCharacters = [
       charid: "Watch-h61",
       charname: "Watch",
       abbrev: "Watch",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "",
       speechcount: 2
   },
@@ -9971,7 +9971,7 @@ const allCharacters = [
       charid: "watchman-ma",
       charname: "Watchman",
       abbrev: "Watchman",
-      works: "muchado",
+      works: ["muchado"],
       descrip: "",
       speechcount: 10
   },
@@ -9979,7 +9979,7 @@ const allCharacters = [
       charid: "westmoreland",
       charname: "Earl of Westmoreland",
       abbrev: "WESTMORELAND",
-      works: "henry4p1,henry4p2,henry5,henry6p3",
+      works: ["henry4p1", "henry4p2", "henry5", "henry6p3"],
       descrip: "",
       speechcount: 39
   },
@@ -9987,7 +9987,7 @@ const allCharacters = [
       charid: "widow",
       charname: "Widow",
       abbrev: "WIDOW",
-      works: "tamingshrew",
+      works: ["tamingshrew"],
       descrip: "",
       speechcount: 8
   },
@@ -9995,7 +9995,7 @@ const allCharacters = [
       charid: "WidowFlorence",
       charname: "Widow",
       abbrev: "Widow",
-      works: "allswell",
+      works: ["allswell"],
       descrip: "an old widow of Florence",
       speechcount: 21
   },
@@ -10003,7 +10003,7 @@ const allCharacters = [
       charid: "WifeSimpcox",
       charname: "Simpcox's Wife",
       abbrev: "Wife",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 7
   },
@@ -10011,7 +10011,7 @@ const allCharacters = [
       charid: "william-ayli",
       charname: "William",
       abbrev: "WILLIAM",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "a country fellow, in love with Audrey",
       speechcount: 11
   },
@@ -10019,7 +10019,7 @@ const allCharacters = [
       charid: "Williams",
       charname: "Williams",
       abbrev: "WILLIAMS",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "soldier in King Henry's army",
       speechcount: 28
   },
@@ -10027,7 +10027,7 @@ const allCharacters = [
       charid: "wmpage",
       charname: "William Page",
       abbrev: "WILLIAM PAGE",
-      works: "merrywives",
+      works: ["merrywives"],
       descrip: "a boy, son to Page",
       speechcount: 11
   },
@@ -10035,7 +10035,7 @@ const allCharacters = [
       charid: "WmStafford",
       charname: "William Stafford",
       abbrev: "WILLIAM STAFFORD",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "brother to Sir Humphrey Stafford",
       speechcount: 5
   },
@@ -10043,7 +10043,7 @@ const allCharacters = [
       charid: "Wolsey",
       charname: "Cardinal Wolsey",
       abbrev: "CARDINAL WOLSEY",
-      works: "henry8",
+      works: ["henry8"],
       descrip: "",
       speechcount: 79
   },
@@ -10051,7 +10051,7 @@ const allCharacters = [
       charid: "Woodvile",
       charname: "Woodvile",
       abbrev: "WOODVILE",
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "lieutenant of the Tower",
       speechcount: 2
   },
@@ -10059,7 +10059,7 @@ const allCharacters = [
       charid: "worcester",
       charname: "Earl of Worcester",
       abbrev: "EARL OF WORCESTER",
-      works: "henry4p1",
+      works: ["henry4p1"],
       descrip: "",
       speechcount: 35
   },
@@ -10067,7 +10067,7 @@ const allCharacters = [
       charid: "xxx",
       charname: "(stage directions)",
       abbrev: "xxx",
-      works: "asyoulikeit",
+      works: ["asyoulikeit"],
       descrip: "",
       speechcount: 126
   },
@@ -10075,7 +10075,7 @@ const allCharacters = [
       charid: "york",
       charname: "Duke of York",
       abbrev: "YORK",
-      works: "henry5",
+      works: ["henry5"],
       descrip: "cousin to the king",
       speechcount: 1
   },
@@ -10083,7 +10083,7 @@ const allCharacters = [
       charid: "YoungClifford",
       charname: "Young Clifford",
       abbrev: "YOUNG CLIFFORD",
-      works: "henry6p2",
+      works: ["henry6p2"],
       descrip: "",
       speechcount: 4
   },
@@ -10091,7 +10091,7 @@ const allCharacters = [
       charid: "YoungCoriolanus",
       charname: "Young Coriolanus",
       abbrev: "Young CORIOLANUS",
-      works: "coriolanus",
+      works: ["coriolanus"],
       descrip: "son to Coriolanus",
       speechcount: 1
   },
@@ -10099,7 +10099,7 @@ const allCharacters = [
       charid: "YoungLucius",
       charname: "Young Lucius",
       abbrev: "Young LUCIUS",
-      works: "titus",
+      works: ["titus"],
       descrip: "son to Lucius",
       speechcount: 11
   },
@@ -10107,7 +10107,7 @@ const allCharacters = [
       charid: "youngsiward",
       charname: "Young Siward",
       abbrev: "YOUNG SIWARD",
-      works: "macbeth",
+      works: ["macbeth"],
       descrip: "Siward's son",
       speechcount: 4
   },
@@ -10115,7 +10115,7 @@ const allCharacters = [
       charid: "JohnTalbot",
       charname: "John Talbot",
       abbrev: null,
-      works: "henry6p1",
+      works: ["henry6p1"],
       descrip: "Lord Talbot's son",
       speechcount: 11
   }
