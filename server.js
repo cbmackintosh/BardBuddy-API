@@ -28,17 +28,6 @@ app.get('/allTitles/:genre', (request, response) => {
   response.status(200).json(allTitles);
 })
 
-app.get('/play/:title/:actNum/:sceneNum', (request, response) => {
-  const { title } = request.params;
-  const { actNum } = request.params;
-  const { sceneNum } = request.params;
-  const scene = app.locals.plays.filter(play => play.title === title && play.section === parseInt(actNum) && play.chapter === parseInt(sceneNum)).sort((a, b) => a.paragraphID - b.paragraphID)
-  if (!scene) {
-    return response.sendStatus(404)
-  }
-  response.status(200).json(scene)
-})
-
 app.get('/play/:title', (request, response) => {
   const { title } = request.params;
   const play = app.locals.plays.filter(play => play.title === title).sort((a, b) => a.paragraphID - b.paragraphID);
@@ -64,6 +53,22 @@ app.get('/characters/:title', (request, response) => {
     return response.sendStatus(404);
   }
   response.status(200).json(characters);
+})
+
+app.get('/sonnets', (request, response) => {
+  const sonnets = app.locals.plays.filter(el => el.title === 'sonnets')
+  if (!sonnets) {
+    return response.sendStatus(404)
+  }
+  response.status(200).json(sonnets)
+})
+
+app.get('/poems', (request, response) => {
+  const poems = app.locals.plays.filter(el => el.title === 'phoenixturtle' || el.title === 'loverscomplaint' || el.title === 'passionatepilgrim' || el.title === 'rapelucrece' || el.title === 'venusadonis')
+  if (!poems) {
+    return response.sendStatus(404)
+  }
+  response.status(200).json(poems)
 })
 
 var server = app.listen(process.env.PORT || 5000, function () {
