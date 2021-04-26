@@ -12,17 +12,17 @@ app.locals.title = 'Bard Buddy API';
 
 app.get('/fullTitle/:title', (request, response) => {
   const { title } = request.params
-  const fullTitle = app.locals.titles.find(play => play.playTitle === title).fullTitle
+  const fullTitle = app.locals.titles.find(play => play.playTitle === title)
   if(!fullTitle) {
     return response.sendStatus(404);
   }
-  response.status(200).json(fullTitle)
+  response.status(200).json(fullTitle.fullTitle)
 })
 
 app.get('/allTitles/:genre', (request, response) => {
   const { genre } = request.params
   const allTitles = app.locals.titles.filter(play => play.genre === genre);
-  if(!allTitles) {
+  if(!allTitles.length) {
     return response.sendStatus(404);
   }
   response.status(200).json(allTitles);
@@ -31,7 +31,7 @@ app.get('/allTitles/:genre', (request, response) => {
 app.get('/play/:title', (request, response) => {
   const { title } = request.params;
   const play = app.locals.plays.filter(play => play.title === title).sort((a, b) => a.paragraphID - b.paragraphID);
-  if (!play) {
+  if (!play.length) {
     return response.sendStatus(404);
   }
   response.status(200).json(play);
@@ -40,7 +40,7 @@ app.get('/play/:title', (request, response) => {
 app.get('/chapters/:title', (request, response) => {
   const { title } = request.params;
   const chapters = app.locals.chapters.filter(play => play.title === title);
-  if(!chapters) {
+  if(!chapters.length) {
     return response.sendStatus(404);
   }
   response.status(200).json(chapters);
@@ -49,7 +49,7 @@ app.get('/chapters/:title', (request, response) => {
 app.get('/characters/:title', (request, response) => {
   const { title } = request.params;
   const characters = app.locals.characters.filter(character => character.works.includes(title));
-  if (!characters) {
+  if (!characters.length) {
     return response.sendStatus(404);
   }
   response.status(200).json(characters);
