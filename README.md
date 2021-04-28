@@ -5,7 +5,7 @@
 
 ## Abstract:
 
-The Bard Buddy API is an Express microservice built specifically for my app <a href="https://github.com/cbmackintosh/bard-buddy">Bard Buddy</a> - a study tool for high school students and undergraduates studying Shakespeare. The database for this API was downloaded from the <a href="https://www.opensourceshakespeare.org/">Open Source Shakespeare website</a> and was originally written in SQL. To facilitate deployment of the server to Heroku, PostgreSQL was used to query all the required data which was then printed to console and copy-pasted from Chrome dev tools into JavaScript files.
+The Bard Buddy API is an Express microservice built specifically for my app <a href="https://github.com/cbmackintosh/bard-buddy">Bard Buddy</a> - a study tool for high school students and undergraduates studying Shakespeare. The database for this API was downloaded from the <a href="https://www.opensourceshakespeare.org/">Open Source Shakespeare website</a> and was originally written in SQL. To facilitate deployment of the server to Heroku, PostgreSQL was used to query all the required data which was then printed to console and copy-pasted from Chrome dev tools into JavaScript files. Some tedious 'replace all' was needed to adjust the formatting in some cases but for the most part the process was fairly simple and deployment on Heroku was easy.
 
 ## Installation:
 
